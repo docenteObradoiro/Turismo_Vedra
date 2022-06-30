@@ -29,6 +29,19 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+        <activity
+            android:name=".queVer.queVer"
+            android:exported="false"/>
+        <activity
+            android:name=".queVer.naturaleza"
+            android:exported="false"/>
+        <activity
+            android:name=".queVer.arquitectura"
+            android:exported="false"/>
+        <activity
+            android:name=".queVer.patrimonio_historico"
+            android:exported="false"/>
+
     </application>
 
 </manifest>
