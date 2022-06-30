@@ -1,160 +1,137 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".queVer.queVer">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/relativePrincipal"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".queVer.queVer"
+android:padding="20dp">
 
     <ImageButton
-        android:id="@+id/botonVedraMapa"
-        android:layout_width="120dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:background="#00FFFFFF"
-        android:contentDescription="botonVedra"
-        android:scaleType="fitXY"
+        android:id="@+id/logoVedra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/logoVedra"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/logo_concello_vedra" />
-
+        app:srcCompat="@mipmap/logo_concello_vedra"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
-        android:id="@+id/menu"
-        android:layout_width="48dp"
-        android:layout_height="55dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:background="#00FFFFFF"
-        android:contentDescription="hamburguesa"
-        app:tint="#019933"
-        android:scaleType="fitXY"
+        android:id="@+id/menuHamburguesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:background="#FFFFFF"
+        android:contentDescription="@string/menuHamburguesa"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hamburguesa" />
+        app:srcCompat="@drawable/menu_hamburguesa" />
 
     <TextView
-        android:id="@+id/queVer"
-        android:layout_width="280dp"
-        android:layout_height="97dp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:text="Qué Ver"
-        android:textColor="#019933"
-        android:textSize="34sp"
-        android:textStyle="bold"
-        android:layout_marginTop="62dp"
-        android:layout_marginBottom="62dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/tvQueVer"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="90dp"
+        android:fontFamily="@font/abel"
+        android:gravity="center_horizontal"
+        android:text="@string/queVer"
+        android:textColor="@color/greenVedra"
+        android:textSize="24sp" />
 
     <ScrollView
-        android:id="@+id/scrollView2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="150dp"
-        android:layout_marginEnd="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:foreground="?android:attr/selectableItemBackground"
-        android:theme="@android:style/ThemeOverlay.Material.Dark"
-        app:layout_constraintVertical_bias="1.0">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:contentDescription="@string/appbar_scrolling_view_behavior">
 
-
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="wrap_content">
+
+            <!-- O QUE VAIA DENTRO DO SCROLL VIEW MÉTESE AQUÍ-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/boton1"
+                        android:layout_width="match_parent"
+                        android:layout_height="287dp"
+                        android:layout_marginTop="20dp"
+                        android:background="#00FFFFFF"
+                        android:contentDescription="Naturaleza"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:scaleType="fitXY"
+                        android:theme="@android:style/ThemeOverlay.Material.Dark"
+                        app:srcCompat="@drawable/botonnaturaleza" />
 
 
+                    <ImageButton
+                        android:id="@+id/boton2"
+                        android:layout_width="match_parent"
+                        android:layout_height="287dp"
+                        android:layout_marginTop="20dp"
+                        android:background="#00FFFFFF"
+                        android:contentDescription="Arquitectura"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:scaleType="fitXY"
+                        android:theme="@android:style/ThemeOverlay.Material.Dark"
+                        app:srcCompat="@drawable/botonarquitectura" />
 
-            <ImageButton
-                android:id="@+id/boton1"
-                android:layout_width="match_parent"
-                android:layout_height="287dp"
-                android:layout_marginTop="20dp"
-                android:background="#00FFFFFF"
-                android:contentDescription="Naturaleza"
-                android:scaleType="fitXY"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/botonnaturaleza" />
+                    <ImageButton
+                        android:id="@+id/boton3"
+                        android:layout_width="match_parent"
+                        android:layout_height="287dp"
+                        android:layout_marginTop="20dp"
+                        android:background="#00FFFFFF"
+                        android:contentDescription="Patrimonio Histórico"
+                        android:scaleType="fitXY"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:theme="@android:style/ThemeOverlay.Material.Dark"
+                        app:srcCompat="@drawable/botonpatrimoniohistorico" />
 
-            <ImageButton
-                android:id="@+id/boton2"
-                android:layout_width="match_parent"
-                android:layout_height="287dp"
-                android:layout_marginTop="20dp"
-                android:background="#00FFFFFF"
-                android:contentDescription="Arquitectura"
-                android:scaleType="fitXY"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/botonarquitectura" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
 
-            <ImageButton
-                android:id="@+id/boton3"
-                android:layout_width="match_parent"
-                android:layout_height="287dp"
-                android:layout_marginTop="20dp"
-                android:background="#00FFFFFF"
-                android:contentDescription="Patrimonio Histórico"
-                android:scaleType="fitXY"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/botonpatrimoniohistorico" />
+                        <TextView
+                            android:id="@+id/tvInformacionTuristica"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="start"
+                            android:text="@string/informacionTuristica"
+                            android:textColor="@color/greenVedra" />
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
-                android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/tvWebVedra"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="end"
+                            android:text="@string/webVedra"
+                            android:textColor="@color/black" />
 
-                <TextView
-                    android:id="@+id/infoTuristica"
-                    android:layout_width="wrap_content"
-                    android:layout_height="48dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginBottom="10dp"
-                    android:contentDescription="Información Turística"
-                    android:text="Información turística"
-                    android:textColor="#019933"
-                    android:textSize="13dp"
-                    android:textStyle="bold" />
+                    </RelativeLayout>
 
-                <TextView
-                    android:id="@+id/webConcello"
-                    android:layout_width="wrap_content"
-                    android:layout_height="48dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginStart="200dp"
-                    android:layout_marginBottom="3dp"
-                    android:layout_toEndOf="@+id/infoTuristica"
-                    android:contentDescription="Web Concello"
-                    android:text="www.concellodevedra.es"
-                    android:textColor="@color/black"
-                    android:textSize="13dp"
-                    android:textStyle="bold" />
+                </LinearLayout>
 
+        </RelativeLayout>
 
-            </RelativeLayout>
-
-        </LinearLayout>
     </ScrollView>
-</androidx.constraintlayout.widget.ConstraintLayout>
 
-
-
-
-
-
-
+</RelativeLayout>
