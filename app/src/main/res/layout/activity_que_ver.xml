@@ -69,40 +69,33 @@ android:padding="20dp">
 
                     <ImageButton
                         android:id="@+id/boton1"
-                        android:layout_width="match_parent"
-                        android:layout_height="287dp"
-                        android:layout_marginTop="20dp"
-                        android:background="#00FFFFFF"
+                        style="@style/botonNegocio"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
                         android:contentDescription="Naturaleza"
-                        android:foreground="?android:attr/selectableItemBackground"
+                        android:backgroundTint="#00F1ECEC"
                         android:scaleType="fitXY"
-                        android:theme="@android:style/ThemeOverlay.Material.Dark"
-                        app:srcCompat="@drawable/botonnaturaleza" />
-
+                        android:src="@drawable/botonnaturaleza" />
 
                     <ImageButton
                         android:id="@+id/boton2"
-                        android:layout_width="match_parent"
-                        android:layout_height="287dp"
-                        android:layout_marginTop="20dp"
-                        android:background="#00FFFFFF"
-                        android:contentDescription="Arquitectura"
-                        android:foreground="?android:attr/selectableItemBackground"
+                        style="@style/botonNegocio"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:contentDescription="Naturaleza"
+                        android:backgroundTint="#00F1ECEC"
                         android:scaleType="fitXY"
-                        android:theme="@android:style/ThemeOverlay.Material.Dark"
-                        app:srcCompat="@drawable/botonarquitectura" />
+                        android:src="@drawable/botonarquitectura" />
 
                     <ImageButton
                         android:id="@+id/boton3"
-                        android:layout_width="match_parent"
-                        android:layout_height="287dp"
-                        android:layout_marginTop="20dp"
-                        android:background="#00FFFFFF"
-                        android:contentDescription="Patrimonio Histórico"
+                        style="@style/botonNegocio"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:contentDescription="Naturaleza"
+                        android:backgroundTint="#00F1ECEC"
                         android:scaleType="fitXY"
-                        android:foreground="?android:attr/selectableItemBackground"
-                        android:theme="@android:style/ThemeOverlay.Material.Dark"
-                        app:srcCompat="@drawable/botonpatrimoniohistorico" />
+                        android:src="@drawable/botonpatrimoniohistorico" />
 
                     <RelativeLayout
                         android:layout_width="match_parent"
@@ -114,7 +107,8 @@ android:padding="20dp">
                             android:id="@+id/tvInformacionTuristica"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:gravity="start"
+                            android:gravity="start|bottom"
+                            android:layout_alignParentBottom="true"
                             android:text="@string/informacionTuristica"
                             android:textColor="@color/greenVedra" />
 
@@ -122,7 +116,8 @@ android:padding="20dp">
                             android:id="@+id/tvWebVedra"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:gravity="end"
+                            android:layout_alignParentBottom="true"
+                            android:gravity="end|bottom"
                             android:text="@string/webVedra"
                             android:textColor="@color/black" />
 
