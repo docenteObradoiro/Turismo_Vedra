@@ -1,13 +1,16 @@
 <resources>
     <string name="app_name">Turismo_Vedra</string>
     <!--    Menú Principal-->
+    <string name="logoVedra">logo Vedra</string>
+    <string name="menuHamburguesa">menú hamburguesa</string>
 
-
+    <string name="informacionTuristica">Información turística</string>
+    <string name="webVedra">www.concellodevedra.es</string>
 
 
 
     <!--    Que facer-->
-
+    <string name="queFacer">QUE FACER</string>
 
 
 
