@@ -1,7 +1,6 @@
 package com.cursokotlin.turismo_vedra
 
 
-import com.cursokotlin.turismo_vedra.queFacer.QueFacerPrincipal
 import android.content.Context
 import android.content.Intent
 import android.media.MediaPlayer

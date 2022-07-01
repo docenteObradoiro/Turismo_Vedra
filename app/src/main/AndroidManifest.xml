@@ -59,9 +59,7 @@
         <activity
             android:name=".queFacer.ActividadesSociais"
             android:exported="false" />
-        <activity
-            android:name=".queFacer.QueFacerPrincipal"
-            android:exported="false" />
+
 
         <activity
             android:name=".MainActivity"
@@ -89,38 +87,21 @@
         <activity
             android:name=".queVer.patrimonio_historico"
             android:exported="false" />
-        <activity
-            android:name=".queVer.queVer"
-            android:exported="false" />
+
 
         <!--    Que facer-->
 
         <activity
-            android:name=".QueFacer.QueFacerPrincipal"
+            android:name=".queFacer.QueFacerPrincipal"
             android:exported="false" />
 
 
         <!--    Que ver-->
 
-        <activity
-            android:name=".queVer.queVer"
-            android:exported="false"/>
             
         <activity
             android:name=".queVer.areaRecreativaDeAgronovo"
             android:exported="false"/>
-            
-        <activity
-            android:name=".queVer.naturaleza"
-            android:exported="false" />
-            
-        <activity
-            android:name=".queVer.arquitectura"
-            android:exported="false" />
-            
-        <activity
-            android:name=".queVer.patrimonio_historico"
-            android:exported="false" />
 
        
 
