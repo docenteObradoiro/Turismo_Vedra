@@ -1,5 +1,7 @@
 package com.cursokotlin.turismo_vedra
 
+
+import com.cursokotlin.turismo_vedra.queFacer.QueFacerPrincipal
 import android.content.Context
 import android.content.Intent
 import android.media.MediaPlayer
@@ -10,6 +12,8 @@ import android.widget.ImageButton
 import android.widget.VideoView
 import androidx.appcompat.app.AppCompatActivity
 import com.cursokotlin.turismo_vedra.productoresLocales.ProductoresLocales
+import com.cursokotlin.turismo_vedra.queFacer.QueFacerPrincipal
+
 
 class MainActivity : AppCompatActivity() {
     protected lateinit var video: VideoView
@@ -19,6 +23,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+        var botonQueFacer = findViewById<Button>(R.id.btQueFacer)
+        botonQueFacer.setOnClickListener {
+            val acceder = Intent(this, QueFacerPrincipal::class.java)
+            
         /*video=findViewById(R.id.videoBenvidos)
         val uri= Uri.parse("android.resource://"
                 + packageName
@@ -66,9 +75,11 @@ class MainActivity : AppCompatActivity() {
 
         video.start()
     }*/
+    
         var menu=findViewById<ImageButton>(R.id.menuHamburguesa)
         menu.setOnClickListener {
             val acceder= Intent(this, MenuPrincipal::class.java)
+
             startActivity(acceder)
         }
     }

@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Turismo_Vedra"
         tools:targetApi="31">
-        
+ 
         <activity
             android:name=".MenuPrincipal"
             android:exported="false" />
@@ -54,7 +54,16 @@
             android:name=".productoresLocales.ProductoresLocales"
             android:exported="false" />
         <activity
-            android:name=".QueFacer.QueFacerPrincipal"
+            android:name=".queFacer.FestasLocais"
+            android:exported="false" />
+        <activity
+            android:name=".queFacer.FestasGastronomicas"
+            android:exported="false" />
+        <activity
+            android:name=".queFacer.ActividadesSociais"
+            android:exported="false" />
+        <activity
+            android:name=".queFacer.QueFacerPrincipal"
             android:exported="false" />
 
         <activity
@@ -71,6 +80,18 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
+        <activity
+            android:name=".queVer.queVer"
+            android:exported="false" />
+        <activity
+            android:name=".queVer.naturaleza"
+            android:exported="false" />
+        <activity
+            android:name=".queVer.arquitectura"
+            android:exported="false" />
+        <activity
+            android:name=".queVer.patrimonio_historico"
+            android:exported="false" />
         <activity
             android:name=".queVer.queVer"
             android:exported="false" />
@@ -120,7 +141,6 @@
 
 
         <!--    Productores locais -->
-
 
 
     </application>
