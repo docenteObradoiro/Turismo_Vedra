@@ -37,18 +37,18 @@
         app:srcCompat="@drawable/equis" />
 
 
-            <TextView
-                android:id="@+id/comoChegar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:text="@string/comoChegar"
-                android:textColor="@color/greenVedra"
-                android:fontFamily="@font/abel"
-                android:textSize="24dp"
-                android:layout_marginTop="80dp"
-                android:layout_marginEnd="35dp"/>
+    <TextView
+        android:id="@+id/comoChegar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="35dp"
+        android:fontFamily="@font/abel"
+        android:text="@string/comoChegar"
+        android:textColor="@color/greenVedra"
+        android:textSize="24dp" />
 
         <TextView
             android:id="@+id/queVer"
@@ -87,18 +87,19 @@
                 android:text="@string/ondeComer"
                 android:textColor="@color/greenVedra"
                 android:textSize="24dp" />
-            <TextView
-                android:id="@+id/ondeDurmir"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/ondeComer"
-                android:layout_alignParentEnd="true"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="35dp"
-                android:fontFamily="@font/abel"
-                android:text="@string/ondeDurmir"
-                android:textColor="@color/greenVedra"
-                android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/ondeDurmir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ondeComer"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="35dp"
+        android:fontFamily="@font/abel"
+        android:text="@string/ondeDurmir"
+        android:textColor="@color/greenVedra"
+        android:textSize="24dp" />
 
     <TextView
         android:id="@+id/productoresLocais"
