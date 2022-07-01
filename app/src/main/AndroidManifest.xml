@@ -13,9 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Turismo_Vedra"
         tools:targetApi="31" >
-        <activity
-            android:name=".QueFacer.QueFacerPrincipal"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true" >
@@ -29,8 +27,23 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+
+        <!--    Que facer-->
+
+        <activity
+            android:name=".QueFacer.QueFacerPrincipal"
+            android:exported="false" />
+
+
+        <!--    Que ver-->
+
         <activity
             android:name=".queVer.queVer"
+            android:exported="false"/>
+
+        <activity
+            android:name=".queVer.areaRecreativaDeAgronovo"
             android:exported="false"/>
         <activity
             android:name=".queVer.naturaleza"
@@ -41,6 +54,24 @@
         <activity
             android:name=".queVer.patrimonio_historico"
             android:exported="false"/>
+
+        <!--    Onde comer -->
+
+
+
+
+
+
+        <!--    Onde durmir -->
+
+
+
+
+
+        <!--    Productores locais -->
+
+
+
 
     </application>
 
