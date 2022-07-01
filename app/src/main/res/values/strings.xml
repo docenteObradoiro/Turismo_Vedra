@@ -6,10 +6,13 @@
 
     <string name="informacionTuristica">Información turística</string>
     <string name="webVedra">www.concellodevedra.es</string>
+
     <string name="comoChegar">COMO LLEGAR</string>
     <string name="contacto">CONTACTO</string>
     <string name="mapaTuristico">MAPA TURÍSTICO</string>
     <string name="telefonosInteres">TELÉFONOS DE INTERÉS</string>
+
+
     <string name="textoInicio">Soy el Ayuntamiento de Vedra y estoy situado en el sur de la Provincia de A Coruña, en el corazón del Val do Ulla. Tengo una extensión de 53 Km2, con unos 5.100 habitantes distribuidos en 12 parroquias.
 \n\nPasear por Vedra y por mis paisajes te sumerge en un espacio con personalidad propia. Hacer referencia a un solo lugar o monumento no es posible, todo yo soy un lugar que merece ser descubierto.
 \n\nPor todo eso, y por mucho más…soy Vedra!</string>
