@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.cursokotlin.turismo_vedra" >
+    package="com.cursokotlin.turismo_vedra">
 
     <application
         android:allowBackup="true"
@@ -12,11 +12,54 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Turismo_Vedra"
-        tools:targetApi="31" >
+        tools:targetApi="31">
+        
+        <activity
+            android:name=".MenuPrincipal"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
+            android:name=".productoresLocales.Pirotecnia"
+            android:exported="false" />
+        <activity
+            android:name=".productoresLocales.Tocados"
+            android:exported="false" />
+        <activity
+            android:name=".productoresLocales.Deseno"
+            android:exported="false" />
+        <activity
+            android:name=".productoresLocales.Artesania"
+            android:exported="false" />
+        <activity
+            android:name=".productoresLocales.Aceite"
+            android:exported="false" />
+        <activity
+            android:name=".productoresLocales.Panaderias"
+            android:exported="false" />
+        <activity
+            android:name=".productoresLocales.Viveiros"
+            android:exported="false" />
+        <activity
+            android:name=".productoresLocales.Froitas"
+            android:exported="false" />
+        <activity
+            android:name=".productoresLocales.Destilerias"
+            android:exported="false" />
+        <activity
+            android:name=".productoresLocales.Adegas"
+            android:exported="false" />
+        <activity
+            android:name=".productoresLocales.ProductoresLocales"
+            android:exported="false" />
+        <activity
+            android:name=".QueFacer.QueFacerPrincipal"
+            android:exported="false" />
 
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,6 +71,9 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
+        <activity
+            android:name=".queVer.queVer"
+            android:exported="false" />
 
         <!--    Que facer-->
 
@@ -41,19 +87,24 @@
         <activity
             android:name=".queVer.queVer"
             android:exported="false"/>
-
+            
         <activity
             android:name=".queVer.areaRecreativaDeAgronovo"
             android:exported="false"/>
+            
         <activity
             android:name=".queVer.naturaleza"
-            android:exported="false"/>
+            android:exported="false" />
+            
         <activity
             android:name=".queVer.arquitectura"
-            android:exported="false"/>
+            android:exported="false" />
+            
         <activity
             android:name=".queVer.patrimonio_historico"
-            android:exported="false"/>
+            android:exported="false" />
+
+       
 
         <!--    Onde comer -->
 
@@ -69,7 +120,6 @@
 
 
         <!--    Productores locais -->
-
 
 
 

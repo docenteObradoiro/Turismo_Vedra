@@ -1,21 +1,32 @@
 <resources>
     <string name="app_name">Turismo_Vedra</string>
-<!--    Menú Principal-->
+    <!--    Menú Principal-->
     <string name="logoVedra">logo Vedra</string>
     <string name="menuHamburguesa">menú hamburguesa</string>
 
     <string name="informacionTuristica">Información turística</string>
     <string name="webVedra">www.concellodevedra.es</string>
+    <string name="comoChegar">COMO LLEGAR</string>
+    <string name="contacto">CONTACTO</string>
+    <string name="mapaTuristico">MAPA TURÍSTICO</string>
+    <string name="telefonosInteres">TELÉFONOS DE INTERÉS</string>
+    <string name="textoInicio">Soy el Ayuntamiento de Vedra y estoy situado en el sur de la Provincia de A Coruña, en el corazón del Val do Ulla. Tengo una extensión de 53 Km2, con unos 5.100 habitantes distribuidos en 12 parroquias.
+\n\nPasear por Vedra y por mis paisajes te sumerge en un espacio con personalidad propia. Hacer referencia a un solo lugar o monumento no es posible, todo yo soy un lugar que merece ser descubierto.
+\n\nPor todo eso, y por mucho más…soy Vedra!</string>
 
 
-
-
-
-<!--    Que facer-->
+    <!--    Que facer-->
     <string name="queFacer">QUÉ HACER</string>
 
 
+    <!--    Que ver-->
+    <string name="queVer">QUÉ VER</string>
 
+    <!--    Onde comer -->
+    <string name="ondeComer">DÓNDE COMER</string>
+
+    <!--    Onde durmir -->
+    <string name="ondeDurmir">DÓNDE DORMIR</string>
 
 <!--    Que ver-->
 
@@ -53,6 +64,18 @@
 <!--    Productores locais -->
 
 
+    <!--    Productores locais -->
+    <string name="produtoresLocais">PRODUCTORES LOCALES</string>
+    <string name="adegas">BODEGAS</string>
+    <string name="destileria">DESTILERÍA DE AGUARDIENTES \nY LICORES</string>
+    <string name="froitasVerduras">FRUTAS Y VERDURAS</string>
+    <string name="viveiros">VIVEROS DE PLANTAS</string>
+    <string name="panaderias">PANADERÍAS</string>
+    <string name="producciondeaceite">PRODUCCIÓN DE ACEITE</string>
+    <string name="artesania">ARTESANÍA</string>
+    <string name="deseno">DISEÑO</string>
+    <string name="tocados">TOCADOS</string>
+    <string name="pirotecnias">PIROTECNIA</string>
 
 
 </resources>
