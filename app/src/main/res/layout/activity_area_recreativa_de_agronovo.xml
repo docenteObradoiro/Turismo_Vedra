@@ -89,9 +89,9 @@
                     android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
                     android:layout_marginTop="20dp"
-                    android:fontFamily="@font/abel"
+                    android:fontFamily="@font/inter"
                     android:text="@string/agronovo"
-                    android:textSize="18dp" />
+                    android:textSize="14sp" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
