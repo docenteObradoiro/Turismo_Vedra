@@ -13,6 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Turismo_Vedra"
         tools:targetApi="31">
+ 
         <activity
             android:name=".Menu"
             android:exported="false" />
@@ -50,8 +51,18 @@
             android:name=".productoresLocales.ProductoresLocales"
             android:exported="false" />
         <activity
-            android:name=".QueFacer.QueFacerPrincipal"
+            android:name=".queFacer.FestasLocais"
             android:exported="false" />
+        <activity
+            android:name=".queFacer.FestasGastronomicas"
+            android:exported="false" />
+        <activity
+            android:name=".queFacer.ActividadesSociais"
+            android:exported="false" />
+        <activity
+            android:name=".queFacer.QueFacerPrincipal"
+            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -78,6 +89,57 @@
         <activity
             android:name=".queVer.patrimonio_historico"
             android:exported="false" />
+        <activity
+            android:name=".queVer.queVer"
+            android:exported="false" />
+
+        <!--    Que facer-->
+
+        <activity
+            android:name=".QueFacer.QueFacerPrincipal"
+            android:exported="false" />
+
+
+        <!--    Que ver-->
+
+        <activity
+            android:name=".queVer.queVer"
+            android:exported="false"/>
+            
+        <activity
+            android:name=".queVer.areaRecreativaDeAgronovo"
+            android:exported="false"/>
+            
+        <activity
+            android:name=".queVer.naturaleza"
+            android:exported="false" />
+            
+        <activity
+            android:name=".queVer.arquitectura"
+            android:exported="false" />
+            
+        <activity
+            android:name=".queVer.patrimonio_historico"
+            android:exported="false" />
+
+       
+
+        <!--    Onde comer -->
+
+
+
+
+
+
+        <!--    Onde durmir -->
+
+
+
+
+
+        <!--    Productores locais -->
+
+
     </application>
 
 </manifest>

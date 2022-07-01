@@ -19,8 +19,87 @@
     <!--    Que facer-->
     <string name="queFacer">QUE FACER</string>
 
+    <string name="actividadesSociais">Actividades sociais e festas locais</string>
+
+    <string name="actividadesDeportivas">Actividades deportivas</string>
+    <string name="camino">Camiño de Santiago</string>
+    <string name="actividadesRelixiosas">Actividades relixiosas</string>
+
+
+    <string name="festasGastronomicas">Festas gastronómicas</string>
+
+    <string name="xeneraisUlla">Xenerais da Ulla</string>
+    <string name="rutaCamelia">Ruta da Camelia</string>
+
+    <string name="festasRelixiosas">Fiestas religiosas</string>
+
+    <string name="xaneiro">Xaneiro</string>
+    <string name="febreiro">Febreiro</string>
+    <string name="marzo">Marzo</string>
+    <string name="abril">Abril</string>
+    <string name="maio">Maio</string>
+    <string name="xuno">Xuño</string>
+    <string name="xullo">Xullo</string>
+    <string name="agosto">Agosto</string>
+    <string name="setembro">Setembro</string>
+    <string name="outubro">Outubro</string>
+    <string name="novembro">Novembro</string>
+    <string name="decembro">Decembro</string>
+
+    <string name="festXan1">Festas Patronais a primeira fin de semana despois do día de Reis en San Xián de Sales.</string>
+    <string name="festFeb1">Ceremonia das Candeas o 2 de febreiro en San Pedro de Sarandon</string>
+    <string name="festFeb2">San Blas o domingo seguinte ó 3 de febreiro en San Mamede de Ribadulla</string>
+    <string name="festAbr1">Virxe das Angustias o domingo de Pascua en Illobre</string>
+    <string name="festMaio1">San Pedro Mártir o domingo seguinte ó 29 de abril en Merin.</string>
+    <string name="festMaio2">Santa Cruz o 3 de maio en Santa Cruz de Ribadulla.</string>
+    <string name="festXun1">Santísimo en San Xián de Sales</string>
+    <string name="festXun2">Santa Isabel o segundo domingo despois de Corpus en San Fins de Sales.</string>
+    <string name="festXun3">San Pedro o 29 e 30 de xuño en San Pedro de Sarandon.</string>
+    <string name="festXun4">S. Pedro a primeira fin de semana tralo 29 dese mes en San Pedro de Vilanova.</string>
+    <string name="festXul1">Concepción o primeiro domingo de xullo en San Pedro de Sarandon.</string>
+    <string name="festXul2">San Cristovo o primeiro domingo despois do 10 de xullo en Merin.</string>
+    <string name="festXul3">O Carme o domingo seguinte ó 16 de xullo en Trobe</string>
+    <string name="festXul4">Festas da Madalena o 22 e 23 de xullo en A Ponte Ulla</string>
+    <string name="festAgo1">Festas Patronais o 1, 2 e 3 de agosto en San Fins de Sales.</string>
+    <string name="festAgo2">Festas Patronais o 7 e 8 de agosto en San Mamede de Ribadulla.</string>
+    <string name="festAgo3">San Campio o  9, 10 e 11 de agosto en San Miguel de Sarandon.</string>
+    <string name="festAgo4">Santiaguiño o sábado anterior ó último domingo de agosto en San Pedro de Vilanova.</string>
+    <string name="festAgo5">Romaría dos Remedios o derradeiro domingo de agosto en Trobe</string>
+    <string name="festSet1">As Dores o primeiro domingo de setembro en Vedra</string>
+    <string name="festSet2">Romaría do Gundián-Procesión e Fogos de artificio o 7 e 8  de setembro en A Ponte Ulla</string>
+    <string name="festSet3">Romaría do Patio o luns despois do terceiro domingo de setembro en Santa Cruz de Ribadulla.</string>
+    <string name="festSet4">San Miguel o 29 de setembro en San Miguel de Sarandon.</string>
+    <string name="festNov1">Santo André o 30 de novembro en Illobre</string>
+    <string name="festDec1">Santa Baia o 10 de decembro en Vedra</string>
+
+    <string name="festAbrGastronomica1">A Exaltación do viño da Ulla, no mes de abril en San Miguel de Sarandón.</string>
+    <string name="festMaioGastronomica1">A festa da Orella de Porco, no mes de maio en San Fins de Sales.</string>
+    <string name="festMaioGastronomica2">A Festa do Porco á Brasa, no mes de maio en Trobe</string>
+    <string name="festMaioGastronomica3">A Festa do Carneiro ó espeto, no mes de maio en San Xián de Sales</string>
+    <string name="festMaioGastronomica4">Fiesta de la Aguardiente, en el mes de mayo en San Mamede de Ribadulla.</string>
+    <string name="festXulGastronomica1">A Festa do Escalo, no mes de xullo en Santa Cruz de Ribadulla.</string>
+
+
     <!--    Que ver-->
-    <string name="queVer">QUE VER</string>
+
+    <string name="queVer">QUÉ VER</string>
+
+    <string name="cabeceraAgronovo">Área de Recreo de Agronovo</string>
+    <string name="agronovo">A Área de Recreo de Agronovo atópase ao pé do río Ulla. Polas súas inmediacións transcorre a ruta de sendeirismo de San Xoán da Cova. Está dotada de zona de baño, mesas e bancos, servizos, espazo acondicionado para barbacoa… \n\nDurante os meses de xullo e agosto, os sábados e domingos en horario de 16:00 a 20:00 h. dispón dun servizo de aluguer de piraguas e barcas do Ulla. \n\nO segundo domingo de xullo, celébrase neste lugar o Concurso de Pesca do Escalo, un evento que conta cunha ampla programación festiva.</string>
+
+    <string name="cabeceraCubelas">Área de Recreo de Cubelas</string>
+    <string name="cubelas">A Área de Recreo de Cubelas atópase ao pé do río Ulla, a uns 300 metros do Coto de Ximonde. É o punto de inicio e de remate da ruta de sendeirismo de San Xoán da Cova. \n\nEsta área está dotada de mesas e bancos. Ademais conta cun pequeno xardín botánico onde están representadas as especies da flora de ribeira do Sistema Fluvial Ulla-Deza da Rede Natura 2000.</string>
+
+    <string name="cabeceraMiradorGundian">Miradoiro de Gundián</string>
+    <string name="miradorGundian">Este miradoiro ofrece as vistas dun magnífico entorno natural, habería que destacar, en primeiro lugar, o Paso da Cova, que xorde cando a ladeira sur do Pico Sacro, que conta cun filón de cuarzo de catro quilómetros, córtase para deixar paso ao río Ulla, quedando ao outro lado do monte Castro. Fórmase así un enclave único e singular, un magnífico estreitamento do río de catro metros de ancho entre dúas paredes duns cincuenta metros de caída vertical durante un percorrido de catorce metros. Este paso queda salvado na actualidade pola ponte antiga do ferrocarril, a ponte de Gundián, e a poucos metros atópase a moderna do A.V.E., e ten a particularidade de ser o único terreo ao sur do río Ulla que pertence á provincia da Coruña. \n\nContan as lendas que algunha vez houbo aquí unha gran lagoa que ocupaba terras río arriba. Relata a historia que había escondido entre as rochas próximas ao actual Paso da Cova un mosteiro de templarios do século XIV (do que non se conserva ningún vestixio). Engade a tradición que os monxes deste mosteiro de San Xoán da Cova perforaron o monte para secar a lagoa, dando orixe a este estreito paso. \n\nHoxe en día, tanto o Miradoiro de Gundián como a Área de recreo do Campo de Gundián permiten gozar deste magnífico contorno natural.</string>
+
+    <string name="cabeceraCampoGundian">Área de Recreo do Campo de Gundián</string>
+    <string name="campoGundian">A Área de Recreo do Campo de Gundián está constituída polo conxunto singular que conforman a capela, a fonte, o palco da música, as mesas e bancos e as vistas ao río Ulla, así como a antiga Ponte de Gundián e a moderna do AVE, que permiten gozar deste magnífico contorno natural. \n\nO espazo onde se sitúa esta área ten a particularidade de ser o único terreo ao sur do río Ulla que pertence á provincia da Coruña. Neste lugar celébrase o día 7 de setembro a famosa festa da procesión de Nosa Señora de Gundián, na que trasladan á Virxe desde o pobo acompañada dunha gran tirada de fogos de artificio. \n\nNas proximidades atópase así mismo o Miradoiro de Gundián, que ofrece unhas magníficas vistas de toda a zona.</string>
+
+    <string name="cabeceraCoutoXimonde">Área de Recreo do Coto de Ximonde</string>
+    <string name="coutoXimonde">O Coto de Ximonde é un dos cotos salmoneiros máis importantes de Galicia. No refuxio de pescadores existe un pequeno centro de interpretación do río Ulla e unha estación ictiolóxica de cría e reprodución. \n\nNesta Área de Recreo chaman a atención os diferentes postos de pescadores, o salto de auga-fervenza, e sobre todo a súa ponte colgante. É un lugar que convida ao paseo e a gozar da natureza.</string>
+
+
 
     <!--    Onde comer -->
     <string name="ondeComer">ONDE COMER</string>

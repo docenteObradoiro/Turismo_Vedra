@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".queFacer.FestasLocais">
+
+    <ImageButton
+        android:id="@+id/logoVedra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/logoVedra"
+        android:src="@mipmap/logo_concello_vedra"
+
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/menuHamburguesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/menuHamburguesa"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:src="@drawable/menu_hamburguesa" />
+
+
+    <TextView
+        android:id="@+id/tvFestasRelixiosas"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="90dp"
+        android:fontFamily="@font/abel"
+        android:gravity="center_horizontal"
+        android:text="@string/actividadesRelixiosas"
+        android:textColor="@color/greenVedra"
+        android:textSize="24sp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="140dp"
+        android:layout_height="match_parent">
+
+        <ExpandableListView
+            android:id="@+id/expendableList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/background_light"
+            android:dividerHeight="0.5dp" />
+
+        <TextView
+            android:id="@+id/tvInformacionTuristica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expendableList"
+            android:layout_alignParentBottom="true"
+            android:gravity="start|bottom"
+            android:text="@string/informacionTuristica"
+            android:textColor="@color/greenVedra" />
+
+        <TextView
+            android:id="@+id/tvWebVedra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expendableList"
+            android:layout_alignParentBottom="true"
+            android:gravity="end|bottom"
+            android:text="@string/webVedra"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

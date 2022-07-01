@@ -1,5 +1,7 @@
 package com.cursokotlin.turismo_vedra
 
+
+import com.cursokotlin.turismo_vedra.queFacer.QueFacerPrincipal
 import android.content.Context
 import android.content.Intent
 import android.media.MediaPlayer
@@ -11,6 +13,8 @@ import android.widget.TextView
 import android.widget.VideoView
 import androidx.appcompat.app.AppCompatActivity
 import com.cursokotlin.turismo_vedra.productoresLocales.ProductoresLocales
+import com.cursokotlin.turismo_vedra.queFacer.QueFacerPrincipal
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,19 +32,22 @@ class MainActivity : AppCompatActivity() {
             val acceder = Intent(this, Menu::class.java)
             startActivity(acceder)
         }
-
+        
         var accesoProductores= findViewById<Button>(R.id.productoresLocaisBoton)
         accesoProductores.setOnClickListener{
             val acceder = Intent(this, ProductoresLocales::class.java)
             startActivity(acceder)
         }
+        
         var infoTuristica=findViewById<TextView>(R.id.tvInformacionTuristica)
         infoTuristica.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.concellodevedra.es/es/node/459")))
         }
+        
         var webConcello =findViewById<TextView>(R.id.tvWebVedra)
         webConcello.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.concellodevedra.es/es")))
         }
+        
     }
 }

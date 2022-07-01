@@ -5,7 +5,7 @@
     android:id="@+id/relativePrincipal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".queFacer.QueFacerPrincipal"
+    tools:context=".queFacer.ActividadesSociais"
     android:padding="20dp">
 
 
@@ -28,7 +28,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-
         android:background="#FFFFFF"
         android:contentDescription="@string/menuHamburguesa"
         android:minWidth="48dp"
@@ -38,7 +37,7 @@
         app:srcCompat="@drawable/menu_hamburguesa" />
 
     <TextView
-        android:id="@+id/tvQueFacer"
+        android:id="@+id/tvActividadesSociais"
         android:layout_width="115dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -47,62 +46,88 @@
         android:layout_marginTop="90dp"
         android:fontFamily="@font/abel"
         android:gravity="center_horizontal"
-        android:text="@string/queFacer"
+        android:text="@string/actividadesSociais"
         android:textColor="@color/greenVedra"
         android:textSize="24sp" />
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_marginTop="140dp"
         android:contentDescription="@string/appbar_scrolling_view_behavior">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:gravity="center_horizontal">
 
-<!-- O QUE VAIA DENTRO DO SCROLL VIEW MÉTESE AQUÍ-->
-
 
             <ImageButton
-                android:id="@+id/imgActividadesSociais"
+                android:id="@+id/imgActividadesRelixiosas"
                 style="@style/botonGrande"
-                android:layout_centerHorizontal="true"
                 android:background="@color/white"
-                android:contentDescription="@string/actividadesSociais"
+                android:contentDescription="@string/actividadesRelixiosas"
                 android:padding="5dp"
                 android:scaleType="fitXY"
-                app:srcCompat="@mipmap/actividadessociais"
-                tools:ignore="DuplicateSpeakableTextCheck" />
+                app:srcCompat="@mipmap/relixiosas" />
 
             <ImageButton
-                android:id="@+id/imgActividadesDeportivas"
+                android:id="@+id/imgFestasGastronomicas"
                 style="@style/botonGrande"
-                android:layout_below="@id/imgActividadesSociais"
+                android:layout_below="@id/imgActividadesRelixiosas"
+                android:layout_alignParentStart="true"
                 android:layout_centerHorizontal="true"
                 android:background="@color/white"
-                android:contentDescription="@string/actividadesSociais"
+                android:contentDescription="@string/festasGastronomicas"
                 android:padding="5dp"
                 android:scaleType="fitXY"
-                app:srcCompat="@mipmap/actividadesdeportivas" />
+                app:srcCompat="@mipmap/gastronomicas" />
 
             <ImageButton
-                android:id="@+id/imgCaminoSantiago"
+                android:id="@+id/imgXenerais"
                 style="@style/botonGrande"
-                android:layout_below="@id/imgActividadesDeportivas"
+                android:layout_below="@id/rutaCamelia"
+                android:layout_alignParentEnd="true"
                 android:layout_centerHorizontal="true"
                 android:background="@color/white"
-                android:contentDescription="@string/camino"
+                android:contentDescription="@string/xeneraisUlla"
                 android:padding="5dp"
                 android:scaleType="fitXY"
-                app:srcCompat="@mipmap/camino" />
+                app:srcCompat="@mipmap/xeneraisdaulla" />
+
+            <ImageButton
+                android:id="@+id/rutaCamelia"
+                style="@style/botonGrande"
+                android:layout_alignParentEnd="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/white"
+                android:contentDescription="@string/rutaCamelia"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/rutacamelia" />
+
+
+            <HorizontalScrollView
+                android:id="@+id/scrollHorizontalMeses"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/imgFestasGastronomicas">
+
+                <LinearLayout
+                    android:id="@+id/layoutMeses"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    
+                </LinearLayout>
+            </HorizontalScrollView>
 
             <TextView
                 android:id="@+id/tvInformacionTuristica"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/imgCaminoSantiago"
+                android:layout_marginTop="160dp"
+                android:layout_below="@id/scrollHorizontalMeses"
                 android:gravity="start|bottom"
                 android:text="@string/informacionTuristica"
                 android:textColor="@color/greenVedra" />
@@ -111,10 +136,12 @@
                 android:id="@+id/tvWebVedra"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_below="@id/scrollHorizontalMeses"
+                android:layout_marginTop="160dp"
                 android:gravity="end|bottom"
-                android:layout_below="@id/imgCaminoSantiago"
                 android:text="@string/webVedra"
                 android:textColor="@color/black" />
+
         </RelativeLayout>
 
     </ScrollView>
