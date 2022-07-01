@@ -14,14 +14,17 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="botonGrande">
+    <style name="viewCustom">
         <item name="android:layout_height">185dp</item>
         <item name="android:layout_width">185dp</item>
     </style>
-
     <style name="botonNegocio">
         <item name="android:layout_height">260dp</item>
         <item name="android:layout_width">400dp</item>
+    </style>
+    <style name="botonGrande">
+        <item name="android:layout_height">185dp</item>
+        <item name="android:layout_width">185dp</item>
     </style>
 
 </resources>

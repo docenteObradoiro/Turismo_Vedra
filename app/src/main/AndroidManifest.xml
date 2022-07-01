@@ -13,6 +13,46 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Turismo_Vedra"
         tools:targetApi="31">
+ 
+        <activity
+            android:name=".MenuPrincipal"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
+            android:name=".productoresLocales.Pirotecnia"
+            android:exported="false" />
+        <activity
+            android:name=".productoresLocales.Tocados"
+            android:exported="false" />
+        <activity
+            android:name=".productoresLocales.Deseno"
+            android:exported="false" />
+        <activity
+            android:name=".productoresLocales.Artesania"
+            android:exported="false" />
+        <activity
+            android:name=".productoresLocales.Aceite"
+            android:exported="false" />
+        <activity
+            android:name=".productoresLocales.Panaderias"
+            android:exported="false" />
+        <activity
+            android:name=".productoresLocales.Viveiros"
+            android:exported="false" />
+        <activity
+            android:name=".productoresLocales.Froitas"
+            android:exported="false" />
+        <activity
+            android:name=".productoresLocales.Destilerias"
+            android:exported="false" />
+        <activity
+            android:name=".productoresLocales.Adegas"
+            android:exported="false" />
+        <activity
+            android:name=".productoresLocales.ProductoresLocales"
+            android:exported="false" />
         <activity
             android:name=".queFacer.FestasLocais"
             android:exported="false" />
@@ -25,6 +65,7 @@
         <activity
             android:name=".queFacer.QueFacerPrincipal"
             android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -51,6 +92,57 @@
         <activity
             android:name=".queVer.patrimonio_historico"
             android:exported="false" />
+        <activity
+            android:name=".queVer.queVer"
+            android:exported="false" />
+
+        <!--    Que facer-->
+
+        <activity
+            android:name=".QueFacer.QueFacerPrincipal"
+            android:exported="false" />
+
+
+        <!--    Que ver-->
+
+        <activity
+            android:name=".queVer.queVer"
+            android:exported="false"/>
+            
+        <activity
+            android:name=".queVer.areaRecreativaDeAgronovo"
+            android:exported="false"/>
+            
+        <activity
+            android:name=".queVer.naturaleza"
+            android:exported="false" />
+            
+        <activity
+            android:name=".queVer.arquitectura"
+            android:exported="false" />
+            
+        <activity
+            android:name=".queVer.patrimonio_historico"
+            android:exported="false" />
+
+       
+
+        <!--    Onde comer -->
+
+
+
+
+
+
+        <!--    Onde durmir -->
+
+
+
+
+
+        <!--    Productores locais -->
+
+
     </application>
 
 </manifest>

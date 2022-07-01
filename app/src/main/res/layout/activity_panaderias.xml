@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativePrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".productoresLocales.Panaderias"
+    android:padding="20dp">
+
+    <ImageButton
+        android:id="@+id/logoVedra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/logoVedra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/logo_concello_vedra"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/menuHamburguesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/menuHamburguesa"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/menu_hamburguesa" />
+
+    <TextView
+        android:id="@+id/tvPanaderias"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/abel"
+        android:gravity="center_horizontal"
+        android:text="@string/panaderias"
+        android:textColor="@color/greenVedra"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:contentDescription="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageButton
+                android:id="@+id/fornoSanXian"
+                style="@style/botonNegocio"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:contentDescription="Forno de San Xián"
+                android:backgroundTint="#00F1ECEC"
+                android:scaleType="fitXY"
+                android:src="@mipmap/fornosanxian" />
+            <ImageButton
+                android:id="@+id/oFornoDaUlla"
+                style="@style/botonNegocio"
+                android:layout_below="@+id/fornoSanXian"
+                android:layout_alignParentStart="true"
+                android:contentDescription="O Forno da Ulla"
+                android:backgroundTint="#00F1ECEC"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ofornodaulla" />
+            <ImageButton
+                android:id="@+id/enfornalia"
+                style="@style/botonNegocio"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/oFornoDaUlla"
+                android:contentDescription="Enfornalia"
+                android:backgroundTint="#00F1ECEC"
+                android:scaleType="fitXY"
+                android:src="@mipmap/enfornalia" />
+            <ImageButton
+                android:id="@+id/oTerron"
+                style="@style/botonNegocio"
+                android:layout_below="@+id/enfornalia"
+                android:layout_alignParentStart="true"
+                android:contentDescription="O Terrón"
+                android:backgroundTint="#00F1ECEC"
+                android:scaleType="fitXY"
+                android:src="@mipmap/oterron" />
+
+            <ImageButton
+                android:id="@+id/raviña"
+                style="@style/botonNegocio"
+                android:layout_below="@+id/oTerron"
+                android:layout_alignParentStart="true"
+                android:backgroundTint="#00F1ECEC"
+                android:contentDescription="Raviña"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ravina" />
+            <ImageButton
+                android:id="@+id/rey"
+                style="@style/botonNegocio"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/raviña"
+                android:contentDescription="Rey"
+                android:backgroundTint="#00F1ECEC"
+                android:scaleType="fitXY"
+                android:src="@mipmap/rey" />
+            <ImageButton
+                android:id="@+id/victoria"
+                style="@style/botonNegocio"
+                android:layout_below="@+id/rey"
+                android:layout_alignParentStart="true"
+                android:contentDescription="Victoria"
+                android:backgroundTint="#00F1ECEC"
+                android:layout_marginBottom="40dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/panaderiavictoria" />
+
+            <TextView
+                android:id="@+id/tvInformacionTuristica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|bottom"
+                android:layout_alignParentBottom="true"
+                android:text="@string/informacionTuristica"
+                android:textColor="@color/greenVedra" />
+
+            <TextView
+                android:id="@+id/tvWebVedra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="end|bottom"
+                android:text="@string/webVedra"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
