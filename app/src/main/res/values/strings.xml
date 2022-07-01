@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Turismo_Vedra</string>
-<!--    Menú Principal-->
+    <!--    Menú Principal-->
     <string name="logoVedra">logo Vedra</string>
     <string name="menuHamburguesa">menú hamburguesa</string>
 
@@ -8,39 +8,78 @@
     <string name="webVedra">www.concellodevedra.es</string>
 
 
-
-
-
-<!--    Que facer-->
+    <!--    Que facer-->
     <string name="queFacer">QUÉ HACER</string>
+    <string name="actividadesSociais">Actividades sociales y fiestas locales</string>
+
+    <string name="actividadesDeportivas">Actividades deportivas</string>
+    <string name="camino">Camino de Santiago</string>
+    <string name="actividadesRelixiosas">Actividades religiosas</string>
+
+    <string name="festasGastronomicas">Fiestas gastronómicas</string>
+
+    <string name="xeneraisUlla">Xenerais da Ulla</string>
+    <string name="rutaCamelia">Ruta de la Camelia</string>
+
+    <string name="festasRelixiosas">Fiestas religiosas</string>
+
+    <string name="xaneiro">Enero</string>
+    <string name="febreiro">Febrero</string>
+    <string name="marzo">Marzo</string>
+    <string name="abril">Abril</string>
+    <string name="maio">Mayo</string>
+    <string name="xuno">Junio</string>
+    <string name="xullo">Julio</string>
+    <string name="agosto">Agosto</string>
+    <string name="setembro">Septiembre</string>
+    <string name="outubro">Octubre</string>
+    <string name="novembro">Noviembre</string>
+    <string name="decembro">Diciembre</string>
+
+    <string name="festXan1">Fiestas Patronales el primer fin de semana después del día de Reyes en San Xián de Sales.</string>
+    <string name="festFeb1">Ceremonia de las Candeas el 2 de febrero en San Pedro de Sarandon</string>
+    <string name="festFeb2">San Blas el domingo siguiente al 3 de febrero en San Mamede de Ribadulla</string>
+    <string name="festAbr1">Virgen de las Angustias el domingo de Pascua en Illobre</string>
+    <string name="festMaio1">San Pedro Mártir el domingo siguiente al 29 de abril en Merin.</string>
+    <string name="festMaio2">Santa Cruz el 3 de mayo en Santa Cruz de Ribadulla.</string>
+    <string name="festXun1">Santísimo en San Xián de Sales</string>
+    <string name="festXun2">Santa Isabel el segundo domingo después de Corpus en San Fins de Sales.</string>
+    <string name="festXun3">San Pedro el 29 y 30 de junio en San Pedro de Sarandon.</string>
+    <string name="festXun4">S. Pedro el primer fin de semana tras el 29 de ese mes en San Pedro de Vilanova.</string>
+    <string name="festXul1">Concepción el primer domingo de julio en San Pedro de Sarandon.</string>
+    <string name="festXul2">San Cristóbal el primer domingo después del 10 de julio en Merin.</string>
+    <string name="festXul3">El Carmen el domingo siguiente al 16 de julio en Trobe</string>
+    <string name="festXul4">Fiestas de la Magdalena el 22 y 23 de julio en A Ponte Ulla</string>
+    <string name="festAgo1">Fiestas Patronales el 1, 2 y 3 de agosto en San Fins de Sales.</string>
+    <string name="festAgo2">Fiestas Patronales el 7 y 8 de agosto en San Mamede de Ribadulla.</string>
+    <string name="festAgo3">San Campio el  9, 10 y 11 de agosto en San Miguel de Sarandon.</string>
+    <string name="festAgo4">Santiaguiño el sábado anterior al último domingo de agosto en San Pedro de Vilanova.</string>
+    <string name="festAgo5">Romería de los Remedios el último domingo de agosto en Trobe</string>
+    <string name="festSet1">Las Dolores el primer domingo de septiembre en Vedra</string>
+    <string name="festSet2">Romería de Gundián-Procesión y Fuegos de artificio el 7 y 8  de septiembre en A Ponte Ulla</string>
+    <string name="festSet3">Romería del Patio el lunes después del tercer domingo de septiembre en Santa Cruz de Ribadulla.</string>
+    <string name="festSet4">San Miguel el 29 de septiembre en San Miguel de Sarandon.</string>
+    <string name="festNov1">San Andrés el 30 de noviembre en Illobre</string>
+    <string name="festDec1">Santa Baia el 10 de diciembro en Vedra</string>
+
+    <string name="festAbrGastronomica1">Exaltación del vino da Ulla, en el mes de abril en San Miguel de Sarandón.</string>
+    <string name="festMaioGastronomica1">Fiesta de la Oreja de Cerdo, en el mes de mayo en San Fins de Sales.</string>
+    <string name="festMaioGastronomica2">Fiesta del Cerdo a la Brasa, en el mes de mayo en Trobe</string>
+    <string name="festMaioGastronomica3">Fiesta del Carneiro al espeto, en el mes de mayo en San Xián de Sales</string>
+    <string name="festMaioGastronomica4">Fiesta de la Aguardiente, en el mes de mayo en San Mamede de Ribadulla.</string>
+    <string name="festXulGastronomica1">Fiesta del Escalo, en el mes de junio en Santa Cruz de Ribadulla</string>
 
 
+    <!--    Que ver-->
 
 
-<!--    Que ver-->
+    <!--    Onde comer -->
 
 
+    <!--    Onde durmir -->
 
 
-
-
-
-<!--    Onde comer -->
-
-
-
-
-
-
-<!--    Onde durmir -->
-
-
-
-
-
-<!--    Productores locais -->
-
-
+    <!--    Productores locais -->
 
 
 </resources>
