@@ -8,6 +8,7 @@ import android.widget.ImageButton
 import android.widget.TextView
 import com.cursokotlin.turismo_vedra.productoresLocales.Adegas
 import com.cursokotlin.turismo_vedra.productoresLocales.ProductoresLocales
+import com.cursokotlin.turismo_vedra.queFacer.QueFacerPrincipal
 
 class Menu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,6 +25,12 @@ class Menu : AppCompatActivity() {
             finish()
         }
 
+        var accesoFacer=findViewById<TextView>(R.id.queFacer)
+        accesoFacer.setOnClickListener {
+            val acceder = Intent(this, QueFacerPrincipal::class.java)
+            startActivity(acceder)
+        }
+
         /*var accesoChegar=findViewById<TextView>(R.id.comoChegar)
         accesoChegar.setOnClickListener {
             val acceder = Intent(this, ::class.java)
@@ -34,11 +41,7 @@ class Menu : AppCompatActivity() {
             val acceder = Intent(this, ::class.java)
             startActivity(acceder)
         }
-        var accesoFacer=findViewById<TextView>(R.id.queFacer)
-        accesoFacer.setOnClickListener {
-            val acceder = Intent(this, ::class.java)
-            startActivity(acceder)
-        }
+
         var accesoComer=findViewById<TextView>(R.id.ondeComer)
         accesoComer.setOnClickListener {
             val acceder = Intent(this, ::class.java)
