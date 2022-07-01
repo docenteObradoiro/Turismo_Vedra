@@ -18,6 +18,10 @@ internal object ExpandableListData {
             festasFebreiro.add("Ceremonia das Candeas o 2 de febreiro en San Pedro de Sarandon")
             festasFebreiro.add("San Blas o domingo seguinte ó 3 de febreiro en San Mamede de Ribadulla")
 
+            val festasMarzo: MutableList<String> =
+                ArrayList()
+            festasMarzo.add("Non hai contido")
+
 
             val festasAbril: MutableList<String> =
                 ArrayList()
@@ -56,6 +60,10 @@ internal object ExpandableListData {
             festasSet.add("Romaría do Patio o luns despois do terceiro domingo de setembro en Santa Cruz de Ribadulla.")
             festasSet.add("San Miguel o 29 de setembro en San Miguel de Sarandon.")
 
+            val festasOutubro: MutableList<String> =
+                ArrayList()
+            festasOutubro.add("Non hai contido")
+
             val festasNov: MutableList<String> =
                 ArrayList()
             festasNov.add("Santo André o 30 de novembro en Illobre")
@@ -66,12 +74,14 @@ internal object ExpandableListData {
 
             expandableListDetail["Xaneiro"] = festasXaneiro
             expandableListDetail["Febreiro"] = festasFebreiro
+            expandableListDetail["Marzo"] = festasMarzo
             expandableListDetail["Abril"] = festasAbril
             expandableListDetail["Maio"] = festasMaio
             expandableListDetail["Xuño"] = festasXuno
             expandableListDetail["Xullo"] = festasXul
             expandableListDetail["Agosto"] = festasAgo
             expandableListDetail["Setembro"] = festasSet
+            expandableListDetail["Outubro"] = festasOutubro
             expandableListDetail["Novembro"] = festasNov
             expandableListDetail["Decembro"] = festasDec
             return expandableListDetail
