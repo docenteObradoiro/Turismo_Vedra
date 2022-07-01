@@ -6,37 +6,43 @@
 
     <string name="informacionTuristica">Información turística</string>
     <string name="webVedra">www.concellodevedra.es</string>
+    <string name="comoChegar">COMO CHEGAR</string>
+    <string name="contacto">CONTACTO</string>
+    <string name="mapaTuristico">MAPA TURÍSTICO</string>
+    <string name="telefonosInteres">TELÉFONOS DE INTERESE</string>
+    <string name="textoInicio">Son o Concello de Vedra e estou situado no sur da Provincia da Coruña, no corazón do Val do Ulla. Teño unha extensión de 53 Km2, cuns 5.100 habitantes distribuídos en 12 parroquias.
+\n\nPasear por Vedra e polas miñas paisaxes mergúllate nun espazo con personalidade propia. Facer referencia a un só lugar ou monumento non é posible, todo eu son un lugar que merece ser descuberto.
+\n\nPor todo iso, e por moito máis…son Vedra!</string>
 
 
 
     <!--    Que facer-->
     <string name="queFacer">QUE FACER</string>
 
-
-
-
     <!--    Que ver-->
-
-
-
-
-
-
+    <string name="queVer">QUE VER</string>
 
     <!--    Onde comer -->
-
-
-
-
-
+    <string name="ondeComer">ONDE COMER</string>
 
     <!--    Onde durmir -->
-
+    <string name="ondeDurmir">ONDE DURMIR</string>
 
 
 
 
     <!--    Productores locais -->
+    <string name="produtoresLocais">PRODUTORES LOCAIS</string>
+    <string name="adegas">ADEGAS</string>
+    <string name="destileria">DESTILERÍA DE AUGARDENTES \nE LICORES</string>
+    <string name="froitasVerduras">FRUITS AND VEGETABLES</string>
+    <string name="viveiros">VIVEIROS DE PLANTAS</string>
+    <string name="panaderias">PANADERÍAS</string>
+    <string name="producciondeaceite">PRODUCCIÓN DE ACEITE</string>
+    <string name="artesania">ARTESANÍA</string>
+    <string name="deseno">DESEÑO</string>
+    <string name="tocados">TOCADOS</string>
+    <string name="pirotecnias">PIROTECNIA</string>
 
 
 

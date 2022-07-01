@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativePrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".productoresLocales.ProductoresLocales"
+    android:padding="20dp">
+
+
+    <ImageButton
+        android:id="@+id/logoVedra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/logoVedra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/logo_concello_vedra"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/menuHamburguesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/menuHamburguesa"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/menu_hamburguesa" />
+
+    <TextView
+        android:id="@+id/tvProductores"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/abel"
+        android:gravity="center_horizontal"
+        android:text="@string/produtoresLocais"
+        android:textColor="@color/greenVedra"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:contentDescription="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/adegas"
+                style="@style/botonGrande"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:backgroundTint="#00F1ECEC"
+                android:contentDescription="adegas"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/adegas" />
+
+            <ImageButton
+                android:id="@+id/destileria"
+                android:contentDescription="destileria"
+                style="@style/botonGrande"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitXY"
+                android:backgroundTint="#00F1ECEC"
+                app:srcCompat="@mipmap/destileria" />
+
+            <ImageButton
+                android:id="@+id/froitas"
+                style="@style/botonGrande"
+                android:layout_below="@id/adegas"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="-12dp"
+                android:backgroundTint="#00F1ECEC"
+                android:contentDescription="froitas e verduras"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/froitas" />
+            <ImageButton
+                android:id="@+id/viveiros"
+                style="@style/botonGrande"
+                android:layout_below="@id/destileria"
+                android:layout_alignParentEnd="true"
+                android:backgroundTint="#00F1ECEC"
+                android:layout_marginTop="-12dp"
+                android:contentDescription="viveiros e plantas"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/viveiros" />
+
+            <ImageButton
+                android:id="@+id/panaderia"
+                style="@style/botonGrande"
+                android:layout_below="@id/froitas"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="-12dp"
+                android:backgroundTint="#00F1ECEC"
+                android:contentDescription="panadería"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/panaderia" />
+            <ImageButton
+                android:id="@+id/aceite"
+                style="@style/botonGrande"
+                android:layout_below="@id/viveiros"
+                android:layout_alignParentEnd="true"
+                android:backgroundTint="#00F1ECEC"
+                android:layout_marginTop="-12dp"
+                android:contentDescription="productores de aceite"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/aceite" />
+            <ImageButton
+                android:id="@+id/artesania"
+                style="@style/botonGrande"
+                android:layout_below="@id/panaderia"
+                android:layout_alignParentStart="true"
+                android:backgroundTint="#00F1ECEC"
+                android:layout_marginTop="-12dp"
+                android:contentDescription="artesanía"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/artesania" />
+            <ImageButton
+                android:id="@+id/deseño"
+                style="@style/botonGrande"
+                android:layout_below="@id/aceite"
+                android:layout_alignParentEnd="true"
+                android:backgroundTint="#00F1ECEC"
+                android:layout_marginTop="-12dp"
+                android:contentDescription="deseño"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/deseno" />
+
+            <ImageButton
+                android:id="@+id/tocados"
+                style="@style/botonGrande"
+                android:layout_below="@id/artesania"
+                android:layout_alignParentStart="true"
+                android:backgroundTint="#00F1ECEC"
+                android:layout_marginTop="-12dp"
+                android:contentDescription="tocados"
+                android:scaleType="fitXY"
+                android:layout_marginBottom="40dp"
+                app:srcCompat="@mipmap/tocados" />
+
+            <ImageButton
+                android:id="@+id/pirotecnia"
+                style="@style/botonGrande"
+                android:layout_below="@id/deseño"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="-12dp"
+                android:layout_marginBottom="40dp"
+                android:backgroundTint="#00F1ECEC"
+                android:contentDescription="pirotecnia"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/pirotecnias" />
+
+            <TextView
+                android:id="@+id/tvInformacionTuristica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|bottom"
+                android:layout_alignParentBottom="true"
+                android:text="@string/informacionTuristica"
+                android:textColor="@color/greenVedra" />
+
+            <TextView
+                android:id="@+id/tvWebVedra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="end|bottom"
+                android:text="@string/webVedra"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -6,6 +6,13 @@
 
     <string name="informacionTuristica">Tourist information</string>
     <string name="webVedra">www.concellodevedra.es</string>
+    <string name="comoChegar">HOW TO GET THERE</string>
+    <string name="contacto">CONTACT</string>
+    <string name="mapaTuristico">TOURIST MAP</string>
+    <string name="telefonosInteres">USEFUL TELEPHONE NUMBERS</string>
+    <string name="textoInicio">I am the municipality of Vedra and I am located in the heart of the Ulla Valley, in the southern part of the province of A Coruña. I have an area of 53km2 and a population of 5100 inhabitants who live in my 12 parishes.
+\n\nA walk through my natural landscapes will immerse yourself in a place with personality. It is not possible to stand out just one place or monument. Everything deserves to be discovered.
+\n\nFor that and more…I am Vedra!</string>
 
 
 
@@ -14,29 +21,27 @@
 
 
 
-
     <!--    Que ver-->
-
-
-
-
-
-
+    <string name="queVer">WHAT TO SEE</string>
 
     <!--    Onde comer -->
-
-
-
-
-
+    <string name="ondeComer">WHERE TO EAT</string>
 
     <!--    Onde durmir -->
-
-
-
+    <string name="ondeDurmir">WHERE TO SLEEP</string>
 
 
     <!--    Productores locais -->
-
+    <string name="produtoresLocais">LOCAL PRODUCERS</string>
+    <string name="adegas">WINE CELLARS</string>
+    <string name="destileria">FIREWATER AND LIQUOR DISTILLERIES</string>
+    <string name="froitasVerduras">FRUITS AND VEGETABLES</string>
+    <string name="viveiros">PLANT NURSERIES</string>
+    <string name="panaderias">BAKERIES</string>
+    <string name="producciondeaceite">OIL PRODUCTION</string>
+    <string name="artesania">CRAFTWORK</string>
+    <string name="deseno">DESIGN</string>
+    <string name="tocados">HEADDRESS</string>
+    <string name="pirotecnias">FIREWORKS FACTORIES</string>
 
 </resources>
