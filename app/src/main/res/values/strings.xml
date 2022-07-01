@@ -28,6 +28,42 @@
     <!--    Onde durmir -->
     <string name="ondeDurmir">DÓNDE DORMIR</string>
 
+<!--    Que ver-->
+
+    <string name="queVer">QUÉ VER</string>
+
+    <string name="cabeceraAgronovo">Área de Recreo de Agronovo</string>
+    <string name="agronovo">El Área de Recreo de Agronovo se encuentra al pie del río Ulla. Por sus inmediaciones transcurre la ruta de senderismo de San Xoán da Cova. Está dotada de zona de baño, mesas y bancos, servicios, espacio acondicionado para barbacoas... \n\nDurante los meses de julio y agosto, los sábados y domingos en horario de 16:00 a 20:00 h. dispone de un servicio de alquiler de piraguas y barcas del Ulla. \n\nEl segundo domingo de julio, se celebra en este lugar el Concurso de Pesca del Escalo, un evento que cuenta con una amplia programación festiva.</string>
+
+    <string name="cabeceraCubelas">Área de Recreo de Cubelas</string>
+    <string name="cubelas">El Área de Recreo de Cubelas se encuentra al pie del río Ulla, a unos 300 metros del Coto de Ximonde. Es el punto de inicio y de finalización de la ruta de senderismo de San Xoán da Cova. \n\nEsta área está dotada de mesas y bancos. Además cuenta con un pequeño jardín botánico donde están representadas las especies de la flora de ribera del Sistema Fluvial Ulla-Deza de la Rede Natura 2000.</string>
+
+    <string name="cabeceraMiradorGundian">Mirador de Gundián</string>
+    <string name="miradorGundian">Este mirador ofrece las vistas de un magnífico entorno natural. Tendríamos que destacar, en primer lugar, el Paso da Cova, que surge cuando la ladera sur del Pico Sacro, que cuenta con un filón de cuarzo de cuatro kilómetros, se corta para dejar paso al río Ulla, quedando al otro lado del monte Castro. Se forma así un enclave único y singular, un magnífico estrechamiento del río de cuatro metros de ancho entre dos paredes de unos cincuenta metros de caída vertical durante un recorrido de catorce metros. Este paso queda salvado en la actualidad por el antiguo puente del ferrocarril, el puente de Gundían, y a pocos metros se encuentra el moderno del A.V.E., que tiene la particularidad de ser el único territorio al sur del río Ulla que pertenece a la provincia de A Coruña. \n\nCuentan las leyendas que alguna vez hubo aquí una gran laguna que ocupaba tierras río arriba. Relata la historia que había escondido entre las piedras próximas al actual Paso da Cova un monasterio de templarios del siglo XIV (del que no se conserva ningún vestigio). Añade la tradición que los monjes de este monasterio de San Xoán da Cova perforaron la montaña para secar esta laguna, dando origen a este estrecho paso. \n\nHoy en día, tanto el Mirador de Gundían como el Área de recreo del Campo de Gundían permiten gozar de este magnífico entorno natural.</string>
+
+    <string name="cabeceraCampoGundian">Área de Recreo del Campo de Gundián</string>
+    <string name="campoGundian">El Área de Recreo del Campo de Gundián está constituida por el conjunto singular que conforman la capilla, la fuente, el palco de la música, las mesas y bancos y las vistas sobre el río Ulla, así como el antiguo Puente de Gundián y el moderno del AVE, que permiten disfrutar de este magnífico entorno natural. \n\nEl espacio donde se sitúa esta área tiene la particularidad de ser el único terreno al sur del río Ulla que pertenece a la provincia de A Coruña. En este lugar se celebra el día 7 de septiembre la famosa fiesta de la procesión de Nosa Señora de Gundián, en la que trasladan a la Virgen desde el pueblo acompañada de una gran tirada de fuegos de artificio. \n\nEn las proximidades se encuentra asimismo el Mirador de Gundián, que ofrece unas magníficas vistas de toda la zona.</string>
+
+    <string name="cabeceraCoutoXimonde">Área de Recreo del Coto de Ximonde</string>
+    <string name="coutoXimonde">El Coto de Ximonde es una de los cotos salmoneros más importantes de Galicia. En el refugio de pescadores existe un pequeño centro de interpretación del río Ulla y una estación ictiológica de cría y reproducción. \n\nEn esta Área de Recreo destacan especialmente los diferentes puestos de pescadores, el salto de agua-cascada, y sobre todo su puente colgante. Es un lugar que invita al paseo y a disfrutar de la naturaleza.</string>
+
+
+<!--    Onde comer -->
+
+
+
+
+
+
+<!--    Onde durmir -->
+
+
+
+
+
+<!--    Productores locais -->
+
+
     <!--    Productores locais -->
     <string name="produtoresLocais">PRODUCTORES LOCALES</string>
     <string name="adegas">BODEGAS</string>
