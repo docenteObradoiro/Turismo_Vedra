@@ -15,15 +15,14 @@ class queVer:AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_que_ver)
 
-        val botonVedra = findViewById<ImageButton>(R.id.botonVedraMapa)
-        botonVedra.setOnClickListener {
-            val acceder = Intent(this, MainActivity::class.java)
+        var logoVedra=findViewById<ImageButton>(R.id.logoVedra)
+        logoVedra.setOnClickListener {
+            val acceder= Intent(this, MainActivity::class.java)
             startActivity(acceder)
         }
-
-        val accesoMenu= findViewById<ImageButton>(R.id.menu)
-        accesoMenu.setOnClickListener {
-            val acceder = Intent(this, Menu::class.java)
+        var menu=findViewById<ImageButton>(R.id.menuHamburguesa)
+        menu.setOnClickListener {
+            val acceder= Intent(this, Menu::class.java)
             startActivity(acceder)
         }
 
@@ -43,12 +42,12 @@ class queVer:AppCompatActivity() {
             startActivity(accederPatrimonioHistorico)
         }
 
-        val informacionTuristica = findViewById<TextView>(R.id.infoTuristica)
+        val informacionTuristica = findViewById<TextView>(R.id.tvInformacionTuristica)
         informacionTuristica.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.concellodevedra.es/node/44")))
         }
 
-        val paginaConcello = findViewById<TextView>(R.id.webConcello)
+        val paginaConcello = findViewById<TextView>(R.id.tvWebVedra)
         paginaConcello.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.concellodevedra.es/")))
         }

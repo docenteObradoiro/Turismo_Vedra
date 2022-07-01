@@ -13,11 +13,13 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
-
     <style name="viewCustom">
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_height">185dp</item>
+        <item name="android:layout_width">185dp</item>
+    </style>
+    <style name="botonNegocio">
+        <item name="android:layout_height">260dp</item>
+        <item name="android:layout_width">400dp</item>
     </style>
 
 </resources>
