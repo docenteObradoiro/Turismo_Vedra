@@ -18,7 +18,22 @@
     <!--    Que ver-->
 
 
-    <string name="queVer">QUÉ VER</string>
+    <string name="queVer">WHAT TO SEE</string>
+
+    <string name="cabeceraAgronovo">Agronovo Recreational Area</string>
+    <string name="agronovo">The Agronovo Recreational Area is located at the foot of the River Ulla, near the San Xoán da Cova trekking route. It is equipped with a swimming area, tables and benches, toilets, barbecue area… \n\nA chub fishing competition is held here on the second Sunday in July, accompanied by an extensive festive programme.</string>
+
+    <string name="cabeceraCubelas">Cubelas Recreational Area</string>
+    <string name="cubelas">The Cubelas Recreational Area is located at the foot of the River Ulla, about 300 metres from Ximonde Preserve. It is the start and finish point of the San Xoán da Cova trekking route. \n\nThis area is equipped with tables and benches. It also features a small botanical garden with riverside flora species found in the Ulla-Deza River System, wich is part of the Natura 2000 Network.</string>
+
+    <string name="cabeceraMiradorGundian">Gundián Viewpoint</string>
+    <string name="miradorGundian">The Gundián Viewpoint provides views of a magnificent natural setting. What stands out first of all is Paso da Cova, which arises when the south slope of Pico Sacro, which features a 4-kilometre-long vein of quartz, is cut through by the River Ulla, with Monte Castro on the other side. The result is an unique and singular site, a magnificent narrowing of the river down to 4 metres wide between two vertical 50-metre-high walls along a distance of 14 metres. This pass is now crossed by a railway bridge, the Old Gundián bridge and a modern bridge for the high-speed AVE train; it stands out as the only terrain south of the River Ulla belonging to the province of A Coruña. \n\nAccording to different legends, there used to be a large lagoon upriver. As the story goes, hidden among the rocks near the present-day Paso da Cova, there was a 14th century monastery of the Templars (of which no trace remains). Tradition adds that the monks of this monastery of San Xoán da Cova perforated the mountain to empty the lagoon, thereby giving rise to this narrow pass. \n\nToday, both the Gundián Viewpoint and the Campo de Gundián Recreational Area enable us to enjoy this marvellous natural setting.</string>
+
+    <string name="cabeceraCampoGundian">Campo de Gundián Recreational Area</string>
+    <string name="campoGundian">The Campo de Gundián Recreational Area is made up of a singular ensemble featuring a chapel, fountain, bandstand, tables and benches overlooking the River Ulla, as well as the old Gundián Bridge and modern AVE (high-speed rail) Bridge, enabling visitors to enjoy this magnificent natural setting. \n\nThe area’s location stands out as the only terrain south of the River Ulla that belongs to A Coruña province. Here is where the famous procession of Nosa Señora de Gundián is held on September 7, in which Our Lady is carried out of the village accompanied by a large fireworks display. \n\nThe Gundián Viewpoint is also located in the surroundings, featuring magnificent views of the entire region.</string>
+
+    <string name="cabeceraCoutoXimonde">Ximonde Preserve Recreational Area</string>
+    <string name="coutoXimonde">Ximonde is one of the most important salmon preserves in Galicia. The fishermen’s shelter houses a small River Ulla interpretation centre and a fish-breeding and –reproduction station. \n\nThe Recreational Area stands out above all to its fishing posts, waterfall and especially its hanging bridge. It is an ideal place for walking and enjoying nature.</string>
 
 
 
