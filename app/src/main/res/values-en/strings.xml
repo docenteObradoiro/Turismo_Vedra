@@ -1,30 +1,101 @@
 <resources>
+
     <string name="app_name">Turismo_Vedra</string>
     <!--    Menú Principal-->
     <string name="logoVedra">icon Vedra</string>
     <string name="menuHamburguesa">hamburger menu button</string>
-
     <string name="informacionTuristica">Tourist information</string>
     <string name="webVedra">www.concellodevedra.es</string>
+    <string name="comoChegar">HOW TO GET THERE</string>
+    <string name="contacto">CONTACT</string>
+    <string name="mapaTuristico">TOURIST MAP</string>
+    <string name="telefonosInteres">USEFUL TELEPHONE NUMBERS</string>
+    <string name="textoInicio">I am the municipality of Vedra and I am located in the heart of the Ulla Valley, in the southern part of the province of A Coruña. I have an area of 53km2 and a population of 5100 inhabitants who live in my 12 parishes.
+\n\nA walk through my natural landscapes will immerse yourself in a place with personality. It is not possible to stand out just one place or monument. Everything deserves to be discovered.
+\n\nFor that and more…I am Vedra!</string>
 
 
 
     <!--    Que facer-->
     <string name="queFacer">WHAT TO DO</string>
+    <string name="actividadesSociais">Social activities and local parties</string>
 
+    <string name="actividadesDeportivas">Sport activities</string>
+    <string name="camino">Camino de Santiago</string>
+    <string name="actividadesRelixiosas">Religious activities</string>
 
+    <string name="festasGastronomicas">Gastronomic festivals</string>
+
+    <string name="xeneraisUlla">Xenerais da Ulla</string>
+    <string name="rutaCamelia">The Route of de Camellie</string>
+    <string name="festasRelixiosas">Fiestas religiosas</string>
+
+    <string name="xaneiro">Xaneiro</string>
+    <string name="febreiro">Febreiro</string>
+    <string name="marzo">Marzo</string>
+    <string name="abril">Abril</string>
+    <string name="maio">Maio</string>
+    <string name="xuno">Xuño</string>
+    <string name="xullo">Xullo</string>
+    <string name="agosto">Agosto</string>
+    <string name="setembro">Setembro</string>
+    <string name="outubro">Outubro</string>
+    <string name="novembro">Novembro</string>
+    <string name="decembro">Decembro</string>
+
+    <string name="festXan1">Festas Patronais a primeira fin de semana despois do día de Reis en San Xián de Sales.</string>
+    <string name="festFeb1">Ceremonia das Candeas o 2 de febreiro en San Pedro de Sarandon</string>
+    <string name="festFeb2">San Blas o domingo seguinte ó 3 de febreiro en San Mamede de Ribadulla</string>
+    <string name="festAbr1">Virxe das Angustias o domingo de Pascua en Illobre</string>
+    <string name="festMaio1">San Pedro Mártir o domingo seguinte ó 29 de abril en Merin.</string>
+    <string name="festMaio2">Santa Cruz o 3 de maio en Santa Cruz de Ribadulla.</string>
+    <string name="festXun1">Santísimo en San Xián de Sales</string>
+    <string name="festXun2">Santa Isabel o segundo domingo despois de Corpus en San Fins de Sales.</string>
+    <string name="festXun3">San Pedro o 29 e 30 de xuño en San Pedro de Sarandon.</string>
+    <string name="festXun4">S. Pedro a primeira fin de semana tralo 29 dese mes en San Pedro de Vilanova.</string>
+    <string name="festXul1">Concepción o primeiro domingo de xullo en San Pedro de Sarandon.</string>
+    <string name="festXul2">San Cristovo o primeiro domingo despois do 10 de xullo en Merin.</string>
+    <string name="festXul3">O Carme o domingo seguinte ó 16 de xullo en Trobe</string>
+    <string name="festXul4">Festas da Madalena o 22 e 23 de xullo en A Ponte Ulla</string>
+    <string name="festAgo1">Festas Patronais o 1, 2 e 3 de agosto en San Fins de Sales.</string>
+    <string name="festAgo2">Festas Patronais o 7 e 8 de agosto en San Mamede de Ribadulla.</string>
+    <string name="festAgo3">San Campio o  9, 10 e 11 de agosto en San Miguel de Sarandon.</string>
+    <string name="festAgo4">Santiaguiño o sábado anterior ó último domingo de agosto en San Pedro de Vilanova.</string>
+    <string name="festAgo5">Romaría dos Remedios o derradeiro domingo de agosto en Trobe</string>
+    <string name="festSet1">As Dores o primeiro domingo de setembro en Vedra</string>
+    <string name="festSet2">Romaría do Gundián-Procesión e Fogos de artificio o 7 e 8  de setembro en A Ponte Ulla</string>
+    <string name="festSet3">Romaría do Patio o luns despois do terceiro domingo de setembro en Santa Cruz de Ribadulla.</string>
+    <string name="festSet4">San Miguel o 29 de setembro en San Miguel de Sarandon.</string>
+    <string name="festNov1">Santo André o 30 de novembro en Illobre</string>
+    <string name="festDec1">Santa Baia o 10 de decembro en Vedra</string>
+
+    <string name="festAbrGastronomica1">A Exaltación do viño da Ulla, no mes de abril en San Miguel de Sarandón.</string>
+    <string name="festMaioGastronomica1">A festa da Orella de Porco, no mes de maio en San Fins de Sales.</string>
+    <string name="festMaioGastronomica2">A Festa do Porco á Brasa, no mes de maio en Trobe</string>
+    <string name="festMaioGastronomica3">A Festa do Carneiro ó espeto, no mes de maio en San Xián de Sales</string>
+    <string name="festMaioGastronomica4">Fiesta de la Aguardiente, en el mes de mayo en San Mamede de Ribadulla.</string>
+    <string name="festXulGastronomica1">A Festa do Escalo, no mes de xullo en Santa Cruz de Ribadulla.</string>
 
 
     <!--    Que ver-->
+    <string name="queVer">WHAT TO SEE</string>
 
+    <string name="cabeceraAgronovo">Agronovo Recreational Area</string>
+    <string name="agronovo">The Agronovo Recreational Area is located at the foot of the River Ulla, near the San Xoán da Cova trekking route. It is equipped with a swimming area, tables and benches, toilets, barbecue area… \n\nA chub fishing competition is held here on the second Sunday in July, accompanied by an extensive festive programme.</string>
 
+    <string name="cabeceraCubelas">Cubelas Recreational Area</string>
+    <string name="cubelas">The Cubelas Recreational Area is located at the foot of the River Ulla, about 300 metres from Ximonde Preserve. It is the start and finish point of the San Xoán da Cova trekking route. \n\nThis area is equipped with tables and benches. It also features a small botanical garden with riverside flora species found in the Ulla-Deza River System, wich is part of the Natura 2000 Network.</string>
 
+    <string name="cabeceraMiradorGundian">Gundián Viewpoint</string>
+    <string name="miradorGundian">The Gundián Viewpoint provides views of a magnificent natural setting. What stands out first of all is Paso da Cova, which arises when the south slope of Pico Sacro, which features a 4-kilometre-long vein of quartz, is cut through by the River Ulla, with Monte Castro on the other side. The result is an unique and singular site, a magnificent narrowing of the river down to 4 metres wide between two vertical 50-metre-high walls along a distance of 14 metres. This pass is now crossed by a railway bridge, the Old Gundián bridge and a modern bridge for the high-speed AVE train; it stands out as the only terrain south of the River Ulla belonging to the province of A Coruña. \n\nAccording to different legends, there used to be a large lagoon upriver. As the story goes, hidden among the rocks near the present-day Paso da Cova, there was a 14th century monastery of the Templars (of which no trace remains). Tradition adds that the monks of this monastery of San Xoán da Cova perforated the mountain to empty the lagoon, thereby giving rise to this narrow pass. \n\nToday, both the Gundián Viewpoint and the Campo de Gundián Recreational Area enable us to enjoy this marvellous natural setting.</string>
 
-
+    <string name="cabeceraCampoGundian">Campo de Gundián Recreational Area</string>
+    <string name="campoGundian">The Campo de Gundián Recreational Area is made up of a singular ensemble featuring a chapel, fountain, bandstand, tables and benches overlooking the River Ulla, as well as the old Gundián Bridge and modern AVE (high-speed rail) Bridge, enabling visitors to enjoy this magnificent natural setting. \n\nThe area’s location stands out as the only terrain south of the River Ulla that belongs to A Coruña province. Here is where the famous procession of Nosa Señora de Gundián is held on September 7, in which Our Lady is carried out of the village accompanied by a large fireworks display. \n\nThe Gundián Viewpoint is also located in the surroundings, featuring magnificent views of the entire region.</string>
 
 
     <!--    Onde comer -->
-    <string name="ondeComer">DONDE COMER</string>
+    <string name="ondeComer">WHERE TO EAT</string>
+
     <string name="restaurantes">RESTAURANTES</string>
     <string name="cafeteria">BARES E CAFETERÍAS</string>
 
@@ -32,18 +103,24 @@
     <string name="santacruz"><u>Santa Cruz - Ponte Ulla</u></string>
     <string name="sanfins"><u>Illobre - San Fins - San Xián</u></string>
 
-
-
-
-
+    <string name="cabeceraCoutoXimonde">Ximonde Preserve Recreational Area</string>
+    <string name="coutoXimonde">Ximonde is one of the most important salmon preserves in Galicia. The fishermen’s shelter houses a small River Ulla interpretation centre and a fish-breeding and –reproduction station. \n\nThe Recreational Area stands out above all to its fishing posts, waterfall and especially its hanging bridge. It is an ideal place for walking and enjoying nature.</string>
 
     <!--    Onde durmir -->
-
-
-
+    <string name="ondeDurmir">WHERE TO SLEEP</string>
 
 
     <!--    Productores locais -->
-
+    <string name="produtoresLocais">LOCAL PRODUCERS</string>
+    <string name="adegas">WINE CELLARS</string>
+    <string name="destileria">FIREWATER AND LIQUOR DISTILLERIES</string>
+    <string name="froitasVerduras">FRUITS AND VEGETABLES</string>
+    <string name="viveiros">PLANT NURSERIES</string>
+    <string name="panaderias">BAKERIES</string>
+    <string name="producciondeaceite">OIL PRODUCTION</string>
+    <string name="artesania">CRAFTWORK</string>
+    <string name="deseno">DESIGN</string>
+    <string name="tocados">HEADDRESS</string>
+    <string name="pirotecnias">FIREWORKS FACTORIES</string>
 
 </resources>

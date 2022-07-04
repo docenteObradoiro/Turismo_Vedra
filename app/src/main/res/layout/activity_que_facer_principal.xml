@@ -5,7 +5,9 @@
     android:id="@+id/relativePrincipal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".quefacer.QueFacerPrincipal"
+
     android:padding="20dp">
 
 
@@ -59,18 +61,54 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
 
             <!-- O QUE VAIA DENTRO DO SCROLL VIEW MÉTESE AQUÍ-->
 
+
+            <ImageButton
+                android:id="@+id/imgActividadesSociais"
+                style="@style/botonGrande"
+                android:layout_centerHorizontal="true"
+                android:background="@color/white"
+                android:contentDescription="@string/actividadesSociais"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/actividadessociais"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <ImageButton
+                android:id="@+id/imgActividadesDeportivas"
+                style="@style/botonGrande"
+                android:layout_below="@id/imgActividadesSociais"
+                android:layout_centerHorizontal="true"
+                android:background="@color/white"
+                android:contentDescription="@string/actividadesSociais"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/actividadesdeportivas" />
+
+            <ImageButton
+                android:id="@+id/imgCaminoSantiago"
+                style="@style/botonGrande"
+                android:layout_below="@id/imgActividadesDeportivas"
+                android:layout_centerHorizontal="true"
+                android:background="@color/white"
+                android:contentDescription="@string/camino"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/camino" />
 
             <TextView
                 android:id="@+id/tvInformacionTuristica"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/informacionTuristica"
-
                 android:gravity="start|bottom"
+                android:layout_below="@id/imgCaminoSantiago"
+                android:gravity="start|bottom"
+                android:text="@string/informacionTuristica"
                 android:textColor="@color/greenVedra" />
 
             <TextView
@@ -78,7 +116,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="end|bottom"
-
+                android:layout_below="@id/imgCaminoSantiago"
                 android:text="@string/webVedra"
                 android:textColor="@color/black" />
         </RelativeLayout>
