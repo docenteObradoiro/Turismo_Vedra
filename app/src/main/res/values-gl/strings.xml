@@ -3,8 +3,10 @@
     <!--    Menú Principal-->
     <string name="logoVedra">logo Vedra</string>
     <string name="menuHamburguesa">menú hamburguesa</string>
+    <string name="turismoVedra">TURISMO VEDRA</string>
 
     <string name="informacionTuristica">Información turística</string>
+    <string name="informacionTuristica1">INFORMACIÓN TURÍSTICA</string>
     <string name="webVedra">www.concellodevedra.es</string>
     <string name="comoChegar">COMO CHEGAR</string>
     <string name="contacto">CONTACTO</string>
@@ -13,6 +15,39 @@
     <string name="textoInicio">Son o Concello de Vedra e estou situado no sur da Provincia da Coruña, no corazón do Val do Ulla. Teño unha extensión de 53 Km2, cuns 5.100 habitantes distribuídos en 12 parroquias.
 \n\nPasear por Vedra e polas miñas paisaxes mergúllate nun espazo con personalidade propia. Facer referencia a un só lugar ou monumento non é posible, todo eu son un lugar que merece ser descuberto.
 \n\nPor todo iso, e por moito máis…son Vedra!</string>
+
+    <string name="nonoPodesPerder">NON O PODES PERDER...</string>
+    <string name="infoComoChegar">Para chegar ata min, tes varias opcións:
+        \n\nDesde Santiago de Compostela: colles a N-525 dirección Ourense e entras directamente nos límites do concello.
+        \n\nA N-525 Santiago-Ourense conflúe en A Ponte Ulla coa AC-241 A Ponte Ulla – Pontevea.
+        \n\nTamén podes achegarte pola autoestrada AP-53 Santiago-Ourense tomando a primeira saída (Ribadulla: A Ponte Ulla, P.K. 14).
+        \n\nAs comunicación internas do concello discorren a través de cómodas estradas locais.
+        \n\nDúas liñas de autobuses (das empresas Monbús e Seoane) enlazan cada unha das miñas parroquias con Santiago</string>
+    <string name="distanciasKmPorEstrada">Distancias quilométricas por estrada:</string>
+    <string name="santiago">Santiago de Compostela</string>
+    <string name="pontevedra">Pontevedra</string>
+    <string name="aCoruña">A Coruña</string>
+    <string name="ourense">Ourense</string>
+    <string name="vigo">Vigo</string>
+    <string name="ferrol">Ferrol</string>
+    <string name="lugo">Lugo</string>
+    <string name="kmSantiago">16 Km</string>
+    <string name="kmPontevedra">70 Km</string>
+    <string name="kmCoruña">86 Km</string>
+    <string name="kmOurense">92 Km</string>
+    <string name="kmVigo">97 Km</string>
+    <string name="kmFerrol">108 Km</string>
+    <string name="kmLugo">115 Km</string>
+
+    <string name="casaDosPeons">Centro de Dinamización e Promoción Municipal "Casa dos Peóns-Centro Visitantes"</string>
+    <string name="direccionPeons">Picón nº2, San Pedro de Vilanova\nEstrada N-524, P.K. 326 –\n42º47.418´N 008º26.650´W</string>
+    <string name="telefonoPeons">981512482 - 981814612</string>
+    <string name="mailPeons">casadospeons@concellodevedra.com</string>
+    <string name="oficinaPeregrinos">Oficina de Atención ao Peregrino</string>
+    <string name="direccionPeregrinos">Rectoral de A Ponte Ulla</string>
+    <string name="telefonoPeregrinos">981512482 - 981814612</string>
+    <string name="mailPeregrinos">www.concellodevedra.com\nwww.vedraturismo.com</string>
+
 
 
 

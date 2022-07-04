@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.TextView
+import com.cursokotlin.turismo_vedra.InformacionTuristica
 import com.cursokotlin.turismo_vedra.MainActivity
 import com.cursokotlin.turismo_vedra.Menu
 import com.cursokotlin.turismo_vedra.R
@@ -47,8 +48,9 @@ class Adegas : AppCompatActivity() {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/search?q=solagra&rlz=1C1CHBF_esES993ES993&oq=solagra&aqs=chrome..69i57j0i10l2j46i10j0i10l6.1640j0j4&sourceid=chrome&ie=UTF-8")))
         }
         var infoTuristica=findViewById<TextView>(R.id.tvInformacionTuristica)
-        infoTuristica.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.concellodevedra.es/es/node/459")))
+            infoTuristica.setOnClickListener {
+                val acceder = Intent(this, InformacionTuristica::class.java)
+                startActivity(acceder)
         }
         var webConcello =findViewById<TextView>(R.id.tvWebVedra)
         webConcello.setOnClickListener {
