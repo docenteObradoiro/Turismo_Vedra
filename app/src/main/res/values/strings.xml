@@ -77,10 +77,6 @@
     <string name="festMaioGastronomica4">Fiesta de la Aguardiente, en el mes de mayo en San Mamede de Ribadulla.</string>
     <string name="festXulGastronomica1">Fiesta del Escalo, en el mes de junio en Santa Cruz de Ribadulla</string>
 
-
-    <!--    Que ver-->
-
-
     <!--    Onde comer -->
 
 
@@ -115,8 +111,39 @@
     <string name="cabeceraCoutoXimonde">Área de Recreo del Coto de Ximonde</string>
     <string name="coutoXimonde">El Coto de Ximonde es una de los cotos salmoneros más importantes de Galicia. En el refugio de pescadores existe un pequeño centro de interpretación del río Ulla y una estación ictiológica de cría y reproducción. \n\nEn esta Área de Recreo destacan especialmente los diferentes puestos de pescadores, el salto de agua-cascada, y sobre todo su puente colgante. Es un lugar que invita al paseo y a disfrutar de la naturaleza.</string>
 
+    <string name="cabeceraPazoSantaCruzRibadulla">Pazo de Santa Cruz de Ribadulla</string>
+    <string name="pazoSantaCruzRibadulla">El pazo de Santa Cruz de Rivadulla, tambien conocido como Pazo de Ortigueira o “Granja de Ortigueira”, se encuentra emplazado al amparo del Pico Sacro, en el margen coruñés del río Ulla (Vedra). \n\nSu historia se remonta al siglo XVI, cuando el canónigo de la Catedral de Santiago, Juan Ibáñez de Mondragón, adquirió las propiedades que se convertirían en el Pazo de Santa Cruz, conocidas en la época como la Torre y el Casar de Ortigueira. \n\nEl canónigo y posteriormente su sobrino el cardenal, -dignidad de la catedral de Santiago- Juan de Mondragón, extendieron la propiedad. Se edificó la capilla, se arreglaron los edificios y se trazó el esqueleto de lo que hoy es la posesión con plantaciones de olivos y vides. Las fuentes, los estanques, la cascada, la casa, la capilla, el horreo y el resto de las edificaciones son algunos de sus atractivos.</string>
 
-<!--    Onde comer -->
+    <string name="cabeceraPuenteGundian">Puente de Gundián</string>
+    <string name="puenteGundian1">Uno de los motivos del retraso de la unión ferroviaria de A Coruña con el resto de la Meseta fue la intrincada orografía gallega. Uno de las más grandes dificultades fue la construcción del puente que uniría el macizo de cuarzo del Pico Sacro del Paso de A Cova, sobre el río Ulla, en el concello de Vedra. Para ello se diseñó en los años 30 del siglo XX un gran puente de 167 metros de longitud que contenía un gran arco de 52 metros de luz. Sin embargo no fue hasta 1958 cuando fue rematado. Es el denominado Ponte Gundián.</string>
+    <string name="puenteGundian2">El puente actualmente sigue siendo utilizado por el tren aunque ha sido habilitado para su disfrute y por ello puede cruzarse desde el mirador o acceder desde la otra banda, por la pista que viene de la Capilla de Gundián. Gracias al espectacular paraje natural donde se encuentra y sus 90 metros de altura, Ponte Gundián es habitualmente utilizado por los amantes de deportes extremos como el “puenting”.</string>
+    <string name="puenteGundian3">Debemos saber que tanto el Ponte de Gundián como el nuevo viaducto se encuentran íntegramente en la provincia de A Coruña, ya que este es el único territorio al sur del Ulla que pertenece a dicha provincia.</string>
+
+    <string name="cabeceraPuenteAVEGundian">Puente AVE de Gundián</string>
+    <string name="puenteAVEGundian">El ministerio de Fomento, a través de la entidad Adif, comenzó la ejecución de un nuevo viaducto del Ulla, una de las construcciones incluidas en el subtramo Silleda (Dornelas)-Vedra-Boqueijón, del eje Orense-Santiago de Compostela del Corredor norte-noroeste de alta velocidad, que forma parte de la L.A.V. Olmedo - Zamora - Galicia. \n\nEl nuevo puente, que arranca a tan solo 130 m del puente de Gundián, se construyó en el año 2008. Se trata de una estructura singular de más de 1 km de longitud, que está considerada de interés arquitectónico en España. La singularidad de esta obra y la complejidad y originalidad de su construcción, hizo que el Colegio de Ingenieros de Caminos, Canales y Puertos de Galicia le otorgase en 2011 el Premio San Telmo, con el que este colectivo distingue la obra civil más representativa en Galicia realizada durante el año anterior al de su convocatoria.</string>
+
+    <string name="cabeceraPuenteColganteXimonde">Puente colgante de Ximonde</string>
+    <string name="puenteColganteXimonde">En el invierno del 2000, una fuerte riada provocó que la antigua pasarela ubicada sobre el río Ulla ―construida en 1970 y sustituida ya en los 80― fuese derribada. Por esa razón, en el año 2012 se proyectó en el mismo lugar la creación de un nuevo puente colgante que ha tenido un importante impacto en el entorno. Con una longitud de unos 87 metros y una altura de otros 8 metros sobre el río, el paso elevado de Ximonde permite únicamente el transito de transeúntes, es accesible para minusválidos y cuenta con una superficie antideslizante. \n\nLos trabajos para la puesta a punto permitieron recuperar los senderos adyacentes al río que unían los distintos puestos de pesca. Cruzando el puente hacia A Estrada se localiza también una pequeña área recreativa equipada con mesas y bancos para poder descansar tras una jornada entre la naturaleza, aunque existen otras zonas repartidas a lo largo de la ribera del río. Además, el puente colgante de Ximonde es el punto de partida, o parte del camino, de diferentes rutas de senderismo en la zona. \n\nPor poner algún ejemplo, el sendero homologado PR-G36 de San Xoán da Cova  transcurre río abajo cruzando esta zona elevada, pero existen otras tantas rutas que recorren el grueso del río Ulla entre pasarelas, cotos de pesca, áreas recreativas y otros espacios de especial interés. Para los amantes del senderismo, trayectos como el que van desde el famoso mirador de Gundián hasta el coto de Ximonde en una ruta lineal; el que parte de la zona pesquera de Ximonde hacia el puente de Sarandón; o aquel que recorre esta zona sobre el Ulla hasta el coto de Santeles en apenas 4,5 kilómetros, son algunas de las mejores opciones para disfrutar del entorno.</string>
+
+    <string name="cabeceraMolinoReboredo">Molino de Reboredo</string>
+    <string name="molinoReboredo">El molino o Muíño de Reboredo nos encontramos con un molino de maquía propiedad de Adolfo Peiteado, del que existe documentación datada en el 1840. Lo más característico es que cuenta con 5 piedras de moler o moas en compartimentos separados, y en el último de los compartimentos hay 2 molinos: uno de azufre y otro albeiro. El molino de azufre se utilizaba para este producto que servía para la elaboración de pólvora; de ahí la conocida tradición pirotécnica de la parroquia de Ponte Ulla. El molino o muíño albeiro contaba con una piedra diferente, llamada piedra albeira, y se destinaba para moler trigo o centeno, obteniendo una harina más blanca, por eso el término albeiro hace referencia a “alba”. \n\nEste molino dejó de funcionar hace casi 40 años, más o menos cuando abrió el embalse de Portodemouros. Recuerdan los vecinos que junto a él había una antigua pesquera. \n\nEn la parroquia de Vilanova, el ayuntamiento de de Vedra cuenta con un área de interpretación de los molinos donde se explican las partes, el funcionamento y los diferentes tipos de molinos atendiendo a su estructura. Desde el área de interpretación comienza una recomendable ruta circular junto al río Merín.</string>
+
+    <string name="CabeceiraIgrexaFonteCruceiroVedra">Conjunto de la Iglesia, fuente y cruceiro de Vedra</string>
+    <string name="igrexaFonteCruceiroVedra">La iglesia parroquial de Santa Eulalia de Vedra, se encuentra situada en un alto dominando todo el valle y formando conjunto con el cruceiro y la fuente al pie del atrio. Destaca el retablo de la capilla mayor, de finales del siglo XVIII y obra del escultor santiagués de origen italiano José Gambino, e es suya la imagen de Santa Eulalia, titular de la parroquia. Los otros dos retablos son algo anteriores y fue su autor Francisco de Moas, de la escuela de Miguel de Romai. Se encuentra en ambas capillas a los lados de la nave y sus temas principales son la Virgen de los Dolores y de la Soledad, y el Cristo atado a la columna, acompañado de otras imagenes, en otro. Aquí ejerció de párroco el historiador y arqueólogo Antonio López Ferreiro de 1866 a 1871.</string>
+
+    <string name="cabeceraCapillaFuenteSANTIAGUIÑO">Conjunto de Capilla y fuente del “SANTIAGUIÑO”</string>
+    <string name="capillaFuenteSANTIAGUIÑO">La capilla de Santiago situada en el lugar de Outeiro de la parroquia de San Pedro de Vilanova fue construida en el siglo XVIII. \n\nDestaca por su peso histórico y legendario. \n\nJunto a ella hay una fuente barroca que sobresale por su valor legendario, y que fue trasladada allí en año 1724 desde un lugar más alto. Tiene una inscripción que habla del traslado del cuerpo del apóstol Santiago y un relieve que representa parte de la leyenda del Dragón, relacionada con las sagas de la Reina Lupa. En el centro de la fuente se puede ver una representación del apóstol, flanqueado por sus discípulos Teodoro y Atanasio. Según algunos autores estas dos figuras procederían del antiguo coro románico de la Catedral de Santiago, obra del Maestro Mateo. \n\nA pocos metros de la ermita, encontramos el último albergue de peregrinos del Camino antes de llegar a Santiago de Compostela.</string>
+
+    <string name="cabeceiraRoteiroEmigracion">Ruta de emigración</string>
+    <string name="roteiroEmigracion">Cada emigrante de Vedra, e foron milleiros, abría un novo camiño para si, para a súa familia e para a súa terra. Parte do que somos agora é o desastroso resultado da inmigración a América. Unha emigración masiva que deixou o seu vínculo paisaxístico en obras de feitura inconfundible, construídas, na súa maior parte, na primeira meta do século XX, bordeadas polo mar. \n\nO Roteiro da Emigración é un itinerario interpretativo que sinaliza e enlaza os lugares do concello onde se atopan algunhas das obras colectivas máis dignas da nosa historia: os colexios, cemiterios, camiños e pontes promovidas, con grandes doses de amor á terra, a que se atopan os centros educativos. polas sociedades de emigrantes de Vedra en Bos Aires.</string>
+
+
+
+
+
+
+
+    <!--    Onde comer -->
 
 
 

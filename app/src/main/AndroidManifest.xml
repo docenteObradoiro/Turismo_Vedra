@@ -92,40 +92,65 @@
         <activity
             android:name=".queVer.patrimonio_historico"
             android:exported="false" />
-        <activity
-            android:name=".queVer.queVer"
-            android:exported="false" />
+
 
         <!--    Que facer-->
-
-        <activity
-            android:name=".QueFacer.QueFacerPrincipal"
-            android:exported="false" />
 
 
         <!--    Que ver-->
 
-        <activity
-            android:name=".queVer.queVer"
-            android:exported="false"/>
             
         <activity
             android:name=".queVer.areaRecreativaDeAgronovo"
             android:exported="false"/>
-            
+
         <activity
-            android:name=".queVer.naturaleza"
+            android:name=".queVer.areaDeRecreoDeCubelas"
             android:exported="false" />
-            
         <activity
-            android:name=".queVer.arquitectura"
+            android:name=".queVer.miradorGundian"
             android:exported="false" />
-            
         <activity
-            android:name=".queVer.patrimonio_historico"
+            android:name=".queVer.campoGundian"
+            android:exported="false" />
+        <activity
+            android:name=".queVer.coutoXimonde"
+            android:exported="false" />
+        <activity
+            android:name=".queVer.pazoSantaCruzRibadulla"
             android:exported="false" />
 
-       
+        <activity
+            android:name=".queVer.puenteGundian"
+            android:exported="false" />
+
+        <activity
+            android:name=".queVer.puenteAVEGundian"
+            android:exported="false" />
+
+        <activity
+            android:name=".queVer.puenteColganteXimonde"
+            android:exported="false" />
+
+        <activity
+            android:name=".queVer.molinoReboredo"
+            android:exported="false" />
+
+        <activity
+            android:name=".queVer.igrexaFonteCruceiroVedra"
+            android:exported="false" />
+
+        <activity
+            android:name=".queVer.capillaFuenteSANTIAGUIÑO"
+            android:exported="false" />
+
+        <activity
+            android:name=".queVer.roteiroEmigracion"
+            android:exported="false" />
+
+
+
+
 
         <!--    Onde comer -->
 

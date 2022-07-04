@@ -5,7 +5,7 @@
     android:id="@+id/relativePrincipal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".queVer.areaDeRecreoDeCubelas"
+    tools:context=".queVer.molinoReboredo"
     android:padding="20dp">
 
 
@@ -65,7 +65,7 @@
                     android:layout_alignParentEnd="true"
                     android:fontFamily="@font/abel"
                     android:gravity="center_horizontal"
-                    android:text="@string/cabeceraCubelas"
+                    android:text="@string/cabeceraMolinoReboredo"
                     android:textColor="@color/greenVedra"
                     android:textSize="24sp" />
 
@@ -78,7 +78,7 @@
                     android:backgroundTint="#00F1ECEC"
                     android:contentDescription="Area recreativa de Agronovo"
                     android:scaleType="fitXY"
-                    android:src="@drawable/cubelas" />
+                    android:src="@drawable/mui_o_reboredo" />
 
                 <TextView
                     android:id="@+id/texto"
@@ -89,7 +89,7 @@
                     android:layout_alignParentEnd="true"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/abel"
-                    android:text="@string/cubelas"
+                    android:text="@string/molinoReboredo"
                     android:textSize="18dp" />
 
                 <RelativeLayout
