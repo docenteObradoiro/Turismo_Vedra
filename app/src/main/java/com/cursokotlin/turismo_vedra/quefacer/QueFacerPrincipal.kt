@@ -1,4 +1,4 @@
-package com.cursokotlin.turismo_vedra.QueFacer
+package com.cursokotlin.turismo_vedra.quefacer
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
