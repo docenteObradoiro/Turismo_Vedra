@@ -77,6 +77,7 @@
                 android:text="@string/vedra" />
 
             <HorizontalScrollView
+                android:id="@+id/scrollvedra"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
@@ -100,10 +101,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="#FFFFFF"
+                        android:contentDescription="ferrador"
                         app:srcCompat="@mipmap/ferrador" />
 
                     <ImageButton
-                        android:id="@+id/imageButton"
+                        android:id="@+id/botonesther"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -112,7 +114,7 @@
                         app:srcCompat="@mipmap/esther" />
 
                     <ImageButton
-                        android:id="@+id/imageButton2"
+                        android:id="@+id/botonmosqueiro"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -132,6 +134,7 @@
                 android:text="@string/santacruz" />
 
             <HorizontalScrollView
+                android:id="@+id/scrollsantacruz"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
@@ -147,7 +150,7 @@
                         android:backgroundTint="#FFFFFF"
                         android:contentDescription="gundian"
                         android:paddingLeft="-20dp"
-                        app:srcCompat="@mipmap/gundian" />
+                        app:srcCompat="@mipmap/tabernadegundian" />
 
                     <ImageButton
                         android:id="@+id/botonopatio"
@@ -193,6 +196,7 @@
                 android:text="@string/sanfins" />
 
             <HorizontalScrollView
+                android:id="@+id/scrollsanfins"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="20dp">
