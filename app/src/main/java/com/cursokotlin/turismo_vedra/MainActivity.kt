@@ -1,18 +1,15 @@
 package com.cursokotlin.turismo_vedra
 
 
-import android.content.Context
 import android.content.Intent
-import android.media.MediaPlayer
 import android.net.Uri
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
-import android.widget.VideoView
 import androidx.appcompat.app.AppCompatActivity
 import com.cursokotlin.turismo_vedra.productoresLocales.ProductoresLocales
-import com.cursokotlin.turismo_vedra.queFacer.QueFacerPrincipal
+import com.cursokotlin.turismo_vedra.quefacer.QueFacerPrincipal
 
 
 class MainActivity : AppCompatActivity() {
@@ -29,6 +26,12 @@ class MainActivity : AppCompatActivity() {
         var menu = findViewById<ImageButton>(R.id.menuHamburguesa)
         menu.setOnClickListener {
             val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
+        }
+
+        var accesoFacer=findViewById<TextView>(R.id.queFacerBoton)
+        accesoFacer.setOnClickListener {
+            val acceder = Intent(this, QueFacerPrincipal::class.java)
             startActivity(acceder)
         }
         

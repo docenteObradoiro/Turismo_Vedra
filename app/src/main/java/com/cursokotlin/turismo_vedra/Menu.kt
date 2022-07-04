@@ -6,9 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.TextView
-import com.cursokotlin.turismo_vedra.productoresLocales.Adegas
 import com.cursokotlin.turismo_vedra.productoresLocales.ProductoresLocales
-import com.cursokotlin.turismo_vedra.queFacer.QueFacerPrincipal
+import com.cursokotlin.turismo_vedra.quefacer.QueFacerPrincipal
 
 class Menu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

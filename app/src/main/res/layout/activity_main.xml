@@ -155,6 +155,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
+                android:layout_below="@id/productoresLocaisBoton"
                 android:gravity="start|bottom"
                 android:text="@string/informacionTuristica"
                 android:textColor="@color/greenVedra" />
@@ -165,6 +166,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:gravity="end|bottom"
+                android:layout_below="@id/productoresLocaisBoton"
                 android:text="@string/webVedra"
                 android:textColor="@color/black" />
         </RelativeLayout>
