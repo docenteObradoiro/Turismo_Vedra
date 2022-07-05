@@ -102,8 +102,6 @@
                 android:id="@+id/tvInformacionTuristica"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/informacionTuristica"
-                android:gravity="start|bottom"
                 android:layout_below="@id/imgCaminoSantiago"
                 android:gravity="start|bottom"
                 android:text="@string/informacionTuristica"

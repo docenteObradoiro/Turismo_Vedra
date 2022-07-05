@@ -8,8 +8,6 @@ import android.widget.ImageButton
 import android.widget.TextView
 import com.cursokotlin.turismo_vedra.MainActivity
 import com.cursokotlin.turismo_vedra.Menu
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import com.cursokotlin.turismo_vedra.R
 
 class QueFacerPrincipal : AppCompatActivity() {
