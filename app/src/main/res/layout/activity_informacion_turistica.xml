@@ -178,7 +178,7 @@
                 android:fontFamily="@font/abel"/>
 
             <TextView
-                android:id="@+id/mailPeregrinos"
+                android:id="@+id/webPeregrinos"
                 android:layout_width="200dp"
                 android:layout_height="match_parent"
                 android:layout_below="@+id/telefonoPeregrinos"
@@ -186,10 +186,8 @@
                 android:layout_marginStart="35dp"
                 android:layout_marginEnd="35dp"
                 android:layout_marginBottom="40dp"
-                android:drawableLeft="@drawable/mail"
                 android:fontFamily="@font/abel"
-                android:gravity="center"
-                android:text="@string/mailPeregrinos"
+                android:text="@string/webPeregrinos"
                 android:textColor="@color/black"
                 android:textSize="16dp" />
 

@@ -47,7 +47,52 @@ All of the hamlets and villages in Vedra are linked by B-roads.
     <string name="oficinaPeregrinos">Pilgrims Office</string>
     <string name="direccionPeregrinos">Rectoral de A Ponte Ulla</string>
     <string name="telefonoPeregrinos">981512482 - 981814612</string>
-    <string name="mailPeregrinos">www.concellodevedra.com\nwww.vedraturismo.com</string>
+    <string name="webPeregrinos">www.vedraturismo.com</string>
+
+    <string name="concello">Town Hall</string>
+    <string name="proteccionCivil">Civil defensel</string>
+    <string name="guardiaCivil">Civil Gard</string>
+    <string name="emerxencias">Emergencies</string>
+    <string name="centroDeSaude">Vedra Health Centre</string>
+    <string name="farmaciaVedra">Vedra Chemist’s</string>
+    <string name="farmaciaSantaCruz">Santa Cruz Chemist’s</string>
+    <string name="biblioteca">Vedra library</string>
+    <string name="agenciaLectura">Santa Cruz Reading Agency</string>
+    <string name="pabellon">Municipal Sports Hall</string>
+    <string name="estacionDeServicio">Ponte Ulla Petrol Station</string>
+    <string name="estacionBusesSantiago">Santiago Bus Station</string>
+    <string name="monbus">Monbús (Bus Company)</string>
+    <string name="seoane">Seoane (Bus Company)</string>
+    <string name="aeroporto">Lavacolla Airport (Santiago)</string>
+    <string name="estacionTren">Santiago Train Station</string>
+    <string name="taxi2">Taxi nº2</string>
+    <string name="taxi3">Taxi nº3</string>
+    <string name="taxi4">Taxi nº4</string>
+    <string name="taxi10">Taxi nº10</string>
+
+    <string name="concelloTelefono">981814612</string>
+    <string name="proteccionCivilTelefono">629661685</string>
+    <string name="guardiaCivilTelefono">981503051</string>
+    <string name="emerxenciasTelefono">112</string>
+    <string name="centroDeSaudeTelefono">981503111</string>
+    <string name="farmaciaVedraTelefono">981503233</string>
+    <string name="farmaciaSantaCruzTelefono">981512314</string>
+    <string name="bibliotecaTelefono">981502262</string>
+    <string name="agenciaLecturaTelefono">981512242</string>
+    <string name="pabellonTelefono">981502290</string>
+    <string name="estacionDeServicioTelefono">981512026</string>
+    <string name="estacionBusesSantiagoTelefono">981542416</string>
+    <string name="monbusTelefono">902292900</string>
+    <string name="seoaneTelefono">981562832</string>
+    <string name="aeroportoTelefono">981547500</string>
+    <string name="estacionTrenTelefono">902240202</string>
+    <string name="taxi2Telefono">981503152</string>
+    <string name="taxi3Telefono">608981944</string>
+    <string name="taxi4Telefono">606434349</string>
+    <string name="taxi10Telefono">659187639</string>
+
+    <string name="direccionConcello">Avda. Mestre Manuel Gómez Lorenzo, Nº1 \n15885 - Vedra \nA Coruña</string>
+
 
 
 

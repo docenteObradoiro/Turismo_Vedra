@@ -8,6 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="greenIconos">#D0E49D</color>
+    <color name="fondo">#28AAAAAA</color>
 
     <color name="greenVedra">#019933</color>
     <color name="greenBotonInicio">#8ED6A6</color>
