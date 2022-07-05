@@ -5,9 +5,7 @@
     android:id="@+id/relativePrincipal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     tools:context=".quefacer.QueFacerPrincipal"
-
     android:padding="20dp">
 
 
@@ -66,7 +64,6 @@
 
             <!-- O QUE VAIA DENTRO DO SCROLL VIEW MÉTESE AQUÍ-->
 
-
             <ImageButton
                 android:id="@+id/imgActividadesSociais"
                 style="@style/botonGrande"
@@ -75,8 +72,8 @@
                 android:contentDescription="@string/actividadesSociais"
                 android:padding="5dp"
                 android:scaleType="fitXY"
-                app:srcCompat="@mipmap/actividadessociais"
-                tools:ignore="DuplicateSpeakableTextCheck" />
+                app:srcCompat="@mipmap/actsociais"
+                tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck" />
 
             <ImageButton
                 android:id="@+id/imgActividadesDeportivas"
@@ -87,7 +84,7 @@
                 android:contentDescription="@string/actividadesSociais"
                 android:padding="5dp"
                 android:scaleType="fitXY"
-                app:srcCompat="@mipmap/actividadesdeportivas" />
+                app:srcCompat="@mipmap/actdeportivas" />
 
             <ImageButton
                 android:id="@+id/imgCaminoSantiago"
@@ -98,7 +95,8 @@
                 android:contentDescription="@string/camino"
                 android:padding="5dp"
                 android:scaleType="fitXY"
-                app:srcCompat="@mipmap/camino" />
+                app:srcCompat="@mipmap/caminodesantiago"
+                tools:ignore="ImageContrastCheck" />
 
             <TextView
                 android:id="@+id/tvInformacionTuristica"

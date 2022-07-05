@@ -13,6 +13,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Turismo_Vedra"
         tools:targetApi="31">
+        
+        <activity
+            android:name=".quefacer.Cicloturismo"
+            android:exported="false" />
+        <activity
+            android:name=".quefacer.ActividadesDeportivas"
+            android:exported="false" />
+        <activity
+            android:name=".quefacer.Albergue"
+            android:exported="false" />
+        <activity
+            android:name=".quefacer.CaminoSantiago"
+            android:exported="false" />
+        <activity
+            android:name=".quefacer.CaminoViaPrata"
+            android:exported="false" />
+        <activity
+            android:name=".quefacer.CaminoMinotoRibeiro"
+            android:exported="false" />
         <activity
             android:name=".InformacionTuristica"
             android:exported="false" />
@@ -62,13 +81,13 @@
             android:name=".productoresLocales.ProductoresLocales"
             android:exported="false" />
         <activity
-            android:name=".queFacer.FestasLocais"
+            android:name=".quefacer.FestasLocais"
             android:exported="false" />
         <activity
-            android:name=".queFacer.FestasGastronomicas"
+            android:name=".quefacer.FestasGastronomicas"
             android:exported="false" />
         <activity
-            android:name=".queFacer.ActividadesSociais"
+            android:name=".quefacer.ActividadesSociais"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -97,18 +116,16 @@
             android:name=".queVer.patrimonio_historico"
             android:exported="false" /> 
             
-            <!-- Que facer -->
-            
+        <!-- Que facer -->
         <activity
-            android:name=".queFacer.QueFacerPrincipal"
+            android:name=".quefacer.QueFacerPrincipal"
             android:exported="false" /> 
-            
+                       
         <!-- Que ver -->
-
-            
         <activity
             android:name=".queVer.areaRecreativaDeAgronovo"
             android:exported="false" />
+            
     </application>
 
 </manifest>

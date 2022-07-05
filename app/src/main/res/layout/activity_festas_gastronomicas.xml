@@ -5,7 +5,7 @@ xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:padding="20dp"
-tools:context=".queFacer.FestasGastronomicas">
+tools:context=".quefacer.FestasGastronomicas">
 
 <ImageButton
     android:id="@+id/logoVedra"
@@ -62,20 +62,22 @@ tools:context=".queFacer.FestasGastronomicas">
 
     <TextView
         android:id="@+id/tvInformacionTuristica"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/expendableList2"
         android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
         android:gravity="start|bottom"
         android:text="@string/informacionTuristica"
         android:textColor="@color/greenVedra" />
 
     <TextView
         android:id="@+id/tvWebVedra"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/expendableList2"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+        android:layout_below="@+id/expendableList2"
         android:gravity="end|bottom"
         android:text="@string/webVedra"
         android:textColor="@color/black" />

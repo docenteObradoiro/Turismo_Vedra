@@ -263,6 +263,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
+                android:layout_below="@id/productoresLocaisBoton"
                 android:layout_alignParentStart="true"
                 android:gravity="start|bottom"
                 android:text="@string/informacionTuristica"
@@ -275,6 +276,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
                 android:gravity="end|bottom"
+                android:layout_below="@id/productoresLocaisBoton"
                 android:text="@string/webVedra"
                 android:textColor="@color/black" />
         </RelativeLayout>
