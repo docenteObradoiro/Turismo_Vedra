@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativePrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformacionTuristica"
+    android:padding="20dp">
+
+    <ImageButton
+        android:id="@+id/logoVedra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/logoVedra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/logo_concello_vedra"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/menuHamburguesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/menuHamburguesa"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/menu_hamburguesa" />
+
+    <TextView
+        android:id="@+id/tvInfoTuristica"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/abel"
+        android:gravity="center_horizontal"
+        android:text="@string/informacionTuristica1"
+        android:textColor="@color/greenVedra"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:contentDescription="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/fotoPeons"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="35dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/oficinaturismo"/>
+
+            <TextView
+                android:id="@+id/textoPeons"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/fotoPeons"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
+                android:text="@string/casaDosPeons"
+                android:layout_marginTop="15dp"
+                android:textSize="16dp"
+                android:textColor="@color/greenVedra"
+                android:fontFamily="@font/abel"/>
+
+            <TextView
+                android:id="@+id/direccionPeons"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textoPeons"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
+                android:fontFamily="@font/abel"
+                android:text="@string/direccionPeons"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/telefonoPeons"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/direccionPeons"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
+                android:text="@string/telefonoPeons"
+                android:drawableLeft="@drawable/ic_baseline_phone_24"
+                android:gravity="center_vertical"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/abel"/>
+
+            <TextView
+                android:id="@+id/mailPeons"
+                android:layout_width="270dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/telefonoPeons"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
+                android:drawableLeft="@drawable/mail"
+                android:fontFamily="@font/abel"
+                android:gravity="center"
+                android:text="@string/mailPeons"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/fotoPeregrinos"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mailPeons"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="35dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/oficinaatencionperegrino"/>
+
+            <TextView
+                android:id="@+id/textoPeregrinos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/fotoPeregrinos"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
+                android:text="@string/oficinaPeregrinos"
+                android:layout_marginTop="15dp"
+                android:textSize="16dp"
+                android:textColor="@color/greenVedra"
+                android:fontFamily="@font/abel"/>
+
+            <TextView
+                android:id="@+id/direccionPeregrinos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textoPeregrinos"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
+                android:fontFamily="@font/abel"
+                android:text="@string/direccionPeregrinos"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/telefonoPeregrinos"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/direccionPeregrinos"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
+                android:text="@string/telefonoPeregrinos"
+                android:drawableLeft="@drawable/ic_baseline_phone_24"
+                android:gravity="center_vertical"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/abel"/>
+
+            <TextView
+                android:id="@+id/mailPeregrinos"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/telefonoPeregrinos"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
+                android:layout_marginBottom="40dp"
+                android:drawableLeft="@drawable/mail"
+                android:fontFamily="@font/abel"
+                android:gravity="center"
+                android:text="@string/mailPeregrinos"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:id="@+id/tvInformacionTuristica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:gravity="start|bottom"
+                android:text="@string/informacionTuristica"
+                android:textColor="@color/greenVedra" />
+
+            <TextView
+                android:id="@+id/tvWebVedra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:gravity="end|bottom"
+                android:text="@string/webVedra"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

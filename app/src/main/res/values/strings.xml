@@ -3,10 +3,12 @@
     <string name="app_name">Turismo_Vedra</string>
     
     <!--    Menú Principal-->
+    <string name="turismoVedra">TURISMO VEDRA</string>
     <string name="logoVedra">logo Vedra</string>
     <string name="menuHamburguesa">menú hamburguesa</string>
 
     <string name="informacionTuristica">Información turística</string>
+    <string name="informacionTuristica1">INFORMACIÓN TURÍSTICA</string>
     <string name="webVedra">www.concellodevedra.es</string>
 
     <string name="comoChegar">COMO LLEGAR</string>
@@ -17,6 +19,39 @@
     <string name="textoInicio">Soy el Ayuntamiento de Vedra y estoy situado en el sur de la Provincia de A Coruña, en el corazón del Val do Ulla. Tengo una extensión de 53 Km2, con unos 5.100 habitantes distribuidos en 12 parroquias.
 \n\nPasear por Vedra y por mis paisajes te sumerge en un espacio con personalidad propia. Hacer referencia a un solo lugar o monumento no es posible, todo yo soy un lugar que merece ser descubierto.
 \n\nPor todo eso, y por mucho más…soy Vedra!</string>
+
+    <string name="nonoPodesPerder">LO QUE NO TE PUEDES PERDER...</string>
+
+    <string name="infoComoChegar">Para llegar hasta mí, tienes varias opciones:
+        \n\nDesde Santiago de Compostela: coges a N-525 dirección Ourense y entras directamente en los límites del ayuntamiento.
+\n\nLa N-525 Santiago-Ourense confluye en A Ponte Ulla con la AC-241 A Ponte Ulla – Pontevea\n\nTambién puedes acercarte por la autopista AP-53 Santiago-Ourense tomando la primera salida (Ribadulla: A Ponte Ulla, P.K. 14).
+\n\nLas comunicaciones internas del concello transcurren a través de cómodas carreteras locales.
+\n\nDos líneas de autobuses (de las empresas Monbús y Seoane) enlazan cada una de mis parroquias con SantiagoDúas liñas de autobuses (das empresas Monbús e Seoane) enlazan cada unha das miñas parroquias con Santiago.</string>
+
+    <string name="distanciasKmPorEstrada">Distancias quilométricas por carretera:</string>
+    <string name="santiago">Santiago de Compostela</string>
+    <string name="pontevedra">Pontevedra</string>
+    <string name="aCoruña">A Coruña</string>
+    <string name="ourense">Ourense</string>
+    <string name="vigo">Vigo</string>
+    <string name="ferrol">Ferrol</string>
+    <string name="lugo">Lugo</string>
+    <string name="kmSantiago">16 Km</string>
+    <string name="kmPontevedra">70 Km</string>
+    <string name="kmCoruña">86 Km</string>
+    <string name="kmOurense">92 Km</string>
+    <string name="kmVigo">97 Km</string>
+    <string name="kmFerrol">108 Km</string>
+    <string name="kmLugo">115 Km</string>
+
+    <string name="casaDosPeons">Centro de Dinamización y Promoción Municipal "Casa dos Peóns-Centro Visitantes"</string>
+    <string name="direccionPeons">Picón nº2, San Pedro de Vilanova\nEstrada N-524, P.K. 326 –\n42º47.418´N 008º26.650´W</string>
+    <string name="telefonoPeons">981512482 - 981814612</string>
+    <string name="mailPeons">casadospeons@concellodevedra.com</string>
+    <string name="oficinaPeregrinos">Oficina de Atención al Peregrino</string>
+    <string name="direccionPeregrinos">Rectoral de A Ponte Ulla</string>
+    <string name="telefonoPeregrinos">981512482 - 981814612</string>
+    <string name="mailPeregrinos">www.concellodevedra.com\nwww.vedraturismo.com</string>
 
 
     <!--    Que facer-->
@@ -114,9 +149,6 @@
     <string name="cabeceraCoutoXimonde">Área de Recreo del Coto de Ximonde</string>
     <string name="coutoXimonde">El Coto de Ximonde es una de los cotos salmoneros más importantes de Galicia. En el refugio de pescadores existe un pequeño centro de interpretación del río Ulla y una estación ictiológica de cría y reproducción. \n\nEn esta Área de Recreo destacan especialmente los diferentes puestos de pescadores, el salto de agua-cascada, y sobre todo su puente colgante. Es un lugar que invita al paseo y a disfrutar de la naturaleza.</string>
 
-    <!--    Onde durmir -->
-
-    <string name="ondeDurmir">DÓNDE DORMIR</string>
 
     <!--    Productores locais -->
     

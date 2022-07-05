@@ -45,10 +45,11 @@ class MainActivity : AppCompatActivity() {
             val acceder = Intent(this, ProductoresLocales::class.java)
             startActivity(acceder)
         }
-        
+
         var infoTuristica=findViewById<TextView>(R.id.tvInformacionTuristica)
         infoTuristica.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.concellodevedra.es/es/node/459")))
+                val acceder = Intent(this, InformacionTuristica::class.java)
+                startActivity(acceder)
         }
         
         var webConcello =findViewById<TextView>(R.id.tvWebVedra)

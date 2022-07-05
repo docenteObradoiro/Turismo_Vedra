@@ -15,28 +15,28 @@ class Menu : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
 
-        var logoVedra=findViewById<ImageButton>(R.id.logoVedra)
+        var logoVedra = findViewById<ImageButton>(R.id.logoVedra)
         logoVedra.setOnClickListener {
-            val acceder= Intent(this, MainActivity::class.java)
+            val acceder = Intent(this, MainActivity::class.java)
             startActivity(acceder)
         }
-        var equis=findViewById<ImageButton>(R.id.equis)
+        var equis = findViewById<ImageButton>(R.id.equis)
         equis.setOnClickListener {
             finish()
         }
 
-        var accesoFacer=findViewById<TextView>(R.id.queFacer)
+        var accesoFacer = findViewById<TextView>(R.id.queFacer)
         accesoFacer.setOnClickListener {
             val acceder = Intent(this, QueFacerPrincipal::class.java)
             startActivity(acceder)
         }
 
-        /*var accesoChegar=findViewById<TextView>(R.id.comoChegar)
+        var accesoChegar = findViewById<TextView>(R.id.comoChegar)
         accesoChegar.setOnClickListener {
-            val acceder = Intent(this, ::class.java)
+            val acceder = Intent(this, ComoChegar::class.java)
             startActivity(acceder)
         }
-        var accesoVer=findViewById<TextView>(R.id.queVer)
+        /*var accesoVer=findViewById<TextView>(R.id.queVer)
         accesoVer.setOnClickListener {
             val acceder = Intent(this, ::class.java)
             startActivity(acceder)
@@ -53,7 +53,7 @@ class Menu : AppCompatActivity() {
             startActivity(acceder)
         }*/
 
-        var accesoProductores=findViewById<TextView>(R.id.productoresLocais)
+        var accesoProductores = findViewById<TextView>(R.id.productoresLocais)
         accesoProductores.setOnClickListener {
             val acceder = Intent(this, ProductoresLocales::class.java)
             startActivity(acceder)
@@ -64,9 +64,12 @@ class Menu : AppCompatActivity() {
             startActivity(acceder)
         }*/
 
-        var mapa=findViewById<TextView>(R.id.mapaTuristico)
-        mapa.setOnClickListener{
-            var acceso= Intent(Intent.ACTION_VIEW, Uri.parse("https://www.concellodevedra.es/ficheiros/mapa%20tur%C3%ADstico%20vedra.jpg"))
+        var mapa = findViewById<TextView>(R.id.mapaTuristico)
+        mapa.setOnClickListener {
+            var acceso = Intent(
+                Intent.ACTION_VIEW,
+                Uri.parse("https://www.concellodevedra.es/ficheiros/mapa%20tur%C3%ADstico%20vedra.jpg")
+            )
             startActivity(acceso)
         }
         /*var accesoTelefonos=findViewById<TextView>(R.id.telefonos)
@@ -75,13 +78,20 @@ class Menu : AppCompatActivity() {
             startActivity(acceder)
         }*/
 
-        var infoTuristica=findViewById<TextView>(R.id.tvInformacionTuristica)
+        var infoTuristica = findViewById<TextView>(R.id.tvInformacionTuristica)
         infoTuristica.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.concellodevedra.es/es/node/459")))
+                val acceder = Intent(this, InformacionTuristica::class.java)
+                startActivity(acceder)
         }
-        var webConcello =findViewById<TextView>(R.id.tvWebVedra)
-        webConcello.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.concellodevedra.es/es")))
+            var webConcello = findViewById<TextView>(R.id.tvWebVedra)
+            webConcello.setOnClickListener {
+                startActivity(
+                    Intent(
+                        Intent.ACTION_VIEW,
+                        Uri.parse("https://www.concellodevedra.es/es")
+                    )
+                )
+            }
         }
     }
-}
+
