@@ -1,6 +1,7 @@
 <resources>
 
     <string name="app_name">Turismo_Vedra</string>
+    
     <!--    Menú Principal-->
     <string name="turismoVedra">VEDRA TOURISM</string>
     <string name="logoVedra">icon Vedra</string>
@@ -48,9 +49,6 @@ All of the hamlets and villages in Vedra are linked by B-roads.
     <string name="direccionPeregrinos">Rectoral de A Ponte Ulla</string>
     <string name="telefonoPeregrinos">981512482 - 981814612</string>
     <string name="mailPeregrinos">www.concellodevedra.com\nwww.vedraturismo.com</string>
-
-
-
 
     <!--    Que facer-->
     <string name="queFacer">WHAT TO DO</string>
@@ -141,9 +139,6 @@ All of the hamlets and villages in Vedra are linked by B-roads.
     <string name="cicloturismo">Cycling</string>
     <string name="etnoturismo">Ethnotourism</string>
 
-
-
-
     <!--    Que ver-->
     <string name="queVer">WHAT TO SEE</string>
 
@@ -159,6 +154,34 @@ All of the hamlets and villages in Vedra are linked by B-roads.
     <string name="cabeceraCampoGundian">Campo de Gundián Recreational Area</string>
     <string name="campoGundian">The Campo de Gundián Recreational Area is made up of a singular ensemble featuring a chapel, fountain, bandstand, tables and benches overlooking the River Ulla, as well as the old Gundián Bridge and modern AVE (high-speed rail) Bridge, enabling visitors to enjoy this magnificent natural setting. \n\nThe area’s location stands out as the only terrain south of the River Ulla that belongs to A Coruña province. Here is where the famous procession of Nosa Señora de Gundián is held on September 7, in which Our Lady is carried out of the village accompanied by a large fireworks display. \n\nThe Gundián Viewpoint is also located in the surroundings, featuring magnificent views of the entire region.</string>
 
+    <string name="cabeceraCoutoXimonde">Ximonde Preserve Recreational Area</string>
+    <string name="coutoXimonde">Ximonde is one of the most important salmon preserves in Galicia. The fishermen’s shelter houses a small River Ulla interpretation centre and a fish-breeding and –reproduction station. \n\nThe Recreational Area stands out above all to its fishing posts, waterfall and especially its hanging bridge. It is an ideal place for walking and enjoying nature.</string>
+
+    <string name="cabeceraPazoSantaCruzRibadulla">Pazo de Santa Cruz de Ribadulla</string>
+    <string name="pazoSantaCruzRibadulla">The Pazo de Santa Cruz de Rivadulla, in a beautiful setting on the shores of the Ulla Valley protected by the peak Sacro. \n\nBack in the 16th century, the property was walled and divided following a renaissance design by planting more than 500 Olive trees and vines. Fountains, ponds, the waterfall, the house and the chapel were also placed and enhanced.\n\nMost of the rustic landscape garden we see today was largely developed by the Armada family in the 1870s.  It is a remarkable relic: a picturesque pleasure ground of winding paths and sinuous waterways, and romantic huts. \n\nIt is currently the reference in Galicia for the outstanding collections of Camellia Trees, boxwood alleys, giant magnolias and Liriodendrons as well as Palm trees, australian ferns, Cryptomerias and oak trees.</string>
+
+    <string name="cabeceraPuenteGundian">Gundian Bridge</string>
+    <string name="puenteGundian1">One of the reasons for the delay in the railway link between A Coruña and the rest of the Meseta was the intricate Galician orography. One of the greatest difficulties was the construction of the bridge that would join the quartz massif of the Pico Sacro del Paso de A Cova, over the river Ulla, in the municipality of Vedra. To this end, a large 167-meter-long bridge was designed in the 1930s that contained a large arch with a span of 52 metres. However, it was not until 1958 when it was finished off. It is called Ponte Gundián.</string>
+    <string name="puenteGundian2">The bridge is currently still used by the train, although it has been enabled for your enjoyment and for this reason it can be crossed from the viewpoint or accessed from the other side, along the track that comes from the Gundián Chapel. Thanks to the spectacular natural setting where it is located and its 90 meters high, Ponte Gundián is usually used by lovers of extreme sports such as "bungee jumping".</string>
+    <string name="puenteGundian3">We must know that both the Gundián Bridge and the new viaduct are entirely in the province of A Coruña, since this is the only territory south of the Ulla that belongs to that province.</string>
+
+    <string name="cabeceraPuenteAVEGundian">Gundián AVE Bridge</string>
+    <string name="puenteAVEGundian">The Ministry of Public Works, through the Adif entity, began the construction of a new Ulla viaduct, one of the constructions included in the Silleda (Dornelas)-Vedra-Boqueijón subsection, of the Orense-Santiago de Compostela axis of the North Corridor- high-speed northwest, which is part of the L.A.V. Olmedo - Zamora - Galicia. \n\nThe new bridge, which starts just 130 m from the Gundián bridge, was built in 2008. It is a unique structure over 1 km long, which is considered to be of architectural interest in Spain. The uniqueness of this work and the complexity and originality of its construction made the Galician Association of Civil Engineers, Canals and Ports award it the San Telmo Prize in 2011, with which this group distinguishes the most representative civil works in Galicia. carried out during the year prior to its call.</string>
+
+    <string name="cabeceraPuenteColganteXimonde">Puente colgante de Ximonde</string>
+    <string name="puenteColganteXimonde">In the winter of 2000, a strong flood caused the old footbridge located over the Ulla River - built in 1970 and replaced in the 80s - to be demolished. For this reason, in 2012 the creation of a new suspension bridge was planned in the same place, which has had a significant impact on the environment. With a length of about 87 meters and a height of another 8 meters above the river, the Ximonde flyover allows only the transit of pedestrians, is accessible for the disabled and has a non-slip surface.\n\nThe works for the development allowed to recover the paths adjacent to the river that joined the different fishing posts. Crossing the bridge towards A Estrada there is also a small recreational area equipped with tables and benches to rest after a day surrounded by nature, although there are other areas scattered along the riverbank. In addition, the Ximonde suspension bridge is the starting point, or part of the way, of different hiking trails in the area. \n\nTo give an example, the approved path PR-G36 of San Xoán da Cova runs downstream crossing this elevated area, but there are many other routes that run through the bulk of the Ulla River between walkways, fishing grounds, recreational areas and other special spaces. interest. For lovers of hiking, routes such as the one that goes from the famous Gundián viewpoint to the Ximonde preserve on a linear route; the one that departs from the Ximonde fishing area towards the Sarandón bridge; or the one that runs through this area over the Ulla to the Santeles preserve in just 4.5 kilometres, are some of the best options to enjoy the surroundings.</string>
+
+    <string name="cabeceraMolinoReboredo">Reboredo Mill</string>
+    <string name="molinoReboredo">The mill or Muíño de Reboredo we find a maquía mill owned by Adolfo Peiteado, of which there is documentation dating from 1840. The most characteristic thing is that it has 5 grinding stones or moas in separate compartments, and in the last of the compartments there are 2 mills: one of sulfur and another albeiro. The sulfur mill was used for this product, which was used to make gunpowder; hence the well-known pyrotechnic tradition of the Ponte Ulla parish. The albeiro mill or muíño had a different stone, called albeira stone, and was used to grind wheat or rye, obtaining a whiter flour, which is why the term albeiro refers to “alba”. \n\nThis mill stopped working almost 40 years ago, around the time the Portodemouros reservoir opened. The neighbors remember that next to it there was an old fishery. \n\nIn the parish of Vilanova, the municipality of de Vedra has an interpretation area for the mills where the parts, the operation and the different types of mills are explained according to their structure. From the interpretation area, a recommendable circular route begins next to the Merín River.</string>
+
+    <string name="CabeceiraIgrexaFonteCruceiroVedra">Church, fountain and stone cross of Vedra</string>
+    <string name="igrexaFonteCruceiroVedra">The parish church of Santa Eulalia de Vedra is located on a high spot dominating the entire valley, accompanied by a stone cross and a fountain at the foot of the atrium. It is worth mentioning the main chapel’s altarpiece from the end of the 18th century made by Jose Gambino. He also made the image of Santa Eulalia, the patron saint of the parish. The other two altarpieces are slightly older and were made by Francisco de Moas, who belonged to the school of Miguel de Romai. They are found in the two chapels at the sides of the naves and their main themes are the “Virgen de los Dolores” or “Virgen de la Soledad” in one case, and Christ tied to the column, accompanied by other images, in the other. The historian and archaeologist López Ferreiro was the parish priest in this church from 1866 to 1871.</string>
+
+    <string name="cabeceraCapillaFuenteSANTIAGUIÑO">Chapel and fountain of Santiaguiño</string>
+    <string name="capillaFuenteSANTIAGUIÑO">The chapel of Santiago, located in the village of Outeiro in the parish of San Pedro de Vilanova, was built in the 18th century. \n\nBeside it is a small baroque fountain that was moved to its current location from a spot higher up in 1724. It features, sculpted in relief, the legend of the Dragon, related to the sagas of Queen Lupa. It also bears an inscription describing the transfer of the Apostle James’ body. At the centre of the fountain there is a representation of the Apostle with his disciples Teodoro and Atanasio. According to some authors, these two figures came from Santiago Cathedral’s former Romanesque choir, made by Maestro Mateo. \n\nA few metres from the chapel, we find the last hostel on the “Vía de la Plata” Route before reaching Santiago de Compostela</string>
+
+    <string name="cabeceiraRoteiroEmigracion">Emigration route</string>
+    <string name="roteiroEmigracion">Each emigrant from Vedra, and foron milleiros, opened a new path for himself, for his family and for his land. Part of what we are now is the disastrous result of immigration to America. A massive emigration that left its landscape link in works of unmistakable size, built, for the most part, at the first goal of the 20th century, bordered by the sea. \n\nO Roteiro da Emigración is an interpretive itinerary that signals and links the places of the council where some of the most worthy collective works of our history can be found: the schools, cemeteries, paths and bridges promoted, with large doses of love to the land, to which they cover the educational centers. by the societies of emigrants from Vedra in Bos Aires.</string>
 
     <!--    Onde comer -->
     <string name="ondeComer">WHERE TO EAT</string>
