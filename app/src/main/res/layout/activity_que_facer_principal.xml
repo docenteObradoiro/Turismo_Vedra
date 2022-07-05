@@ -38,7 +38,7 @@
         app:srcCompat="@drawable/menu_hamburguesa" />
 
     <TextView
-        android:id="@+id/tvQueFacer"
+        android:id="@+id/restaurantes"
         android:layout_width="115dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -62,8 +62,7 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal">
 
-<!-- O QUE VAIA DENTRO DO SCROLL VIEW MÉTESE AQUÍ-->
-
+            <!-- O QUE VAIA DENTRO DO SCROLL VIEW MÉTESE AQUÍ-->
 
             <ImageButton
                 android:id="@+id/imgActividadesSociais"
@@ -103,6 +102,8 @@
                 android:id="@+id/tvInformacionTuristica"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="@string/informacionTuristica"
+                android:gravity="start|bottom"
                 android:layout_below="@id/imgCaminoSantiago"
                 android:gravity="start|bottom"
                 android:text="@string/informacionTuristica"

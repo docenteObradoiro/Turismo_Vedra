@@ -1,10 +1,12 @@
 <resources>
+
     <string name="app_name">Turismo_Vedra</string>
     <!--    Menú Principal-->
+    <string name="turismoVedra">VEDRA TOURISM</string>
     <string name="logoVedra">icon Vedra</string>
     <string name="menuHamburguesa">hamburger menu button</string>
-
     <string name="informacionTuristica">Tourist information</string>
+    <string name="informacionTuristica1">TOURIST INFORMATION</string>
     <string name="webVedra">www.concellodevedra.es</string>
     <string name="comoChegar">HOW TO GET THERE</string>
     <string name="contacto">CONTACT</string>
@@ -13,6 +15,40 @@
     <string name="textoInicio">I am the municipality of Vedra and I am located in the heart of the Ulla Valley, in the southern part of the province of A Coruña. I have an area of 53km2 and a population of 5100 inhabitants who live in my 12 parishes.
 \n\nA walk through my natural landscapes will immerse yourself in a place with personality. It is not possible to stand out just one place or monument. Everything deserves to be discovered.
 \n\nFor that and more…I am Vedra!</string>
+
+    <string name="nonoPodesPerder">NOT TO BE MISSED...</string>
+
+    <string name="infoComoChegar">There are diferent ways to reach Vedra:
+        \n\nFrom Santiago de Compostela, taking the N-525 towards Ourense you will cross directly into the area of Vedra.
+        \n\nThe N-525 Santiago-Ourense A-road and the AC.241 A Ponte Ulla-Pontevea B-road come together in A Ponte Ulla.
+        \n\nAnother option is to take the toll motorway AP-53 Santiago-Ourense and come off at the first exit (Ribadulla: A Ponte Ulla, P.K.14).\n\n
+All of the hamlets and villages in Vedra are linked by B-roads.
+        \n\nTwo bus companies (Monbús and Seoane) run services linking each of the parishes with Santiago.</string>
+    <string name="distanciasKmPorEstrada">Distances by road:</string>
+    <string name="santiago">Santiago de Compostela</string>
+    <string name="pontevedra">Pontevedra</string>
+    <string name="aCoruña">A Coruña</string>
+    <string name="ourense">Ourense</string>
+    <string name="vigo">Vigo</string>
+    <string name="ferrol">Ferrol</string>
+    <string name="lugo">Lugo</string>
+    <string name="kmSantiago">16 Km</string>
+    <string name="kmPontevedra">70 Km</string>
+    <string name="kmCoruña">86 Km</string>
+    <string name="kmOurense">92 Km</string>
+    <string name="kmVigo">97 Km</string>
+    <string name="kmFerrol">108 Km</string>
+    <string name="kmLugo">115 Km</string>
+
+    <string name="casaDosPeons">Municipal Dynamization and Promotion Center "Casa dos Peóns-Centro Visitantes"</string>
+    <string name="direccionPeons">Picón nº2, San Pedro de Vilanova\nEstrada N-524, P.K. 326 –\n42º47.418´N 008º26.650´W</string>
+    <string name="telefonoPeons">981512482 - 981814612</string>
+    <string name="mailPeons">casadospeons@concellodevedra.com</string>
+    <string name="oficinaPeregrinos">Pilgrims Office</string>
+    <string name="direccionPeregrinos">Rectoral de A Ponte Ulla</string>
+    <string name="telefonoPeregrinos">981512482 - 981814612</string>
+    <string name="mailPeregrinos">www.concellodevedra.com\nwww.vedraturismo.com</string>
+
 
 
 
@@ -109,8 +145,6 @@
 
 
     <!--    Que ver-->
-
-
     <string name="queVer">WHAT TO SEE</string>
 
     <string name="cabeceraAgronovo">Agronovo Recreational Area</string>
@@ -125,12 +159,19 @@
     <string name="cabeceraCampoGundian">Campo de Gundián Recreational Area</string>
     <string name="campoGundian">The Campo de Gundián Recreational Area is made up of a singular ensemble featuring a chapel, fountain, bandstand, tables and benches overlooking the River Ulla, as well as the old Gundián Bridge and modern AVE (high-speed rail) Bridge, enabling visitors to enjoy this magnificent natural setting. \n\nThe area’s location stands out as the only terrain south of the River Ulla that belongs to A Coruña province. Here is where the famous procession of Nosa Señora de Gundián is held on September 7, in which Our Lady is carried out of the village accompanied by a large fireworks display. \n\nThe Gundián Viewpoint is also located in the surroundings, featuring magnificent views of the entire region.</string>
 
-    <string name="cabeceraCoutoXimonde">Ximonde Preserve Recreational Area</string>
-    <string name="coutoXimonde">Ximonde is one of the most important salmon preserves in Galicia. The fishermen’s shelter houses a small River Ulla interpretation centre and a fish-breeding and –reproduction station. \n\nThe Recreational Area stands out above all to its fishing posts, waterfall and especially its hanging bridge. It is an ideal place for walking and enjoying nature.</string>
-
 
     <!--    Onde comer -->
     <string name="ondeComer">WHERE TO EAT</string>
+
+    <string name="restaurantes">RESTAURANTES</string>
+    <string name="cafeteria">BARES E CAFETERÍAS</string>
+
+    <string name="vedra"><u>Sarandón - Vedra - Trobe - San Mamede</u></string>
+    <string name="santacruz"><u>Santa Cruz - Ponte Ulla</u></string>
+    <string name="sanfins"><u>Illobre - San Fins - San Xián</u></string>
+
+    <string name="cabeceraCoutoXimonde">Ximonde Preserve Recreational Area</string>
+    <string name="coutoXimonde">Ximonde is one of the most important salmon preserves in Galicia. The fishermen’s shelter houses a small River Ulla interpretation centre and a fish-breeding and –reproduction station. \n\nThe Recreational Area stands out above all to its fishing posts, waterfall and especially its hanging bridge. It is an ideal place for walking and enjoying nature.</string>
 
     <!--    Onde durmir -->
     <string name="ondeDurmir">WHERE TO SLEEP</string>

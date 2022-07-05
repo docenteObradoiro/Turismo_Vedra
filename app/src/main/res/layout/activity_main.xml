@@ -34,12 +34,30 @@
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/menu_hamburguesa" />
+        app:srcCompat="@drawable/menu_hamburguesa"
+        />
+
+    <TextView
+        android:id="@+id/turismoVedra"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/abel"
+        android:gravity="center"
+        android:text="@string/turismoVedra"
+        android:textColor="@color/greenVedra"
+        android:textSize="34sp"
+        android:textStyle="bold" />
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/turismoVedra"
         android:contentDescription="@string/appbar_scrolling_view_behavior">
 
         <RelativeLayout
@@ -76,9 +94,9 @@
                 android:layout_below="@id/textoInicio"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
-                android:layout_marginStart="55dp"
+                android:layout_marginStart="47dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginEnd="55dp"
+                android:layout_marginEnd="47dp"
                 android:backgroundTint="@color/greenIconos"
                 android:fontFamily="@font/abel"
                 android:text="@string/queVer"
@@ -93,8 +111,8 @@
                 android:layout_below="@id/queVerBoton"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
-                android:layout_marginStart="55dp"
-                android:layout_marginEnd="55dp"
+                android:layout_marginStart="47dp"
+                android:layout_marginEnd="47dp"
                 android:backgroundTint="@color/greenIconos"
                 android:fontFamily="@font/abel"
                 android:text="@string/queFacer"
@@ -109,8 +127,8 @@
                 android:layout_below="@id/queFacerBoton"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
-                android:layout_marginStart="55dp"
-                android:layout_marginEnd="55dp"
+                android:layout_marginStart="47dp"
+                android:layout_marginEnd="47dp"
                 android:backgroundTint="@color/greenIconos"
                 android:fontFamily="@font/abel"
                 android:text="@string/ondeComer"
@@ -125,8 +143,8 @@
                 android:layout_below="@id/ondeComerBoton"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
-                android:layout_marginStart="55dp"
-                android:layout_marginEnd="55dp"
+                android:layout_marginStart="47dp"
+                android:layout_marginEnd="47dp"
                 android:backgroundTint="@color/greenIconos"
                 android:fontFamily="@font/abel"
                 android:text="@string/ondeDurmir"
@@ -141,8 +159,8 @@
                 android:layout_below="@id/ondeDurmirBoton"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
-                android:layout_marginStart="55dp"
-                android:layout_marginEnd="55dp"
+                android:layout_marginStart="47dp"
+                android:layout_marginEnd="47dp"
                 android:backgroundTint="@color/greenIconos"
                 android:fontFamily="@font/abel"
                 android:text="@string/produtoresLocais"
@@ -151,19 +169,111 @@
                 app:cornerRadius="20dp" />
 
             <TextView
-                android:id="@+id/tvInformacionTuristica"
+                android:id="@+id/textoNonPodesPerder"
                 android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/productoresLocaisBoton"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/abel"
+                android:text="@string/nonoPodesPerder"
+                android:textColor="@color/greenVedra"
+                android:textStyle="bold"
+                android:textSize="18dp" />
+
+            <HorizontalScrollView
+                android:id="@+id/nonPodesPerder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/textoNonPodesPerder"
+                android:layout_marginBottom="30dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_gravity="left">
+
+                    <ImageButton
+                        android:id="@+id/botonPazoSantacruz"
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="-10dp"
+                        android:contentDescription="Pazo de SantaCruz"
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#00B8AEAE"
+                        app:srcCompat="@mipmap/pazosantacruz" />
+
+                    <ImageButton
+                        android:id="@+id/botonMiradoiroGundian"
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="-15dp"
+                        android:contentDescription="Miradoiro de Gundian"
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#00B8AEAE"
+                        app:srcCompat="@mipmap/gundian" />
+
+                    <ImageButton
+                        android:id="@+id/botonInterpretacionMuiños"
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="-15dp"
+                        android:contentDescription="área de interpretación de muiños "
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#00B8AEAE"
+                        app:srcCompat="@mipmap/interpretacionmolinos" />
+                    <ImageButton
+                        android:id="@+id/botonCotoXimonde"
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="-10dp"
+                        android:contentDescription="Coto de pesca de Ximonde"
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#00B8AEAE"
+                        app:srcCompat="@mipmap/cotoximonde" />
+
+                    <ImageButton
+                        android:id="@+id/botonIgrexaFonteVedra"
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="-15dp"
+                        android:contentDescription="Conxunto da Igrexa, fonte e cruceiro de Vedra"
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#00B8AEAE"
+                        app:srcCompat="@mipmap/conxuntoigrexafontecruceirovedra" />
+
+                    <ImageButton
+                        android:id="@+id/botonCapillaSantiaguino"
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="-15dp"
+                        android:contentDescription="Conxunto da Capela e fonte do Santiaguiño"
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#00B8AEAE"
+                        app:srcCompat="@mipmap/santiaguino" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/tvInformacionTuristica"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_below="@id/productoresLocaisBoton"
+                android:layout_alignParentStart="true"
                 android:gravity="start|bottom"
                 android:text="@string/informacionTuristica"
                 android:textColor="@color/greenVedra" />
 
             <TextView
                 android:id="@+id/tvWebVedra"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
                 android:gravity="end|bottom"
                 android:layout_below="@id/productoresLocaisBoton"
@@ -177,4 +287,3 @@
 
 
 </RelativeLayout>
-

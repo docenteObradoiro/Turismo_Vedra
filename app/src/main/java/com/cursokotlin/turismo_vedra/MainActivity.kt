@@ -1,6 +1,15 @@
 package com.cursokotlin.turismo_vedra
 
 
+
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.widget.Button
+import android.widget.ImageButton
+import com.cursokotlin.turismo_vedra.ondexantar.DondeComer_Restaurantes
+import com.cursokotlin.turismo_vedra.ondexantar.DondeComer_bares
+import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -16,6 +25,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
 
         var logoVedra=findViewById<ImageButton>(R.id.logoVedra)
         logoVedra.setOnClickListener {
@@ -40,10 +50,11 @@ class MainActivity : AppCompatActivity() {
             val acceder = Intent(this, ProductoresLocales::class.java)
             startActivity(acceder)
         }
-        
+
         var infoTuristica=findViewById<TextView>(R.id.tvInformacionTuristica)
         infoTuristica.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.concellodevedra.es/es/node/459")))
+                val acceder = Intent(this, InformacionTuristica::class.java)
+                startActivity(acceder)
         }
         
         var webConcello =findViewById<TextView>(R.id.tvWebVedra)

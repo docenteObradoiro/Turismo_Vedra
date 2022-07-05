@@ -13,6 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Turismo_Vedra"
         tools:targetApi="31">
+        
         <activity
             android:name=".quefacer.Cicloturismo"
             android:exported="false" />
@@ -30,6 +31,18 @@
             android:exported="false" />
         <activity
             android:name=".quefacer.CaminoMinotoRibeiro"
+            android:exported="false" />
+        <activity
+            android:name=".InformacionTuristica"
+            android:exported="false" />
+        <activity
+            android:name=".ComoChegar"
+            android:exported="false" />
+        <activity
+            android:name=".ondexantar.DondeComer_Restaurantes"
+            android:exported="false" />
+        <activity
+            android:name=".ondexantar.DondeComer_bares"
             android:exported="false" />
         <activity
             android:name=".Menu"
@@ -101,13 +114,18 @@
             android:exported="false" />
         <activity
             android:name=".queVer.patrimonio_historico"
-            android:exported="false" /> <!-- Que facer -->
+            android:exported="false" /> 
+            
+        <!-- Que facer -->
         <activity
             android:name=".quefacer.QueFacerPrincipal"
-            android:exported="false" /> <!-- Que ver -->
+            android:exported="false" /> 
+                       
+        <!-- Que ver -->
         <activity
             android:name=".queVer.areaRecreativaDeAgronovo"
             android:exported="false" />
+            
     </application>
 
 </manifest>

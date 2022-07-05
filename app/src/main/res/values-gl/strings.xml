@@ -1,10 +1,13 @@
 <resources>
     <string name="app_name">Turismo_Vedra</string>
+    
     <!--    Menú Principal-->
     <string name="logoVedra">logo Vedra</string>
     <string name="menuHamburguesa">menú hamburguesa</string>
+    <string name="turismoVedra">TURISMO VEDRA</string>
 
     <string name="informacionTuristica">Información turística</string>
+    <string name="informacionTuristica1">INFORMACIÓN TURÍSTICA</string>
     <string name="webVedra">www.concellodevedra.es</string>
     <string name="comoChegar">COMO CHEGAR</string>
     <string name="contacto">CONTACTO</string>
@@ -15,25 +18,51 @@
 \n\nPor todo iso, e por moito máis…son Vedra!</string>
 
 
+    <string name="nonoPodesPerder">NON O PODES PERDER...</string>
+    <string name="infoComoChegar">Para chegar ata min, tes varias opcións:
+        \n\nDesde Santiago de Compostela: colles a N-525 dirección Ourense e entras directamente nos límites do concello.
+        \n\nA N-525 Santiago-Ourense conflúe en A Ponte Ulla coa AC-241 A Ponte Ulla – Pontevea.
+        \n\nTamén podes achegarte pola autoestrada AP-53 Santiago-Ourense tomando a primeira saída (Ribadulla: A Ponte Ulla, P.K. 14).
+        \n\nAs comunicación internas do concello discorren a través de cómodas estradas locais.
+        \n\nDúas liñas de autobuses (das empresas Monbús e Seoane) enlazan cada unha das miñas parroquias con Santiago</string>
+    <string name="distanciasKmPorEstrada">Distancias quilométricas por estrada:</string>
+    <string name="santiago">Santiago de Compostela</string>
+    <string name="pontevedra">Pontevedra</string>
+    <string name="aCoruña">A Coruña</string>
+    <string name="ourense">Ourense</string>
+    <string name="vigo">Vigo</string>
+    <string name="ferrol">Ferrol</string>
+    <string name="lugo">Lugo</string>
+    <string name="kmSantiago">16 Km</string>
+    <string name="kmPontevedra">70 Km</string>
+    <string name="kmCoruña">86 Km</string>
+    <string name="kmOurense">92 Km</string>
+    <string name="kmVigo">97 Km</string>
+    <string name="kmFerrol">108 Km</string>
+    <string name="kmLugo">115 Km</string>
+
+    <string name="casaDosPeons">Centro de Dinamización e Promoción Municipal "Casa dos Peóns-Centro Visitantes"</string>
+    <string name="direccionPeons">Picón nº2, San Pedro de Vilanova\nEstrada N-524, P.K. 326 –\n42º47.418´N 008º26.650´W</string>
+    <string name="telefonoPeons">981512482 - 981814612</string>
+    <string name="mailPeons">casadospeons@concellodevedra.com</string>
+    <string name="oficinaPeregrinos">Oficina de Atención ao Peregrino</string>
+    <string name="direccionPeregrinos">Rectoral de A Ponte Ulla</string>
+    <string name="telefonoPeregrinos">981512482 - 981814612</string>
+    <string name="mailPeregrinos">www.concellodevedra.com\nwww.vedraturismo.com</string>
 
     <!--    Que facer-->
+    
     <string name="queFacer">QUE FACER</string>
-
     <string name="actividadesSociais">Actividades sociais e festas locais</string>
-
     <string name="actividadesDeportivas">Actividades deportivas</string>
     <string name="camino">Camiño de Santiago</string>
     <string name="actividadesRelixiosas">Actividades relixiosas</string>
-
-
     <string name="festasGastronomicas">Festas gastronómicas</string>
-
     <string name="xeneraisUlla">Xenerais da Ulla</string>
     <string name="rutaCamelia">Ruta da Camelia</string>
-
     <string name="festasRelixiosas">Fiestas religiosas</string>
-
     <string name="calendario">Calendario</string>
+
     <string name="xaneiro">Xaneiro</string>
     <string name="febreiro">Febreiro</string>
     <string name="marzo">Marzo</string>
@@ -124,19 +153,18 @@
     <string name="cabeceraCampoGundian">Área de Recreo do Campo de Gundián</string>
     <string name="campoGundian">A Área de Recreo do Campo de Gundián está constituída polo conxunto singular que conforman a capela, a fonte, o palco da música, as mesas e bancos e as vistas ao río Ulla, así como a antiga Ponte de Gundián e a moderna do AVE, que permiten gozar deste magnífico contorno natural. \n\nO espazo onde se sitúa esta área ten a particularidade de ser o único terreo ao sur do río Ulla que pertence á provincia da Coruña. Neste lugar celébrase o día 7 de setembro a famosa festa da procesión de Nosa Señora de Gundián, na que trasladan á Virxe desde o pobo acompañada dunha gran tirada de fogos de artificio. \n\nNas proximidades atópase así mismo o Miradoiro de Gundián, que ofrece unhas magníficas vistas de toda a zona.</string>
 
+    <!--    Onde comer -->
+    <string name="ondeComer">ONDE COMER</string>
+    <string name="restaurantes">RESTAURANTES</string>
+    <string name="cafeteria">BARES E CAFETERÍAS</string>
+    <string name="vedra"><u>Sarandón - Vedra - Trobe - San Mamede</u></string>
+    <string name="santacruz"><u>Santa Cruz - Ponte Ulla</u></string>
+    <string name="sanfins"><u>Illobre - San Fins - San Xián</u></string>
     <string name="cabeceraCoutoXimonde">Área de Recreo do Coto de Ximonde</string>
     <string name="coutoXimonde">O Coto de Ximonde é un dos cotos salmoneiros máis importantes de Galicia. No refuxio de pescadores existe un pequeno centro de interpretación do río Ulla e unha estación ictiolóxica de cría e reprodución. \n\nNesta Área de Recreo chaman a atención os diferentes postos de pescadores, o salto de auga-fervenza, e sobre todo a súa ponte colgante. É un lugar que convida ao paseo e a gozar da natureza.</string>
 
-
-
-    <!--    Onde comer -->
-    <string name="ondeComer">ONDE COMER</string>
-
     <!--    Onde durmir -->
     <string name="ondeDurmir">ONDE DURMIR</string>
-
-
-
 
     <!--    Productores locais -->
     <string name="produtoresLocais">PRODUTORES LOCAIS</string>
@@ -150,7 +178,5 @@
     <string name="deseno">DESEÑO</string>
     <string name="tocados">TOCADOS</string>
     <string name="pirotecnias">PIROTECNIA</string>
-
-
 
 </resources>
