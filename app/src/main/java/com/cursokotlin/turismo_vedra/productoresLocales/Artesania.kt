@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.TextView
+import com.cursokotlin.turismo_vedra.InformacionTuristica
 import com.cursokotlin.turismo_vedra.MainActivity
 import com.cursokotlin.turismo_vedra.Menu
 import com.cursokotlin.turismo_vedra.R
@@ -31,7 +32,8 @@ class Artesania : AppCompatActivity() {
         }
         var infoTuristica=findViewById<TextView>(R.id.tvInformacionTuristica)
         infoTuristica.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.concellodevedra.es/es/node/459")))
+                val acceder = Intent(this, InformacionTuristica::class.java)
+                startActivity(acceder)
         }
         var webConcello =findViewById<TextView>(R.id.tvWebVedra)
         webConcello.setOnClickListener {

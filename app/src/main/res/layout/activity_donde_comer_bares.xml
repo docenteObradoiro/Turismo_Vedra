@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="ferrador">
+
+    <ImageButton
+        android:id="@+id/botonVedraMapa2"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="botonVedra"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/logo_concello_vedra" />
+
+    <ImageButton
+        android:id="@+id/menu2"
+        android:layout_width="48dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="hamburguesa"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hamburguesa"
+        app:tint="#019933" />
+
+    <TextView
+        android:id="@+id/queVer2"
+        android:layout_width="277dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/abel"
+        android:gravity="center"
+        android:text="@string/cafeteria"
+        android:textColor="#019933"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:paddingLeft="10dp"
+                android:text="@string/vedra" />
+
+            <HorizontalScrollView
+                android:id="@+id/scrollvedra"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/botonderbi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="#FFFFFF"
+                        android:contentDescription="derbi"
+                        android:paddingLeft="-20dp"
+                        app:srcCompat="@mipmap/derbi" />
+
+                    <ImageButton
+                        android:id="@+id/botonferrador"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="#FFFFFF"
+                        android:contentDescription="ferrador"
+                        app:srcCompat="@mipmap/ferrador" />
+
+                    <ImageButton
+                        android:id="@+id/botonesther"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="#FFFFFF"
+                        android:contentDescription="esther"
+                        app:srcCompat="@mipmap/esther" />
+
+                    <ImageButton
+                        android:id="@+id/botonmosqueiro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="#FFFFFF"
+                        android:contentDescription="mosqueiro"
+                        app:srcCompat="@mipmap/mosqueiro" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:paddingLeft="10dp"
+                android:text="@string/santacruz" />
+
+            <HorizontalScrollView
+                android:id="@+id/scrollsantacruz"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/botongundian"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#FFFFFF"
+                        android:contentDescription="gundian"
+                        android:paddingLeft="-20dp"
+                        app:srcCompat="@mipmap/tabernadegundian" />
+
+                    <ImageButton
+                        android:id="@+id/botonopatio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#FFFFFF"
+                        android:contentDescription="opatio"
+                        app:srcCompat="@mipmap/patio" />
+
+                    <ImageButton
+                        android:id="@+id/botonquenllas"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#FFFFFF"
+                        android:contentDescription="quenllas"
+                        app:srcCompat="@mipmap/quenllas" />
+
+                    <ImageButton
+                        android:id="@+id/botonterraza"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#FFFFFF"
+                        android:contentDescription="terraza"
+                        app:srcCompat="@mipmap/terraza" />
+
+                    <ImageButton
+                        android:id="@+id/botonheba"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="#FFFFFF"
+                        app:srcCompat="@mipmap/heba" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/sanfins" />
+
+            <HorizontalScrollView
+                android:id="@+id/scrollsanfins"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/botonavo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#FFFFFF"
+                        android:contentDescription="avo"
+                        android:paddingLeft="-20dp"
+                        app:srcCompat="@mipmap/avo" />
+
+                    <ImageButton
+                        android:id="@+id/botonbarreiro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="#FFFFFF"
+                        android:contentDescription="barreiro"
+                        app:srcCompat="@mipmap/barreiro" />
+
+                    <ImageButton
+                        android:id="@+id/botonrey"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="#FFFFFF"
+                        android:contentDescription="rey"
+                        app:srcCompat="@mipmap/rey" />
+
+                    <ImageButton
+                        android:id="@+id/botonsouto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="#FFFFFF"
+                        android:contentDescription="souto"
+                        app:srcCompat="@mipmap/souto" />
+
+                    <ImageButton
+                        android:id="@+id/botonvicky"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="#FFFFFF"
+                        android:contentDescription="vicky"
+                        app:srcCompat="@mipmap/vicky" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/tvInformacionTuristica"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/informacionTuristica"
+                    android:gravity="start|bottom"
+                    android:textColor="@color/greenVedra" />
+
+                <TextView
+                    android:id="@+id/tvWebVedra"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end|bottom"
+                    android:text="@string/webVedra"
+                    android:textColor="@color/black" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

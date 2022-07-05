@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/relativePrincipal"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".quefacer.CaminoSantiago"
+android:padding="20dp">
+
+
+<ImageButton
+    android:id="@+id/logoVedra"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:background="#FFFFFF"
+    android:contentDescription="@string/logoVedra"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:srcCompat="@mipmap/logo_concello_vedra"
+    tools:ignore="TouchTargetSizeCheck" />
+
+<ImageButton
+    android:id="@+id/menuHamburguesa"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+
+    android:background="#FFFFFF"
+    android:contentDescription="@string/menuHamburguesa"
+    android:minWidth="48dp"
+    android:minHeight="48dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:srcCompat="@drawable/menu_hamburguesa" />
+
+<TextView
+    android:id="@+id/tvCaminoSantiago"
+    android:layout_width="115dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_marginTop="90dp"
+    android:fontFamily="@font/abel"
+    android:gravity="center_horizontal"
+    android:text="@string/camino"
+    android:textColor="@color/greenVedra"
+    android:textSize="24sp" />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="140dp"
+    android:contentDescription="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+
+        <ImageButton
+            android:id="@+id/btCaminoMinotoRibeiro"
+            style="@style/botonNegocio"
+            android:background="@color/white"
+            android:contentDescription="@string/caminoMinotoRibeiro"
+            android:scaleType="fitCenter"
+            app:srcCompat="@mipmap/caminominotoribeiro" />
+
+        <ImageButton
+            android:id="@+id/btcaminoViaPrata"
+            style="@style/botonNegocio"
+            android:layout_below="@id/btCaminoMinotoRibeiro"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:contentDescription="@string/caminoViaPrata"
+            android:scaleType="fitCenter"
+            app:srcCompat="@mipmap/caminoviaprata" />
+
+        <TextView
+            android:id="@+id/tvInformacionTuristica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btcaminoViaPrata"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:gravity="start|bottom"
+            android:text="@string/informacionTuristica"
+            android:textColor="@color/greenVedra" />
+
+        <TextView
+            android:id="@+id/tvWebVedra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/btcaminoViaPrata"
+            android:gravity="end|bottom"
+            android:text="@string/webVedra"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+</ScrollView>
+
+
+</RelativeLayout>

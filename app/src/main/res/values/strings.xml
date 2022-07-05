@@ -1,24 +1,66 @@
 <resources>
+
     <string name="app_name">Turismo_Vedra</string>
+    
     <!--    Menú Principal-->
+    <string name="turismoVedra">TURISMO VEDRA</string>
     <string name="logoVedra">logo Vedra</string>
     <string name="menuHamburguesa">menú hamburguesa</string>
 
     <string name="informacionTuristica">Información turística</string>
+    <string name="informacionTuristica1">INFORMACIÓN TURÍSTICA</string>
     <string name="webVedra">www.concellodevedra.es</string>
+
     <string name="comoChegar">COMO LLEGAR</string>
     <string name="contacto">CONTACTO</string>
     <string name="mapaTuristico">MAPA TURÍSTICO</string>
     <string name="telefonosInteres">TELÉFONOS DE INTERÉS</string>
+
     <string name="textoInicio">Soy el Ayuntamiento de Vedra y estoy situado en el sur de la Provincia de A Coruña, en el corazón del Val do Ulla. Tengo una extensión de 53 Km2, con unos 5.100 habitantes distribuidos en 12 parroquias.
 \n\nPasear por Vedra y por mis paisajes te sumerge en un espacio con personalidad propia. Hacer referencia a un solo lugar o monumento no es posible, todo yo soy un lugar que merece ser descubierto.
 \n\nPor todo eso, y por mucho más…soy Vedra!</string>
+
+    <string name="nonoPodesPerder">LO QUE NO TE PUEDES PERDER...</string>
+
+    <string name="infoComoChegar">Para llegar hasta mí, tienes varias opciones:
+        \n\nDesde Santiago de Compostela: coges a N-525 dirección Ourense y entras directamente en los límites del ayuntamiento.
+\n\nLa N-525 Santiago-Ourense confluye en A Ponte Ulla con la AC-241 A Ponte Ulla – Pontevea\n\nTambién puedes acercarte por la autopista AP-53 Santiago-Ourense tomando la primera salida (Ribadulla: A Ponte Ulla, P.K. 14).
+\n\nLas comunicaciones internas del concello transcurren a través de cómodas carreteras locales.
+\n\nDos líneas de autobuses (de las empresas Monbús y Seoane) enlazan cada una de mis parroquias con SantiagoDúas liñas de autobuses (das empresas Monbús e Seoane) enlazan cada unha das miñas parroquias con Santiago.</string>
+
+    <string name="distanciasKmPorEstrada">Distancias quilométricas por carretera:</string>
+    <string name="santiago">Santiago de Compostela</string>
+    <string name="pontevedra">Pontevedra</string>
+    <string name="aCoruña">A Coruña</string>
+    <string name="ourense">Ourense</string>
+    <string name="vigo">Vigo</string>
+    <string name="ferrol">Ferrol</string>
+    <string name="lugo">Lugo</string>
+    <string name="kmSantiago">16 Km</string>
+    <string name="kmPontevedra">70 Km</string>
+    <string name="kmCoruña">86 Km</string>
+    <string name="kmOurense">92 Km</string>
+    <string name="kmVigo">97 Km</string>
+    <string name="kmFerrol">108 Km</string>
+    <string name="kmLugo">115 Km</string>
+
+    <string name="casaDosPeons">Centro de Dinamización y Promoción Municipal "Casa dos Peóns-Centro Visitantes"</string>
+    <string name="direccionPeons">Picón nº2, San Pedro de Vilanova\nEstrada N-524, P.K. 326 –\n42º47.418´N 008º26.650´W</string>
+    <string name="telefonoPeons">981512482 - 981814612</string>
+    <string name="mailPeons">casadospeons@concellodevedra.com</string>
+    <string name="oficinaPeregrinos">Oficina de Atención al Peregrino</string>
+    <string name="direccionPeregrinos">Rectoral de A Ponte Ulla</string>
+    <string name="telefonoPeregrinos">981512482 - 981814612</string>
+    <string name="mailPeregrinos">www.concellodevedra.com\nwww.vedraturismo.com</string>
 
 
     <!--    Que facer-->
     <string name="queFacer">QUÉ HACER</string>
 
     <string name="actividadesSociais">Actividades sociales y fiestas locales</string>
+
+
+    <!--    Que ver-->
 
     <string name="actividadesDeportivas">Actividades deportivas</string>
     <string name="camino">Camino de Santiago</string>
@@ -31,6 +73,7 @@
 
     <string name="festasRelixiosas">Fiestas religiosas</string>
 
+    <string name="calendario">Calendario</string>
     <string name="xaneiro">Enero</string>
     <string name="febreiro">Febrero</string>
     <string name="marzo">Marzo</string>
@@ -79,20 +122,56 @@
 
     <!--    Onde comer -->
 
+    <string name="caminoMinotoRibeiro">Camino de Santiago - Miñoto-Ribeiro</string>
+    <string name="caminoMinotoRibeiroDescricion">Este antigo camiño discorría dende o norte de Portugal ata a cidade do Apóstolo, atravesando zonas das provincias de Ourense e Pontevedra, e entrando na Coruña pola Ponte de Sarandón, no Concello de Vedra. Ao longo da historia, esta ruta medieval ademais de ser ruta de peregrinación foi utilizada polos arrieiros para levar o viño do Ribeiro a Compostela. Polo tanto, este camiño deixou unha pegada de grande significado e transcendencia tanto no comercio como no relixioso na Idade Media e na Idade Moderna. Abundan os documentos históricos que fan mención a este itinerario.
+        \n\nEste Camiño existe dende sempre, pero aínda non é oficial, ou sexa, aínda non está recoñecido como Camiño de Santiago polos estamentos oficiais eclesiásticos nin civís, aínda que en 1783 o arcebispo de Santiago pedíalle ao rexedor do Ribeiro que arranxara determinados puntos deste camiño para que poideran pasar mellor por el “peregrinos, viajeros y comerciantes”, como consta nos libros existentes no Arquivo Histórico Provincial de Ourense, Municipal de Ribadavia (sito no Museo de Ribadavia).
+        Por este motivo, formouse unha Asociación no ano 2014 coa finalidade de acadar o seu nomeamento oficial, e na que se unen persoas de estamentos públicos (concellos das provincias de Ourense, Pontevedra e A Coruña, e tamén de Portugal) e privados, organismos e asociacións; cunha finalidade común: visibilizar este Camiño, promocionalo, e que todo iso sirva para mellorar a calidade de vida desta zona e dos seus habitantes.
+        \n\nNo ano 2017, o Concello de Vedra desenvolveu un campo de traballo para realizar o marcado do mesmo no tramo do municipio.  O Camiño entra no territorio vedrés pola Ponte de Sarandón e discorre pola aldea de Corbeixe (San Mamede de Ribadulla) ata o portalón do Pazo de Ximonde. De aquí atravesa Silva de Arriba (San Miguel de Sarandón) por camiños secundarios ata chegar a aldea de Sarandón. O último tramo localízase nas parroquias de Merín (Chao de Cartas) e Vilanova.</string>
 
-    <!--    Onde durmir -->
+    <string name="caminoViaPrata">Camino de Santiago - Vía de la Plata</string>
+    <string name="caminoViaPrataDescricion1">odo aquel que se acerque hasta el Ayuntamiento de Vedra debe saber que por sus tierras discurre una de las vías de peregrinación que conducen a Compostela, la conocida como Camino Real o Vía de la Plata. Esta última etiqueta, hoy en día la más extendida, proviene de la idea de que este camino es una prolongación de la calzada romana denominada Vía de la Plata, que comunicaba Mérida y Astorga cruzando de sur a norte el oeste peninsular, y que tras la desaparición de la estructura administrativa romana, fue aprovechada como vía de peregrinación a Compostela.
+    \n \nEsta Vía hace su entrada en tierras de Vedra por Ponte Ulla, y desde aquí atraviesa varios lugares hasta llegar a la aldea de Outeiro, en la vecina parroquia de Vilanova. Aquí es necesario hacer un alto en el caminoi para poder observar con atención la capilla del Santiaguiño que data del siglo XVIII.
+    \n \nJunto a ella hay una fuente barroca que sobresale por su valor legendario, y que fue trasladada allí en año 1724 desde un lugar más alto. Tiene una inscripción que habla del traslado del cuerpo del apóstol Santiago y un relieve que representa parte de la leyenda del Dragón, relacionada con las sagas de la Reina Lupa. En el centro de la fuente se puede ver una representación del apóstol, flanqueado por sus discípulos Teodoro y Atanasio. Según algunos autores estas dos figuras procederían del antiguo coro románico de la Catedral de Santiago, obra del Maestro Mateo.
+    \n \nA pocos metros de la ermita, encontramos el último </string>
+    
+    <!--    albergue de peregrinos -->
+    <string name="caminoViaPrataDescricion2">del Camino antes de llegar a Santiago de Compostela.
+    \n \nContinuamos el camino dejando el Pico Sacro a la derecha, para volver más tarde al territorio de Vedra y atravesar el río Pereiro por Ponte Busacos.</string>
+
+    <string name="caminoViaPrataDescricion3">Desde allí el camino continúa por la Susana, ya dentro del Ayuntamiento de Santiago, y por Santa Lucía, Angrois y Sar. La entrada de la Vía de la Plata se hace por la puerta de Mazarelos, en la que se hace alusión a esta tierra del Ulla, en una inscripción que habla de la llegada a través de los vinos del Ulla.</string>
+
+    <string name="albergue">albergue de peregrinos de Vedra</string>
+
+    <string name="descargaAlquilerBici">Descarga PDF: Alquiler de bicicletas BTT</string>
+    <string name="descargaPDFcicloturismo">Descarga PDF: Ruta cicloturística por el Val do Ulla</string>
 
 
-    <!--    Productores locais -->
+    <string name="senderismo">Senderismo</string>
+    <string name="pescaFluvial">Pesca fluvial</string>
+    <string name="piraguismo">Piragüismo</string>
+    <string name="cicloturismo">Cicloturismo</string>
+    <string name="etnoturismo">Etnoturismo</string>
+
+
+    <!--    Que ver-->
 
 
     <!--    Onde comer -->
-    <string name="ondeComer">DÓNDE COMER</string>
+
 
     <!--    Onde durmir -->
     <string name="ondeDurmir">DÓNDE DORMIR</string>
 
-<!--    Que ver-->
+    <!--    Onde comer -->
+    <string name="ondeComer">DONDE COMER</string>
+    <string name="restaurantes">RESTAURANTES</string>
+    <string name="cafeteria">BARES E CAFETERÍAS</string>
+    <string name="vedra"><u>Sarandón - Vedra - Trobe - San Mamede</u></string>
+    <string name="santacruz"><u>Santa Cruz - Ponte Ulla</u></string>
+    <string name="sanfins"><u>Illobre - San Fins - San Xián</u></string>
+
+
+    <!--    Que ver-->
 
     <string name="queVer">QUÉ VER</string>
 
@@ -138,28 +217,12 @@
     <string name="roteiroEmigracion">Cada emigrante de Vedra, e foron milleiros, abría un novo camiño para si, para a súa familia e para a súa terra. Parte do que somos agora é o desastroso resultado da inmigración a América. Unha emigración masiva que deixou o seu vínculo paisaxístico en obras de feitura inconfundible, construídas, na súa maior parte, na primeira meta do século XX, bordeadas polo mar. \n\nO Roteiro da Emigración é un itinerario interpretativo que sinaliza e enlaza os lugares do concello onde se atopan algunhas das obras colectivas máis dignas da nosa historia: os colexios, cemiterios, camiños e pontes promovidas, con grandes doses de amor á terra, a que se atopan os centros educativos. polas sociedades de emigrantes de Vedra en Bos Aires.</string>
 
 
-
-
-
-
-
     <!--    Onde comer -->
 
-
-
-
-
-
-<!--    Onde durmir -->
-
-
-
-
-
-<!--    Productores locais -->
-
+    <!--    Onde durmir -->
 
     <!--    Productores locais -->
+    
     <string name="produtoresLocais">PRODUCTORES LOCALES</string>
     <string name="adegas">BODEGAS</string>
     <string name="destileria">DESTILERÍA DE AGUARDIENTES \nY LICORES</string>
@@ -171,7 +234,6 @@
     <string name="deseno">DISEÑO</string>
     <string name="tocados">TOCADOS</string>
     <string name="pirotecnias">PIROTECNIA</string>
-
 
 
 </resources>

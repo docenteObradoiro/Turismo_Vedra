@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativePrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".quefacer.CaminoViaPrata">
+
+
+    <ImageButton
+        android:id="@+id/logoVedra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/logoVedra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/logo_concello_vedra"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/menuHamburguesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/menuHamburguesa"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/menu_hamburguesa" />
+
+    <TextView
+        android:id="@+id/tvCaminoViaPrata"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="90dp"
+        android:fontFamily="@font/abel"
+        android:gravity="center_horizontal"
+        android:text="@string/caminoViaPrata"
+        android:textColor="@color/greenVedra"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:contentDescription="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/imgViaPrata"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:background="@color/white"
+                android:contentDescription="@string/caminoViaPrata"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/caminoprata" />
+
+
+            <TextView
+                android:id="@+id/tvDescricionCaminoViaPrata1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgViaPrata"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/caminoViaPrataDescricion1" />
+
+            <TextView
+                android:id="@+id/tvAlbergue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/tvDescricionCaminoViaPrata1"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="85dp"
+                android:gravity="end"
+                android:text="@string/albergue"
+                android:textColor="@color/greenIconos" />
+
+            <TextView
+                android:id="@+id/tvDescricionCaminoViaPrata2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvAlbergue"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:text="@string/caminoViaPrataDescricion2" />
+
+
+            <ImageView
+                android:id="@+id/imgPonteBusacos"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_below="@id/tvDescricionCaminoViaPrata2"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:background="@color/white"
+                android:contentDescription="@string/caminoViaPrataDescricion2"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/caminopontebusacos" />
+
+            <TextView
+                android:id="@+id/tvDescricionCaminoViaPrata3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgPonteBusacos"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/caminoViaPrataDescricion3" />
+
+
+            <TextView
+                android:id="@+id/tvInformacionTuristica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvDescricionCaminoViaPrata3"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:gravity="start|bottom"
+                android:text="@string/informacionTuristica"
+                android:textColor="@color/greenVedra" />
+
+            <TextView
+                android:id="@+id/tvWebVedra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/tvDescricionCaminoViaPrata3"
+                android:gravity="end|bottom"
+                android:text="@string/webVedra"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

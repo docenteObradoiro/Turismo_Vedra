@@ -9,10 +9,6 @@
     android:padding="20dp">
 
 
-    <TextView
-        android:id="@+id/textView"
-
-
     <ImageButton
         android:id="@+id/logoVedra"
         android:layout_width="wrap_content"
@@ -32,49 +28,255 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-
         android:background="#FFFFFF"
         android:contentDescription="@string/menuHamburguesa"
         android:minWidth="48dp"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/menu_hamburguesa" />
+        app:srcCompat="@drawable/menu_hamburguesa"
+        />
+
+    <TextView
+        android:id="@+id/turismoVedra"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/abel"
+        android:gravity="center"
+        android:text="@string/turismoVedra"
+        android:textColor="@color/greenVedra"
+        android:textSize="34sp"
+        android:textStyle="bold" />
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/turismoVedra"
         android:contentDescription="@string/appbar_scrolling_view_behavior">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-
-
+            <ImageView
+                android:id="@+id/fotoGundian"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:src="@mipmap/gundian"/>
 
             <TextView
+                android:id="@+id/textoInicio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/fotoGundian"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="35dp"
                 android:layout_marginTop="20dp"
-                android:text="@string/textoInicio"/>
+                android:layout_marginEnd="35dp"
+                android:fontFamily="@font/inter"
+                android:text="@string/textoInicio"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/queVerBoton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textoInicio"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="47dp"
+                android:backgroundTint="@color/greenIconos"
+                android:fontFamily="@font/abel"
+                android:text="@string/queVer"
+                android:textColor="@color/greenVedra"
+                android:textSize="20dp"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/queFacerBoton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/queVerBoton"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginEnd="47dp"
+                android:backgroundTint="@color/greenIconos"
+                android:fontFamily="@font/abel"
+                android:text="@string/queFacer"
+                android:textColor="@color/greenVedra"
+                android:textSize="20dp"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/ondeComerBoton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/queFacerBoton"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginEnd="47dp"
+                android:backgroundTint="@color/greenIconos"
+                android:fontFamily="@font/abel"
+                android:text="@string/ondeComer"
+                android:textColor="@color/greenVedra"
+                android:textSize="20dp"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/ondeDurmirBoton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ondeComerBoton"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginEnd="47dp"
+                android:backgroundTint="@color/greenIconos"
+                android:fontFamily="@font/abel"
+                android:text="@string/ondeDurmir"
+                android:textColor="@color/greenVedra"
+                android:textSize="20dp"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/productoresLocaisBoton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ondeDurmirBoton"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginEnd="47dp"
+                android:backgroundTint="@color/greenIconos"
+                android:fontFamily="@font/abel"
+                android:text="@string/produtoresLocais"
+                android:textColor="@color/greenVedra"
+                android:textSize="20dp"
+                app:cornerRadius="20dp" />
+
+            <TextView
+                android:id="@+id/textoNonPodesPerder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/productoresLocaisBoton"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/abel"
+                android:text="@string/nonoPodesPerder"
+                android:textColor="@color/greenVedra"
+                android:textStyle="bold"
+                android:textSize="18dp" />
+
+            <HorizontalScrollView
+                android:id="@+id/nonPodesPerder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/textoNonPodesPerder"
+                android:layout_marginBottom="30dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_gravity="left">
+
+                    <ImageButton
+                        android:id="@+id/botonPazoSantacruz"
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="-10dp"
+                        android:contentDescription="Pazo de SantaCruz"
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#00B8AEAE"
+                        app:srcCompat="@mipmap/pazosantacruz" />
+
+                    <ImageButton
+                        android:id="@+id/botonMiradoiroGundian"
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="-15dp"
+                        android:contentDescription="Miradoiro de Gundian"
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#00B8AEAE"
+                        app:srcCompat="@mipmap/gundian" />
+
+                    <ImageButton
+                        android:id="@+id/botonInterpretacionMuiños"
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="-15dp"
+                        android:contentDescription="área de interpretación de muiños "
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#00B8AEAE"
+                        app:srcCompat="@mipmap/interpretacionmolinos" />
+                    <ImageButton
+                        android:id="@+id/botonCotoXimonde"
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="-10dp"
+                        android:contentDescription="Coto de pesca de Ximonde"
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#00B8AEAE"
+                        app:srcCompat="@mipmap/cotoximonde" />
+
+                    <ImageButton
+                        android:id="@+id/botonIgrexaFonteVedra"
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="-15dp"
+                        android:contentDescription="Conxunto da Igrexa, fonte e cruceiro de Vedra"
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#00B8AEAE"
+                        app:srcCompat="@mipmap/conxuntoigrexafontecruceirovedra" />
+
+                    <ImageButton
+                        android:id="@+id/botonCapillaSantiaguino"
+                        android:layout_width="180dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="-15dp"
+                        android:contentDescription="Conxunto da Capela e fonte do Santiaguiño"
+                        android:scaleType="fitXY"
+                        android:backgroundTint="#00B8AEAE"
+                        app:srcCompat="@mipmap/santiaguino" />
+                </LinearLayout>
+            </HorizontalScrollView>
 
             <TextView
                 android:id="@+id/tvInformacionTuristica"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/productoresLocaisBoton"
+                android:layout_alignParentStart="true"
                 android:gravity="start|bottom"
                 android:text="@string/informacionTuristica"
-                android:layout_alignParentBottom="true"
                 android:textColor="@color/greenVedra" />
 
             <TextView
                 android:id="@+id/tvWebVedra"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="end|bottom"
+                android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
+                android:gravity="end|bottom"
+                android:layout_below="@id/productoresLocaisBoton"
                 android:text="@string/webVedra"
                 android:textColor="@color/black" />
         </RelativeLayout>
@@ -83,18 +285,5 @@
 
 
 
-    <Button
-        android:id="@+id/btQueFacer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/queFacer"
-        android:textColor="@color/greenVedra"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
 
 </RelativeLayout>
-

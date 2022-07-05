@@ -1,10 +1,13 @@
 <resources>
+
     <string name="app_name">Turismo_Vedra</string>
+    
     <!--    Menú Principal-->
+    <string name="turismoVedra">VEDRA TOURISM</string>
     <string name="logoVedra">icon Vedra</string>
     <string name="menuHamburguesa">hamburger menu button</string>
-
     <string name="informacionTuristica">Tourist information</string>
+    <string name="informacionTuristica1">TOURIST INFORMATION</string>
     <string name="webVedra">www.concellodevedra.es</string>
     <string name="comoChegar">HOW TO GET THERE</string>
     <string name="contacto">CONTACT</string>
@@ -14,7 +17,38 @@
 \n\nA walk through my natural landscapes will immerse yourself in a place with personality. It is not possible to stand out just one place or monument. Everything deserves to be discovered.
 \n\nFor that and more…I am Vedra!</string>
 
+    <string name="nonoPodesPerder">NOT TO BE MISSED...</string>
 
+    <string name="infoComoChegar">There are diferent ways to reach Vedra:
+        \n\nFrom Santiago de Compostela, taking the N-525 towards Ourense you will cross directly into the area of Vedra.
+        \n\nThe N-525 Santiago-Ourense A-road and the AC.241 A Ponte Ulla-Pontevea B-road come together in A Ponte Ulla.
+        \n\nAnother option is to take the toll motorway AP-53 Santiago-Ourense and come off at the first exit (Ribadulla: A Ponte Ulla, P.K.14).\n\n
+All of the hamlets and villages in Vedra are linked by B-roads.
+        \n\nTwo bus companies (Monbús and Seoane) run services linking each of the parishes with Santiago.</string>
+    <string name="distanciasKmPorEstrada">Distances by road:</string>
+    <string name="santiago">Santiago de Compostela</string>
+    <string name="pontevedra">Pontevedra</string>
+    <string name="aCoruña">A Coruña</string>
+    <string name="ourense">Ourense</string>
+    <string name="vigo">Vigo</string>
+    <string name="ferrol">Ferrol</string>
+    <string name="lugo">Lugo</string>
+    <string name="kmSantiago">16 Km</string>
+    <string name="kmPontevedra">70 Km</string>
+    <string name="kmCoruña">86 Km</string>
+    <string name="kmOurense">92 Km</string>
+    <string name="kmVigo">97 Km</string>
+    <string name="kmFerrol">108 Km</string>
+    <string name="kmLugo">115 Km</string>
+
+    <string name="casaDosPeons">Municipal Dynamization and Promotion Center "Casa dos Peóns-Centro Visitantes"</string>
+    <string name="direccionPeons">Picón nº2, San Pedro de Vilanova\nEstrada N-524, P.K. 326 –\n42º47.418´N 008º26.650´W</string>
+    <string name="telefonoPeons">981512482 - 981814612</string>
+    <string name="mailPeons">casadospeons@concellodevedra.com</string>
+    <string name="oficinaPeregrinos">Pilgrims Office</string>
+    <string name="direccionPeregrinos">Rectoral de A Ponte Ulla</string>
+    <string name="telefonoPeregrinos">981512482 - 981814612</string>
+    <string name="mailPeregrinos">www.concellodevedra.com\nwww.vedraturismo.com</string>
 
     <!--    Que facer-->
     <string name="queFacer">WHAT TO DO</string>
@@ -30,6 +64,7 @@
     <string name="rutaCamelia">The Route of de Camellie</string>
     <string name="festasRelixiosas">Fiestas religiosas</string>
 
+    <string name="calendario">Schedule</string>
     <string name="xaneiro">Xaneiro</string>
     <string name="febreiro">Febreiro</string>
     <string name="marzo">Marzo</string>
@@ -77,9 +112,34 @@
     <string name="festXulGastronomica1">A Festa do Escalo, no mes de xullo en Santa Cruz de Ribadulla.</string>
 
 
+    <string name="caminoMinotoRibeiro">Way of St James-Miñoto-Ribeiro</string>
+    <string name="caminoMinotoRibeiroDescricion">Este antigo camiño discorría dende o norte de Portugal ata a cidade do Apóstolo, atravesando zonas das provincias de Ourense e Pontevedra, e entrando na Coruña pola Ponte de Sarandón, no Concello de Vedra. Ao longo da historia, esta ruta medieval ademais de ser ruta de peregrinación foi utilizada polos arrieiros para levar o viño do Ribeiro a Compostela. Polo tanto, este camiño deixou unha pegada de grande significado e transcendencia tanto no comercio como no relixioso na Idade Media e na Idade Moderna. Abundan os documentos históricos que fan mención a este itinerario.
+        \n\nEste Camiño existe dende sempre, pero aínda non é oficial, ou sexa, aínda non está recoñecido como Camiño de Santiago polos estamentos oficiais eclesiásticos nin civís, aínda que en 1783 o arcebispo de Santiago pedíalle ao rexedor do Ribeiro que arranxara determinados puntos deste camiño para que poideran pasar mellor por el “peregrinos, viajeros y comerciantes”, como consta nos libros existentes no Arquivo Histórico Provincial de Ourense, Municipal de Ribadavia (sito no Museo de Ribadavia).
+        Por este motivo, formouse unha Asociación no ano 2014 coa finalidade de acadar o seu nomeamento oficial, e na que se unen persoas de estamentos públicos (concellos das provincias de Ourense, Pontevedra e A Coruña, e tamén de Portugal) e privados, organismos e asociacións; cunha finalidade común: visibilizar este Camiño, promocionalo, e que todo iso sirva para mellorar a calidade de vida desta zona e dos seus habitantes.
+        \n\nNo ano 2017, o Concello de Vedra desenvolveu un campo de traballo para realizar o marcado do mesmo no tramo do municipio.  O Camiño entra no territorio vedrés pola Ponte de Sarandón e discorre pola aldea de Corbeixe (San Mamede de Ribadulla) ata o portalón do Pazo de Ximonde. De aquí atravesa Silva de Arriba (San Miguel de Sarandón) por camiños secundarios ata chegar a aldea de Sarandón. O último tramo localízase nas parroquias de Merín (Chao de Cartas) e Vilanova.</string>
+
+    <string name="caminoViaPrata">Way of St James-Silver Way</string>
+    <string name="caminoViaPrataDescricion1">Todo aquel que se achegue ata o Concello de Vedra debe saber que polas súas terras discorre unha das vías de peregrinación que conducen a Compostela, a coñecida como Camiño Real ou Vía da Prata. Esta última etiqueta, hoxe en día a máis estendida, provén da idea de que este camiño é a prolongación da calzada romana denominada Vía da Prata, que comunicaba Mérida e Astorga cruzando de sur a norte o oeste peninsular, e que, trala desaparición da estructura administrativa romana, foi aproveitada como vía de peregrinación a Compostela.
+    \n \nEsta Vía fai a súa entrada en terras de Vedra pola Ponte Ulla, e dende aquí atravesa varios lugares ata chegar á aldea de Outeiro, na veciña parroquia de Vilanova. Aquí cómpre facermos un alto no camiño para poder observar con atención a capela do Santiaguiño que data do século XVIII.
+    \n \nXunto a ela hai unha fonte barroca que sobresae polo seu valor lendario, e que foi trasladada alí no ano 1724 dende un lugar máis alto. Ten unha inscrición que fala do traslado do corpo do apóstolo Santiago e un relevo que representa parte da lenda do Dragón, relacionada coas sagas da Raíña Lupa. No centro da fonte pode verse unha representación do apóstolo, flanqueado polos seus discípulos Teodoro e Atanasio. Segundo algúns autores estas dúas figuras procederían do antigo coro románico da Catedral de Santiago, obra do Mestre Mateo.
+    \n \nA poucos metros da ermida, atopamos o último </string>
+    <!--    albergue de peregrinos -->
+    <string name="caminoViaPrataDescricion2">do Camiño antes de chegar a Santiago de Compostela.
+    \n \nContinuamos o camiño deixando o Pico Sacro á dereita, para volver máis tarde ao territorio de Vedra e atravesar o río Pereiro por Ponte Busacos.</string>
+
+    <string name="caminoViaPrataDescricion3">Dende alí o camiño continúa pola Susana, xa dentro do Concello de Santiago, e por Santa Lucía, Angrois e Sar. A entrada da Vía da Prata na cidade faise pola porta de Mazarelos, na que hai unha alusión a esta terra da Ulla, nunha inscrición que fala da chegada a través dela dos viños da Ulla.</string>
+    <string name="albergue">albergue de peregrinos de Vedra</string>
+
+    <string name="descargaAlquilerBici">Download PDF: Rent a BTT bike</string>
+    <string name="descargaPDFcicloturismo">Download PDF: Cycling route through Val do Ulla</string>
+
+    <string name="senderismo">Hiking</string>
+    <string name="pescaFluvial">River fishing</string>
+    <string name="piraguismo">Canoeing</string>
+    <string name="cicloturismo">Cycling</string>
+    <string name="etnoturismo">Ethnotourism</string>
+
     <!--    Que ver-->
-
-
     <string name="queVer">WHAT TO SEE</string>
 
     <string name="cabeceraAgronovo">Agronovo Recreational Area</string>
@@ -123,12 +183,18 @@
     <string name="cabeceiraRoteiroEmigracion">Emigration route</string>
     <string name="roteiroEmigracion">Each emigrant from Vedra, and foron milleiros, opened a new path for himself, for his family and for his land. Part of what we are now is the disastrous result of immigration to America. A massive emigration that left its landscape link in works of unmistakable size, built, for the most part, at the first goal of the 20th century, bordered by the sea. \n\nO Roteiro da Emigración is an interpretive itinerary that signals and links the places of the council where some of the most worthy collective works of our history can be found: the schools, cemeteries, paths and bridges promoted, with large doses of love to the land, to which they cover the educational centers. by the societies of emigrants from Vedra in Bos Aires.</string>
 
-
-
-
-
     <!--    Onde comer -->
     <string name="ondeComer">WHERE TO EAT</string>
+
+    <string name="restaurantes">RESTAURANTES</string>
+    <string name="cafeteria">BARES E CAFETERÍAS</string>
+
+    <string name="vedra"><u>Sarandón - Vedra - Trobe - San Mamede</u></string>
+    <string name="santacruz"><u>Santa Cruz - Ponte Ulla</u></string>
+    <string name="sanfins"><u>Illobre - San Fins - San Xián</u></string>
+
+    <string name="cabeceraCoutoXimonde">Ximonde Preserve Recreational Area</string>
+    <string name="coutoXimonde">Ximonde is one of the most important salmon preserves in Galicia. The fishermen’s shelter houses a small River Ulla interpretation centre and a fish-breeding and –reproduction station. \n\nThe Recreational Area stands out above all to its fishing posts, waterfall and especially its hanging bridge. It is an ideal place for walking and enjoying nature.</string>
 
     <!--    Onde durmir -->
     <string name="ondeDurmir">WHERE TO SLEEP</string>

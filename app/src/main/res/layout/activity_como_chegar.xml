@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativePrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComoChegar"
+    android:padding="20dp">
+
+    <ImageButton
+        android:id="@+id/logoVedra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/logoVedra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/logo_concello_vedra"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/menuHamburguesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:background="#FFFFFF"
+        android:contentDescription="@string/menuHamburguesa"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/menu_hamburguesa" />
+
+    <TextView
+        android:id="@+id/tvComoChegar"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/abel"
+        android:gravity="center_horizontal"
+        android:text="@string/comoChegar"
+        android:textColor="@color/greenVedra"
+        android:textSize="24sp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/infoComoChegar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/infoComoChegar"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textSize="14dp"
+                android:fontFamily="@font/inter"/>
+            <TextView
+                android:id="@+id/distancias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/infoComoChegar"
+                android:layout_alignParentStart="true"
+                android:text="@string/distanciasKmPorEstrada"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="14dp"
+                android:fontFamily="@font/inter"/>
+            <TextView
+                android:id="@+id/santiago"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/distancias"
+                android:layout_alignParentStart="true"
+                android:text="@string/santiago"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:gravity="end"
+                android:textSize="14dp"
+                android:fontFamily="@font/inter"/>
+
+            <TextView
+                android:id="@+id/santiagokm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/distancias"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/santiago"
+                android:fontFamily="@font/inter"
+                android:gravity="start"
+                android:text="@string/kmSantiago"
+                android:textColor="@color/greenIcono"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/pontevedra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/santiago"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="117dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter"
+                android:gravity="end"
+                android:text="@string/pontevedra"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/pontevedrakm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/santiago"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/pontevedra"
+                android:fontFamily="@font/inter"
+                android:gravity="start"
+                android:text="@string/kmPontevedra"
+                android:textColor="@color/greenIcono"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/coruña"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pontevedra"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="132dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter"
+                android:gravity="end"
+                android:text="@string/aCoruña"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/coruñakm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pontevedra"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/coruña"
+                android:fontFamily="@font/inter"
+                android:gravity="start"
+                android:text="@string/kmCoruña"
+                android:textColor="@color/greenIcono"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/ourense"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/coruña"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="137dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter"
+                android:gravity="end"
+                android:text="@string/ourense"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/ourensekm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/coruña"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/ourense"
+                android:fontFamily="@font/inter"
+                android:gravity="start"
+                android:text="@string/kmOurense"
+                android:textColor="@color/greenIcono"
+                android:textSize="14dp" />
+            <TextView
+                android:id="@+id/vigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ourense"
+                android:layout_alignParentStart="true"
+                android:text="@string/vigo"
+                android:layout_marginStart="163dp"
+                android:layout_marginTop="10dp"
+                android:gravity="end"
+                android:textSize="14dp"
+                android:fontFamily="@font/inter"/>
+
+            <TextView
+                android:id="@+id/vigokm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ourense"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/vigo"
+                android:fontFamily="@font/inter"
+                android:gravity="start"
+                android:text="@string/kmVigo"
+                android:textColor="@color/greenIcono"
+                android:textSize="14dp" />
+            <TextView
+                android:id="@+id/ferrol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/vigo"
+                android:layout_alignParentStart="true"
+                android:text="@string/ferrol"
+                android:layout_marginStart="155dp"
+                android:layout_marginTop="10dp"
+                android:gravity="end"
+                android:textSize="14dp"
+                android:fontFamily="@font/inter"/>
+
+            <TextView
+                android:id="@+id/ferrolkm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/vigo"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/ferrol"
+                android:fontFamily="@font/inter"
+                android:gravity="start"
+                android:text="@string/kmFerrol"
+                android:textColor="@color/greenIcono"
+                android:textSize="14dp" />
+            <TextView
+                android:id="@+id/lugo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ferrol"
+                android:layout_alignParentStart="true"
+                android:text="@string/lugo"
+                android:layout_marginStart="159dp"
+                android:layout_marginTop="10dp"
+                android:gravity="end"
+                android:layout_marginBottom="20dp"
+                android:textSize="14dp"
+                android:fontFamily="@font/inter"/>
+
+            <TextView
+                android:id="@+id/lugokm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ferrol"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/lugo"
+                android:fontFamily="@font/inter"
+                android:gravity="start"
+                android:text="@string/kmLugo"
+                android:textColor="@color/greenIcono"
+                android:layout_marginBottom="20dp"
+                android:textSize="14dp" />
+
+            <ImageButton
+                android:id="@+id/mapaVedra"
+                android:layout_width="220dp"
+                android:layout_height="170dp"
+                android:layout_below="@id/lugokm"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="40dp"
+                android:backgroundTint="#00F1ECEC"
+                android:scaleType="fitXY"
+                android:src="@mipmap/mapavedra" />
+
+            <TextView
+                android:id="@+id/tvInformacionTuristica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:gravity="start|bottom"
+                android:text="@string/informacionTuristica"
+                android:textColor="@color/greenVedra" />
+
+            <TextView
+                android:id="@+id/tvWebVedra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:gravity="end|bottom"
+                android:text="@string/webVedra"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

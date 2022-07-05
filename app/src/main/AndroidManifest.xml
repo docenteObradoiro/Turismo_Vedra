@@ -13,9 +13,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Turismo_Vedra"
         tools:targetApi="31">
- 
+        
         <activity
-            android:name=".MenuPrincipal"
+            android:name=".quefacer.Cicloturismo"
+            android:exported="false" />
+        <activity
+            android:name=".quefacer.ActividadesDeportivas"
+            android:exported="false" />
+        <activity
+            android:name=".quefacer.Albergue"
+            android:exported="false" />
+        <activity
+            android:name=".quefacer.CaminoSantiago"
+            android:exported="false" />
+        <activity
+            android:name=".quefacer.CaminoViaPrata"
+            android:exported="false" />
+        <activity
+            android:name=".quefacer.CaminoMinotoRibeiro"
+            android:exported="false" />
+        <activity
+            android:name=".InformacionTuristica"
+            android:exported="false" />
+        <activity
+            android:name=".ComoChegar"
+            android:exported="false" />
+        <activity
+            android:name=".ondexantar.DondeComer_Restaurantes"
+            android:exported="false" />
+        <activity
+            android:name=".ondexantar.DondeComer_bares"
             android:exported="false" />
         <activity
             android:name=".Menu"
@@ -54,18 +81,14 @@
             android:name=".productoresLocales.ProductoresLocales"
             android:exported="false" />
         <activity
-            android:name=".queFacer.FestasLocais"
+            android:name=".quefacer.FestasLocais"
             android:exported="false" />
         <activity
-            android:name=".queFacer.FestasGastronomicas"
+            android:name=".quefacer.FestasGastronomicas"
             android:exported="false" />
         <activity
-            android:name=".queFacer.ActividadesSociais"
+            android:name=".quefacer.ActividadesSociais"
             android:exported="false" />
-        <activity
-            android:name=".queFacer.QueFacerPrincipal"
-            android:exported="false" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -92,18 +115,12 @@
         <activity
             android:name=".queVer.patrimonio_historico"
             android:exported="false" />
-
-
-        <!--    Que facer-->
-
-
-        <!--    Que ver-->
-
             
+        <!-- Que facer -->
+        
         <activity
             android:name=".queVer.areaRecreativaDeAgronovo"
             android:exported="false"/>
-
         <activity
             android:name=".queVer.areaDeRecreoDeCubelas"
             android:exported="false" />
@@ -167,6 +184,15 @@
 
         <!--    Productores locais -->
 
+
+            android:name=".quefacer.QueFacerPrincipal"
+            android:exported="false" /> 
+                       
+        <!-- Que ver -->
+        <activity
+            android:name=".queVer.areaRecreativaDeAgronovo"
+            android:exported="false" />
+            
 
     </application>
 
