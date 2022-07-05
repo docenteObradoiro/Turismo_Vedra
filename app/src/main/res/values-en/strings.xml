@@ -31,11 +31,10 @@
     <string name="vedra"><u>Sarandón - Vedra - Trobe - San Mamede</u></string>
     <string name="santacruz"><u>Santa Cruz - Ponte Ulla</u></string>
     <string name="sanfins"><u>Illobre - San Fins - San Xián</u></string>
-
-
-
-
-
+    <string name="ondeDurmir">DONDE DORMIR</string>
+    <string name="turismoRural"><u>Turismo rural</u></string>
+    <string name="pension"><u>Pensión</u></string>
+    <string name="otrosAlojamientos"><u>Otros alojamientos</u></string>
 
     <!--    Onde durmir -->
 

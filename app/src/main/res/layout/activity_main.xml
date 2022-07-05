@@ -7,6 +7,30 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/botonbares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="340dp"
+        android:text="@string/cafeteria"
+        android:textColor="#00C853"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/botondormir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ondeDurmir"
+        android:textColor="#00C853"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonbares"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <Button
         android:id="@+id/botonrestaurantes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,17 +42,6 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.972" />
-
-    <Button
-        android:id="@+id/botonbares"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="328dp"
-        android:text="@string/cafeteria"
-        android:textColor="#00C853"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintVertical_bias="0.964" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -73,6 +73,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFFFFF"
+                android:contentDescription="vistalegre"
                 app:srcCompat="@mipmap/pazovistalegre" />
 
             <ImageButton
@@ -80,6 +81,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFFFFF"
+                android:contentDescription="villaverde"
                 app:srcCompat="@mipmap/villaverde" />
 
             <ImageButton
@@ -87,6 +89,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFFFFF"
+                android:contentDescription="ocruceiro"
                 app:srcCompat="@mipmap/ocruceiro" />
 
             <ImageButton
@@ -94,6 +97,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFFFFF"
+                android:contentDescription="victoria"
                 app:srcCompat="@mipmap/victoria" />
 
             <ImageButton
@@ -101,6 +105,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFFFFF"
+                android:contentDescription="dorna"
                 app:srcCompat="@mipmap/dorna" />
 
             <ImageButton
@@ -108,6 +113,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFFFFF"
+                android:contentDescription="juanito"
                 app:srcCompat="@mipmap/juanito" />
 
             <RelativeLayout
