@@ -1,10 +1,10 @@
 <resources>
+
     <string name="app_name">Turismo_Vedra</string>
     <!--    Menú Principal-->
     <string name="turismoVedra">VEDRA TOURISM</string>
     <string name="logoVedra">icon Vedra</string>
     <string name="menuHamburguesa">hamburger menu button</string>
-
     <string name="informacionTuristica">Tourist information</string>
     <string name="informacionTuristica1">TOURIST INFORMATION</string>
     <string name="webVedra">www.concellodevedra.es</string>
@@ -114,8 +114,6 @@ All of the hamlets and villages in Vedra are linked by B-roads.
 
 
     <!--    Que ver-->
-
-
     <string name="queVer">WHAT TO SEE</string>
 
     <string name="cabeceraAgronovo">Agronovo Recreational Area</string>
@@ -130,12 +128,19 @@ All of the hamlets and villages in Vedra are linked by B-roads.
     <string name="cabeceraCampoGundian">Campo de Gundián Recreational Area</string>
     <string name="campoGundian">The Campo de Gundián Recreational Area is made up of a singular ensemble featuring a chapel, fountain, bandstand, tables and benches overlooking the River Ulla, as well as the old Gundián Bridge and modern AVE (high-speed rail) Bridge, enabling visitors to enjoy this magnificent natural setting. \n\nThe area’s location stands out as the only terrain south of the River Ulla that belongs to A Coruña province. Here is where the famous procession of Nosa Señora de Gundián is held on September 7, in which Our Lady is carried out of the village accompanied by a large fireworks display. \n\nThe Gundián Viewpoint is also located in the surroundings, featuring magnificent views of the entire region.</string>
 
-    <string name="cabeceraCoutoXimonde">Ximonde Preserve Recreational Area</string>
-    <string name="coutoXimonde">Ximonde is one of the most important salmon preserves in Galicia. The fishermen’s shelter houses a small River Ulla interpretation centre and a fish-breeding and –reproduction station. \n\nThe Recreational Area stands out above all to its fishing posts, waterfall and especially its hanging bridge. It is an ideal place for walking and enjoying nature.</string>
-
 
     <!--    Onde comer -->
     <string name="ondeComer">WHERE TO EAT</string>
+
+    <string name="restaurantes">RESTAURANTES</string>
+    <string name="cafeteria">BARES E CAFETERÍAS</string>
+
+    <string name="vedra"><u>Sarandón - Vedra - Trobe - San Mamede</u></string>
+    <string name="santacruz"><u>Santa Cruz - Ponte Ulla</u></string>
+    <string name="sanfins"><u>Illobre - San Fins - San Xián</u></string>
+
+    <string name="cabeceraCoutoXimonde">Ximonde Preserve Recreational Area</string>
+    <string name="coutoXimonde">Ximonde is one of the most important salmon preserves in Galicia. The fishermen’s shelter houses a small River Ulla interpretation centre and a fish-breeding and –reproduction station. \n\nThe Recreational Area stands out above all to its fishing posts, waterfall and especially its hanging bridge. It is an ideal place for walking and enjoying nature.</string>
 
     <!--    Onde durmir -->
     <string name="ondeDurmir">WHERE TO SLEEP</string>

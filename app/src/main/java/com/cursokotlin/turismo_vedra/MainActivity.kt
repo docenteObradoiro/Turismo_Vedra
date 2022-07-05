@@ -1,6 +1,13 @@
 package com.cursokotlin.turismo_vedra
 
 
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.widget.Button
+import android.widget.ImageButton
+import com.cursokotlin.turismo_vedra.ondexantar.DondeComer_Restaurantes
+import com.cursokotlin.turismo_vedra.ondexantar.DondeComer_bares
 import android.content.Context
 import android.content.Intent
 import android.media.MediaPlayer
@@ -12,13 +19,14 @@ import android.widget.TextView
 import android.widget.VideoView
 import androidx.appcompat.app.AppCompatActivity
 import com.cursokotlin.turismo_vedra.productoresLocales.ProductoresLocales
-import com.cursokotlin.turismo_vedra.queFacer.QueFacerPrincipal
+import com.cursokotlin.turismo_vedra.quefacer.QueFacerPrincipal
 
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
 
         var logoVedra=findViewById<ImageButton>(R.id.logoVedra)
         logoVedra.setOnClickListener {

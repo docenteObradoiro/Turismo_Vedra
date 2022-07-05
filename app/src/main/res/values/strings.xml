@@ -1,5 +1,7 @@
 <resources>
+
     <string name="app_name">Turismo_Vedra</string>
+    
     <!--    Menú Principal-->
     <string name="turismoVedra">TURISMO VEDRA</string>
     <string name="logoVedra">logo Vedra</string>
@@ -13,7 +15,6 @@
     <string name="contacto">CONTACTO</string>
     <string name="mapaTuristico">MAPA TURÍSTICO</string>
     <string name="telefonosInteres">TELÉFONOS DE INTERÉS</string>
-
 
     <string name="textoInicio">Soy el Ayuntamiento de Vedra y estoy situado en el sur de la Provincia de A Coruña, en el corazón del Val do Ulla. Tengo una extensión de 53 Km2, con unos 5.100 habitantes distribuidos en 12 parroquias.
 \n\nPasear por Vedra y por mis paisajes te sumerge en un espacio con personalidad propia. Hacer referencia a un solo lugar o monumento no es posible, todo yo soy un lugar que merece ser descubierto.
@@ -57,6 +58,9 @@
     <string name="queFacer">QUÉ HACER</string>
 
     <string name="actividadesSociais">Actividades sociales y fiestas locales</string>
+
+
+    <!--    Que ver-->
 
     <string name="actividadesDeportivas">Actividades deportivas</string>
     <string name="camino">Camino de Santiago</string>
@@ -115,24 +119,16 @@
     <string name="festMaioGastronomica4">Fiesta de la Aguardiente, en el mes de mayo en San Mamede de Ribadulla.</string>
     <string name="festXulGastronomica1">Fiesta del Escalo, en el mes de junio en Santa Cruz de Ribadulla</string>
 
-
-    <!--    Que ver-->
-
-
-    <!--    Onde comer -->
-
-
-    <!--    Onde durmir -->
-
-
-    <!--    Productores locais -->
-
-
-    <!--    Onde comer -->
-    <string name="ondeComer">DÓNDE COMER</string>
-
     <!--    Onde durmir -->
     <string name="ondeDurmir">DÓNDE DORMIR</string>
+
+    <!--    Onde comer -->
+    <string name="ondeComer">DONDE COMER</string>
+    <string name="restaurantes">RESTAURANTES</string>
+    <string name="cafeteria">BARES E CAFETERÍAS</string>
+    <string name="vedra"><u>Sarandón - Vedra - Trobe - San Mamede</u></string>
+    <string name="santacruz"><u>Santa Cruz - Ponte Ulla</u></string>
+    <string name="sanfins"><u>Illobre - San Fins - San Xián</u></string>
 
     <!--    Que ver-->
 
@@ -154,16 +150,8 @@
     <string name="coutoXimonde">El Coto de Ximonde es una de los cotos salmoneros más importantes de Galicia. En el refugio de pescadores existe un pequeño centro de interpretación del río Ulla y una estación ictiológica de cría y reproducción. \n\nEn esta Área de Recreo destacan especialmente los diferentes puestos de pescadores, el salto de agua-cascada, y sobre todo su puente colgante. Es un lugar que invita al paseo y a disfrutar de la naturaleza.</string>
 
 
-    <!--    Onde comer -->
-
-
-    <!--    Onde durmir -->
-
-
     <!--    Productores locais -->
-
-
-    <!--    Productores locais -->
+    
     <string name="produtoresLocais">PRODUCTORES LOCALES</string>
     <string name="adegas">BODEGAS</string>
     <string name="destileria">DESTILERÍA DE AGUARDIENTES \nY LICORES</string>
@@ -175,6 +163,5 @@
     <string name="deseno">DISEÑO</string>
     <string name="tocados">TOCADOS</string>
     <string name="pirotecnias">PIROTECNIA</string>
-
 
 </resources>
