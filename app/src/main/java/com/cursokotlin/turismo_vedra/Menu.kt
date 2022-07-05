@@ -57,11 +57,11 @@ class Menu : AppCompatActivity() {
             val acceder = Intent(this, ProductoresLocales::class.java)
             startActivity(acceder)
         }
-        /*var accesoContacto=findViewById<TextView>(R.id.contacto)
+        var accesoContacto=findViewById<TextView>(R.id.contacto)
         accesoContacto.setOnClickListener {
-            val acceder = Intent(this, ::class.java)
+            val acceder = Intent(this, Contacto::class.java)
             startActivity(acceder)
-        }*/
+        }
 
         var mapa = findViewById<TextView>(R.id.mapaTuristico)
         mapa.setOnClickListener {
@@ -71,11 +71,11 @@ class Menu : AppCompatActivity() {
             )
             startActivity(acceso)
         }
-        /*var accesoTelefonos=findViewById<TextView>(R.id.telefonos)
+        var accesoTelefonos=findViewById<TextView>(R.id.telefonos)
         accesoTelefonos.setOnClickListener {
-            val acceder = Intent(this, ::class.java)
+            val acceder = Intent(this, TelefonosInterese::class.java)
             startActivity(acceder)
-        }*/
+        }
 
         var infoTuristica = findViewById<TextView>(R.id.tvInformacionTuristica)
         infoTuristica.setOnClickListener {
@@ -87,9 +87,7 @@ class Menu : AppCompatActivity() {
                 startActivity(
                     Intent(
                         Intent.ACTION_VIEW,
-                        Uri.parse("https://www.concellodevedra.es/es")
-                    )
-                )
+                        Uri.parse("https://www.concellodevedra.es/es")))
             }
         }
     }

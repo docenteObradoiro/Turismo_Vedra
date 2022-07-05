@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.cursokotlin.turismo_vedra">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -31,6 +34,12 @@
             android:exported="false" />
         <activity
             android:name=".quefacer.CaminoMinotoRibeiro"
+            android:exported="false" />
+        <activity
+            android:name=".TelefonosInterese"
+            android:exported="false" />
+        <activity
+            android:name=".Contacto"
             android:exported="false" />
         <activity
             android:name=".InformacionTuristica"
