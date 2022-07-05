@@ -13,7 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Turismo_Vedra"
         tools:targetApi="31">
-        
+        <activity
+            android:name=".ondexantar.OndeComerPrincipal"
+            android:exported="false" />
         <activity
             android:name=".quefacer.Cicloturismo"
             android:exported="false" />
@@ -114,13 +116,10 @@
             android:exported="false" />
         <activity
             android:name=".queVer.patrimonio_historico"
-            android:exported="false" />
-            
-        <!-- Que facer -->
-        
+            android:exported="false" /> <!-- Que facer -->
         <activity
             android:name=".queVer.areaRecreativaDeAgronovo"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".queVer.areaDeRecreoDeCubelas"
             android:exported="false" />
@@ -136,63 +135,30 @@
         <activity
             android:name=".queVer.pazoSantaCruzRibadulla"
             android:exported="false" />
-
         <activity
             android:name=".queVer.puenteGundian"
             android:exported="false" />
-
         <activity
             android:name=".queVer.puenteAVEGundian"
             android:exported="false" />
-
         <activity
             android:name=".queVer.puenteColganteXimonde"
             android:exported="false" />
-
         <activity
             android:name=".queVer.molinoReboredo"
             android:exported="false" />
-
         <activity
             android:name=".queVer.igrexaFonteCruceiroVedra"
             android:exported="false" />
-
         <activity
             android:name=".queVer.capillaFuenteSANTIAGUIÑO"
             android:exported="false" />
-
         <activity
             android:name=".queVer.roteiroEmigracion"
-            android:exported="false" />
-
-
-
-
-
-        <!--    Onde comer -->
-
-
-
-
-
-
-        <!--    Onde durmir -->
-
-
-
-
-
-        <!--    Productores locais -->
-
-
-            android:name=".quefacer.QueFacerPrincipal"
-            android:exported="false" /> 
-                       
+            android:exported="false" /> <!-- Onde comer -->
+        <!-- Onde durmir -->
+        <!-- Productores locais -->
         <!-- Que ver -->
-        <activity
-            android:name=".queVer.areaRecreativaDeAgronovo"
-            android:exported="false" />
-            
 
     </application>
 

@@ -10,6 +10,7 @@ import android.widget.ImageButton
 import android.content.Context
 import android.net.Uri
 import android.widget.TextView
+import com.cursokotlin.turismo_vedra.ondexantar.OndeComerPrincipal
 import com.cursokotlin.turismo_vedra.productoresLocales.ProductoresLocales
 import com.cursokotlin.turismo_vedra.quefacer.QueFacerPrincipal
 
@@ -41,6 +42,12 @@ class MainActivity : AppCompatActivity() {
         var accesoProductores= findViewById<Button>(R.id.productoresLocaisBoton)
         accesoProductores.setOnClickListener{
             val acceder = Intent(this, ProductoresLocales::class.java)
+            startActivity(acceder)
+        }
+
+        var accesoComer=findViewById<Button>(R.id.ondeComerBoton)
+        accesoComer.setOnClickListener {
+            val acceder = Intent(this, OndeComerPrincipal ::class.java)
             startActivity(acceder)
         }
 

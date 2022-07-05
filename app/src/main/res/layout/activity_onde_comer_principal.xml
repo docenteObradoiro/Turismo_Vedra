@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:contentDescription="ferrador">
+    tools:context=".ondexantar.OndeComerPrincipal">
 
     <ImageButton
-        android:id="@+id/botonVedraMapa2"
+        android:id="@+id/botonVedraMapa"
         android:layout_width="120dp"
         android:layout_height="50dp"
         android:layout_marginStart="20dp"
@@ -20,7 +20,7 @@
         app:srcCompat="@mipmap/logo_concello_vedra" />
 
     <ImageButton
-        android:id="@+id/menu2"
+        android:id="@+id/menu"
         android:layout_width="48dp"
         android:layout_height="55dp"
         android:layout_marginTop="20dp"
@@ -34,14 +34,14 @@
         app:tint="#019933" />
 
     <TextView
-        android:id="@+id/queVer2"
+        android:id="@+id/queVer4"
         android:layout_width="277dp"
         android:layout_height="42dp"
         android:layout_gravity="center"
         android:layout_marginBottom="30dp"
         android:fontFamily="@font/abel"
         android:gravity="center"
-        android:text="@string/cafeteria"
+        android:text="@string/ondeComer"
         android:textColor="#019933"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -66,52 +66,21 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            tools:context=".MainActivity">
+            android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/textView2"
+            <ImageButton
+                android:id="@+id/botonbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:paddingLeft="10dp"
-                android:text="@string/vedra" />
+                android:backgroundTint="#FFFFFF"
+                app:srcCompat="@mipmap/bares" />
 
-            <org.imaginativeworld.whynotimagecarousel.ImageCarousel
-                android:id="@+id/carousel"
-                android:layout_width="match_parent"
-                android:layout_height="256dp"
-                android:layout_marginBottom="10dp"/>
-
-            <TextView
-                android:id="@+id/textView3"
+            <ImageButton
+                android:id="@+id/botonres"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
-                android:paddingLeft="10dp"
-                android:text="@string/santacruz" />
-
-            <org.imaginativeworld.whynotimagecarousel.ImageCarousel
-                android:id="@+id/carousel2"
-                android:layout_width="match_parent"
-                android:layout_height="256dp"
-                android:layout_marginBottom="10dp"/>
-
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
-                android:paddingLeft="10dp"
-                android:text="@string/sanfins" />
-
-            <org.imaginativeworld.whynotimagecarousel.ImageCarousel
-                android:id="@+id/carousel3"
-                android:layout_width="match_parent"
-                android:layout_height="256dp"
-                android:layout_marginBottom="10dp"/>
+                android:backgroundTint="#FFFFFF"
+                app:srcCompat="@mipmap/restaurantes" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -122,8 +91,8 @@
                     android:id="@+id/tvInformacionTuristica"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/informacionTuristica"
                     android:gravity="start|bottom"
+                    android:text="@string/informacionTuristica"
                     android:textColor="@color/greenVedra" />
 
                 <TextView
@@ -137,6 +106,5 @@
 
         </LinearLayout>
     </ScrollView>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
