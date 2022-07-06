@@ -69,14 +69,13 @@
                 android:contentDescription="@string/actividadesRelixiosas"
                 android:padding="5dp"
                 android:scaleType="fitXY"
+
                 app:srcCompat="@mipmap/relixiosas" />
 
             <ImageButton
                 android:id="@+id/imgFestasGastronomicas"
                 style="@style/botonGrande"
                 android:layout_below="@id/imgActividadesRelixiosas"
-                android:layout_alignParentStart="true"
-                android:layout_centerHorizontal="true"
                 android:background="@color/white"
                 android:contentDescription="@string/festasGastronomicas"
                 android:padding="5dp"
@@ -87,8 +86,8 @@
                 android:id="@+id/imgXenerais"
                 style="@style/botonGrande"
                 android:layout_below="@id/rutaCamelia"
-                android:layout_alignParentEnd="true"
-                android:layout_centerHorizontal="true"
+                android:layout_marginStart="11dp"
+                android:layout_toEndOf="@+id/imgFestasGastronomicas"
                 android:background="@color/white"
                 android:contentDescription="@string/xeneraisUlla"
                 android:padding="5dp"
@@ -98,8 +97,8 @@
             <ImageButton
                 android:id="@+id/rutaCamelia"
                 style="@style/botonGrande"
-                android:layout_alignParentEnd="true"
-                android:layout_centerHorizontal="true"
+                android:layout_marginStart="11dp"
+                android:layout_toEndOf="@+id/imgActividadesRelixiosas"
                 android:background="@color/white"
                 android:contentDescription="@string/rutaCamelia"
                 android:padding="5dp"
