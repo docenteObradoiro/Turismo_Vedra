@@ -10,10 +10,10 @@ import com.cursokotlin.turismo_vedra.MainActivity
 import com.cursokotlin.turismo_vedra.Menu
 import com.cursokotlin.turismo_vedra.R
 
-class ActividadesDeportivas : AppCompatActivity() {
+class PescaFluvial : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_actividades_deportivas)
+        setContentView(R.layout.activity_pesca_fluvial)
 
         var logoVedra=findViewById<ImageButton>(R.id.logoVedra)
         logoVedra.setOnClickListener {
@@ -27,6 +27,20 @@ class ActividadesDeportivas : AppCompatActivity() {
             startActivity(acceder)
         }
 
+        val bandeiraGalicia=findViewById<ImageButton>(R.id.bandeiraGalicia)
+        bandeiraGalicia.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.santiagoturismo.com/files/2016/03/guiapesca2016galego.pdf")))
+        }
+        val bandeiraEspana =findViewById<ImageButton>(R.id.bandeiraEspana)
+        bandeiraEspana.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.santiagoturismo.com/files/2016/03/guiapesca2016espaol.pdf")))
+        }
+        val bandeiraUK=findViewById<ImageButton>(R.id.bandeiraUK)
+        bandeiraUK.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.santiagoturismo.com/files/2016/03/guiapesca2016ingles.pdf")))
+        }
+
+
 
         val infoTuristica=findViewById<TextView>(R.id.tvInformacionTuristica)
         infoTuristica.setOnClickListener {
@@ -37,33 +51,6 @@ class ActividadesDeportivas : AppCompatActivity() {
         webConcello.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.concellodevedra.es/es")))
         }
-        var sendeirismo = findViewById<ImageButton>(R.id.imgSenderismo)
-        sendeirismo.setOnClickListener {
-            val acceder = Intent(this, RutasSendeirismo::class.java)
-            startActivity(acceder)
-        }
-        val etnoturismoPDF =findViewById<ImageButton>(R.id.imgEtnoturismo)
-        etnoturismoPDF.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.concellodevedra.es/ficheiros/Folleto_Mapa_Ruta_do_Vi__o_da_Ribeira_da_Ulla_0.pdf")))
-        }
-
-        val piraguismoPDF =findViewById<ImageButton>(R.id.imgPiraguismo)
-        piraguismoPDF.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.concellodevedra.es/ficheiros/aluguer%20piraguas%202020.jpg")))
-        }
-
-        val cicloturismo  = findViewById<ImageButton>(R.id.imgCicloturismo)
-        cicloturismo.setOnClickListener {
-            val acceder = Intent(this, Cicloturismo::class.java)
-            startActivity(acceder)
-        }
-        val pescaFluvial  = findViewById<ImageButton>(R.id.imgPescaFluvial)
-        pescaFluvial.setOnClickListener {
-            val acceder = Intent(this, PescaFluvial::class.java)
-            startActivity(acceder)
-        }
-
-
 
     }
 }

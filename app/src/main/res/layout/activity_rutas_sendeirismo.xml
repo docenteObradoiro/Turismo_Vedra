@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quefacer.RutasSendeirismo">
+
+    <ImageButton
+        android:id="@+id/logoVedra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/logoVedra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/logo_concello_vedra"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/menuHamburguesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/menuHamburguesa"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/menu_hamburguesa" />
+
+    <TextView
+        android:id="@+id/tvSendeirismo"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/abel"
+        android:gravity="center_horizontal"
+        android:text="@string/senderismo"
+        android:textColor="@color/greenVedra"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSendeirismo"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:paddingBottom="20dp"
+        android:contentDescription="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvTextoRutas1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="25dp"
+                android:text="@string/textoRutas1"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvRutaPereiro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvTextoRutas1"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="25dp"
+                android:text="@string/nomeRutaPereiro"
+                android:textColor="@color/greenVedra"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvTextoRutas2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvRutaPereiro"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="25dp"
+                android:text="@string/textoRutas2"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvDatosTecnicosRutaPereiro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvTextoRutas2"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/greenIcono"
+                android:text="@string/datosTecnicos"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvInicioRutaPereiro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvDatosTecnicosRutaPereiro"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/inicioRutaPereiro"
+
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvFinalRutaPereiro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvInicioRutaPereiro"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/finalizacionRutaPereiro"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/tvDistanciaRP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_below="@id/tvFinalRutaPereiro"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="25dp"
+                android:text="@string/distanciaRutaPereiro"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/circularRP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvDistanciaRP"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/senderoLineal"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/tvduraciónRutaPereiro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/circularRP"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/duracionIda"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/tvDuracionRP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvduraciónRutaPereiro"
+                android:layout_marginLeft="30dp"
+                android:text="@string/duracionRutaPereiro" />
+
+            <TextView
+                android:id="@+id/dificultad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvDuracionRP"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/dificultadeMedia"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/textoRutas3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dificultad"
+                android:layout_marginTop="25dp"
+                android:text="@string/textoRutas3"
+                android:textSize="14sp" />
+
+
+            <ImageView
+                android:id="@+id/fotoRutaPereiro"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_below="@id/textoRutas3"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/ruta_do_pereiro" />
+
+
+            <TextView
+                android:id="@+id/tvRutaMolinos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fotoRutaPereiro"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="25dp"
+                android:text="@string/nomeRutaMolinos"
+                android:textColor="@color/greenVedra"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvTextoRutas4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvRutaMolinos"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="25dp"
+                android:text="@string/textoRutas4"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvDatosTecnicosRutaMolinos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvTextoRutas4"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/greenIcono"
+                android:text="@string/datosTecnicos"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvInicioRutaMolinos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvDatosTecnicosRutaMolinos"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/inicioRutaMolinos"
+
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/tvDistanciaRM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvInicioRutaMolinos"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/distanciaRutaMolinos"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/circularRM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvDistanciaRM"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/senderoCircular"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/tvduracionRutaMolinos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/circularRM"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/duracion"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/tvDuracionRM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvduracionRutaMolinos"
+                android:layout_marginLeft="30dp"
+                android:text="@string/duracionRutaMolinos" />
+
+            <TextView
+                android:id="@+id/dificultadRM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvDuracionRM"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/dificultadeMedia"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/textoRutas5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dificultadRM"
+                android:layout_marginTop="25dp"
+                android:text="@string/textoRutas5"
+                android:textSize="14sp" />
+
+
+            <ImageView
+                android:id="@+id/fotoRutaMolinos"
+                android:layout_width="330dp"
+                android:layout_marginTop="25dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textoRutas5"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/ruta_molinos" />
+
+
+            <TextView
+                android:id="@+id/tvRutaSanXoan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fotoRutaMolinos"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="25dp"
+                android:text="@string/nomeRutaSanXoan"
+                android:textColor="@color/greenVedra"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvTextoRutas6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvRutaSanXoan"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="25dp"
+                android:text="@string/textoRutas6"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvDatosTecnicosRutaSanXoan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvTextoRutas6"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/greenIcono"
+                android:layout_marginTop="25dp"
+                android:text="@string/datosTecnicos"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvInicioRutaSanXoan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvDatosTecnicosRutaSanXoan"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/inicioRutaSanXoan"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvFinalRutaSanXoan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvInicioRutaSanXoan"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/finalizacionRutaSanXoan"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/tvDistanciaRSX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_below="@id/tvFinalRutaSanXoan"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="25dp"
+                android:text="@string/distanciaRutaSanXoan"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/circularRSX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvDistanciaRSX"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/senderoLineal"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvduraciónRutaSanXoan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/circularRSX"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/duracionIda"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/tvDuracionRSX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvduraciónRutaSanXoan"
+                android:layout_marginLeft="30dp"
+                android:text="@string/duracionRutaSanXoan" />
+
+            <TextView
+                android:id="@+id/dificultadRSX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvDuracionRSX"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/dificultadeMedia"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/textoRutas7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dificultadRSX"
+                android:layout_marginTop="25dp"
+                android:text="@string/textoRutas7"
+                android:textSize="14sp" />
+
+
+            <ImageView
+                android:id="@+id/fotoRutaSanXoan"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/textoRutas7"
+                android:layout_marginTop="25dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/ruta_de_san_xoan_da_cova" />
+
+
+
+
+            <TextView
+                android:id="@+id/tvDescargaPDFRutas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fotoRutaSanXoan"
+                android:layout_marginTop="20dp"
+                android:text="@string/descargaPDFrutas"
+                android:textSize="14sp" />
+
+
+            <RelativeLayout
+                android:id="@+id/layoutBandeiras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/tvDescargaPDFRutas"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/bandeiraGalicia"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginEnd="30dp"
+                    android:background="@color/white"
+                    android:contentDescription="@string/descargaPDFGuiaPesca"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/bandeiragalicia" />
+
+                <ImageButton
+                    android:id="@+id/bandeiraEspana"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginEnd="30dp"
+                    android:background="@color/white"
+                    android:contentDescription="@string/descargaPDFGuiaPesca"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/banderaespana" />
+
+                <ImageButton
+                    android:id="@+id/bandeiraUK"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="45dp"
+                    android:background="@color/white"
+                    android:contentDescription="@string/descargaPDFGuiaPesca"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/bandeirauk" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvInformacionTuristica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layoutBandeiras"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:gravity="start|bottom"
+                android:text="@string/informacionTuristica"
+                android:textColor="@color/greenVedra" />
+
+            <TextView
+                android:id="@+id/tvWebVedra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layoutBandeiras"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:gravity="end|bottom"
+                android:text="@string/webVedra"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+
+    </ScrollView>
+</RelativeLayout>
