@@ -73,6 +73,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFFFFF"
+                android:contentDescription="botoncafeterias"
                 app:srcCompat="@mipmap/bares" />
 
             <ImageButton
@@ -82,14 +83,14 @@
                 android:backgroundTint="#FFFFFF"
                 app:srcCompat="@mipmap/restaurantes" />
 
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="20dp">
+                android:layout_marginBottom="30dp">
 
                 <TextView
                     android:id="@+id/tvInformacionTuristica"
-                    android:layout_width="match_parent"
+                    android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:gravity="start|bottom"
                     android:text="@string/informacionTuristica"
@@ -97,12 +98,13 @@
 
                 <TextView
                     android:id="@+id/tvWebVedra"
-                    android:layout_width="match_parent"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
-                    android:gravity="end|bottom"
+                    android:layout_marginLeft="50dp"
+                    android:gravity="end"
                     android:text="@string/webVedra"
                     android:textColor="@color/black" />
-            </RelativeLayout>
+            </LinearLayout>
 
         </LinearLayout>
     </ScrollView>

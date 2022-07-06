@@ -5,6 +5,8 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
+import android.widget.TextView
+import com.cursokotlin.turismo_vedra.InformacionTuristica
 import com.cursokotlin.turismo_vedra.R
 
 class DondeComer_Restaurantes : AppCompatActivity() {
@@ -33,5 +35,14 @@ class DondeComer_Restaurantes : AppCompatActivity() {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/search?q=o+churrasco+de+juanito+vedra&rlz=1C1VDKB_esES993ES993&hotel_occupancy=2&sxsrf=ALiCzsZgyb5Ro6IuZOKGPjpb7oyXjhJtqg%3A1656917782086&ei=Fo_CYsjmBIa6afP2kOgB&ved=0ahUKEwjIycre0974AhUGXRoKHXM7BB0Q4dUDCA4&uact=5&oq=o+churrasco+de+juanito+vedra&gs_lcp=Cgdnd3Mtd2l6EAMyAggmOgYIABAeEAc6CAgAEB4QBxAKOgUIABCiBEoECEEYAEoECEYYAFAAWMYZYNIbaAFwAXgAgAHCAYgBuhaSAQQxLjIymAEAoAEBwAEB&sclient=gws-wiz")))
         }
 
+        var infoTuristica=findViewById<TextView>(R.id.tvInformacionTuristica)
+        infoTuristica.setOnClickListener {
+            val acceder = Intent(this, InformacionTuristica::class.java)
+            startActivity(acceder)
+        }
+        var webConcello =findViewById<TextView>(R.id.tvWebVedra)
+        webConcello.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.concellodevedra.es/es")))
+        }
     }
 }
