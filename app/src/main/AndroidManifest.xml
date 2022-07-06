@@ -165,8 +165,17 @@
             android:name=".queVer.roteiroEmigracion"
             android:exported="false" />
 
+        <activity
+            android:name=".queVer.muinos"
+            android:exported="false" />
 
+        <activity
+            android:name=".queVer.pontes"
+            android:exported="false" />
 
+        <activity
+            android:name=".queVer.pazos"
+            android:exported="false" />
 
 
         <!--    Onde comer -->

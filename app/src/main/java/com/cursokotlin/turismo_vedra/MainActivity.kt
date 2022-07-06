@@ -11,6 +11,7 @@ import android.content.Context
 import android.net.Uri
 import android.widget.TextView
 import com.cursokotlin.turismo_vedra.productoresLocales.ProductoresLocales
+import com.cursokotlin.turismo_vedra.queVer.queVer
 import com.cursokotlin.turismo_vedra.quefacer.QueFacerPrincipal
 
 
@@ -29,6 +30,12 @@ class MainActivity : AppCompatActivity() {
         var menu = findViewById<ImageButton>(R.id.menuHamburguesa)
         menu.setOnClickListener {
             val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
+        }
+
+        var accesoqueVer= findViewById<Button>(R.id.queVerBoton)
+        accesoqueVer.setOnClickListener{
+            val acceder = Intent(this, queVer::class.java)
             startActivity(acceder)
         }
 
