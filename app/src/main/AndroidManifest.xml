@@ -10,9 +10,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/vedrasenletra"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/vedrasenletra"
         android:supportsRtl="true"
         android:theme="@style/Theme.Turismo_Vedra"
         tools:targetApi="31">
@@ -124,70 +124,59 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity
-            android:name=".queVer.queVer"
+            android:name=".queVer.QueVer"
             android:exported="false" />
         <activity
-            android:name=".queVer.naturaleza"
+            android:name=".queVer.Naturaleza"
             android:exported="false" />
         <activity
             android:name=".queVer.arquitectura"
             android:exported="false" />
         <activity
-            android:name=".queVer.patrimonio_historico"
+            android:name=".queVer.Patrimonio_historico"
             android:exported="false" />
             <!-- Que facer -->
         <activity
-            android:name=".queVer.areaRecreativaDeAgronovo"
+            android:name=".queVer.AreaRecreativaDeAgronovo"
             android:exported="false" />
         <activity
-            android:name=".queVer.areaDeRecreoDeCubelas"
+            android:name=".queVer.AreaDeRecreoDeCubelas"
             android:exported="false" />
         <activity
-            android:name=".queVer.miradorGundian"
+            android:name=".queVer.MiradorGundian"
             android:exported="false" />
         <activity
-            android:name=".queVer.campoGundian"
+            android:name=".queVer.CampoGundian"
             android:exported="false" />
         <activity
-            android:name=".queVer.coutoXimonde"
+            android:name=".queVer.CoutoXimonde"
             android:exported="false" />
         <activity
-            android:name=".queVer.pazoSantaCruzRibadulla"
+            android:name=".queVer.PazoSantaCruzRibadulla"
             android:exported="false" />
         <activity
-            android:name=".queVer.puenteGundian"
+            android:name=".queVer.PuenteGundian"
             android:exported="false" />
         <activity
-            android:name=".queVer.puenteAVEGundian"
+            android:name=".queVer.PuenteAVEGundian"
             android:exported="false" />
         <activity
-            android:name=".queVer.puenteColganteXimonde"
+            android:name=".queVer.PuenteColganteXimonde"
             android:exported="false" />
         <activity
-            android:name=".queVer.molinoReboredo"
+            android:name=".queVer.MolinoReboredo"
             android:exported="false" />
         <activity
-            android:name=".queVer.igrexaFonteCruceiroVedra"
+            android:name=".queVer.IgrexaFonteCruceiroVedra"
             android:exported="false" />
         <activity
-            android:name=".queVer.capillaFuenteSANTIAGUIÑO"
+            android:name=".queVer.CapillaFuenteSANTIAGUIÑO"
             android:exported="false" />
         <activity
-            android:name=".queVer.roteiroEmigracion"
+            android:name=".queVer.RoteiroEmigracion"
             android:exported="false" />
         <activity
             android:name=".quefacer.QueFacerPrincipal"
-            android:exported="false" />
-        <activity
-            android:name=".queVer.muinos"
-            android:exported="false" />
-
-        <activity
-            android:name=".queVer.pontes"
-            android:exported="false" />
-
-        <activity
-            android:name=".queVer.pazos"
             android:exported="false" />
 
 

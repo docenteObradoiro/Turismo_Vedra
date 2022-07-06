@@ -9,6 +9,7 @@ import android.widget.TextView
 import com.cursokotlin.turismo_vedra.ondedurmir.OndeDurmir
 import com.cursokotlin.turismo_vedra.ondexantar.OndeComerPrincipal
 import com.cursokotlin.turismo_vedra.productoresLocales.ProductoresLocales
+import com.cursokotlin.turismo_vedra.queVer.QueVer
 import com.cursokotlin.turismo_vedra.quefacer.QueFacerPrincipal
 
 class Menu : AppCompatActivity() {
@@ -37,11 +38,11 @@ class Menu : AppCompatActivity() {
             val acceder = Intent(this, ComoChegar::class.java)
             startActivity(acceder)
         }
-        /*var accesoVer=findViewById<TextView>(R.id.queVer)
+        var accesoVer=findViewById<TextView>(R.id.queVer)
         accesoVer.setOnClickListener {
-            val acceder = Intent(this, ::class.java)
+            val acceder = Intent(this, QueVer::class.java)
             startActivity(acceder)
-        }*/
+        }
 
         var accesoComer=findViewById<TextView>(R.id.ondeComer)
         accesoComer.setOnClickListener {

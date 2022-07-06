@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.cursokotlin.turismo_vedra.MainActivity
 import com.cursokotlin.turismo_vedra.R
 
-class naturaleza: AppCompatActivity() {
+class Naturaleza: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_naturaleza)
@@ -23,33 +23,33 @@ class naturaleza: AppCompatActivity() {
         }
         var menu=findViewById<ImageButton>(R.id.menuHamburguesa)
         menu.setOnClickListener {
-            val acceder= Intent(this, Menu::class.java)
+            val acceder= Intent(this, com.cursokotlin.turismo_vedra.Menu::class.java)
             startActivity(acceder)
         }
 
         val boton1 = findViewById<ImageButton>(R.id.boton1)
         boton1.setOnClickListener {
-            val accederAreaRecreativaDeAgronovo = Intent(this, areaRecreativaDeAgronovo::class.java)
+            val accederAreaRecreativaDeAgronovo = Intent(this, AreaRecreativaDeAgronovo::class.java)
             startActivity(accederAreaRecreativaDeAgronovo)
         }
         val boton2 = findViewById<ImageButton>(R.id.boton2)
         boton2.setOnClickListener {
-            val accederCubelas = Intent(this, areaDeRecreoDeCubelas::class.java)
+            val accederCubelas = Intent(this, AreaDeRecreoDeCubelas::class.java)
             startActivity(accederCubelas)
         }
         val boton3 = findViewById<ImageButton>(R.id.boton3)
         boton3.setOnClickListener {
-            val accederMiradorGundian = Intent(this, miradorGundian::class.java)
+            val accederMiradorGundian = Intent(this, MiradorGundian::class.java)
             startActivity(accederMiradorGundian)
         }
         val boton4 = findViewById<ImageButton>(R.id.boton4)
         boton4.setOnClickListener {
-            val accederCampoGundian = Intent(this, campoGundian::class.java)
+            val accederCampoGundian = Intent(this, CampoGundian::class.java)
             startActivity(accederCampoGundian)
         }
         val boton5 = findViewById<ImageButton>(R.id.boton5)
         boton5.setOnClickListener {
-            val accederCoutoXimonde = Intent(this, coutoXimonde::class.java)
+            val accederCoutoXimonde = Intent(this, CoutoXimonde::class.java)
             startActivity(accederCoutoXimonde)
         }
 
