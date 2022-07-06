@@ -109,15 +109,19 @@
         <activity
             android:name=".quefacer.ActividadesSociais"
             android:exported="false" />
+
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
+
 
         <meta-data
             android:name="preloaded_fonts"
@@ -135,7 +139,7 @@
         <activity
             android:name=".queVer.patrimonio_historico"
             android:exported="false" />
-            <!-- Que facer -->
+
         <activity
             android:name=".queVer.areaRecreativaDeAgronovo"
             android:exported="false" />
@@ -170,7 +174,7 @@
             android:name=".queVer.igrexaFonteCruceiroVedra"
             android:exported="false" />
         <activity
-            android:name=".queVer.capillaFuenteSANTIAGUIÑO"
+            android:name=".queVer.capillaFuenteSantiaguino"
             android:exported="false" />
         <activity
             android:name=".queVer.roteiroEmigracion"
@@ -191,14 +195,6 @@
             android:exported="false" />
 
 
-        <!--    Onde comer -->
-
-
-
-
-
-
-        <!--    Onde durmir -->
 
 
     </application>

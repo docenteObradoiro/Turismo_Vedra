@@ -10,10 +10,11 @@ import android.widget.ImageButton
 import android.content.Context
 import android.net.Uri
 import android.widget.TextView
+import androidx.appcompat.app.AlertDialog
 import com.cursokotlin.turismo_vedra.ondedurmir.OndeDurmir
 import com.cursokotlin.turismo_vedra.ondexantar.OndeComerPrincipal
 import com.cursokotlin.turismo_vedra.productoresLocales.ProductoresLocales
-import com.cursokotlin.turismo_vedra.queVer.queVer
+import com.cursokotlin.turismo_vedra.queVer.*
 import com.cursokotlin.turismo_vedra.quefacer.QueFacerPrincipal
 
 
@@ -64,6 +65,41 @@ class MainActivity : AppCompatActivity() {
             val acceder = Intent(this, OndeComerPrincipal ::class.java)
             startActivity(acceder)
         }
+        var accesoPazoStaCruz=findViewById<ImageButton>(R.id.botonPazoSantacruz)
+        accesoPazoStaCruz.setOnClickListener {
+            val acceder = Intent(this, pazoSantaCruzRibadulla ::class.java)
+            startActivity(acceder)
+        }
+        var accesoPuenteDeGundian=findViewById<ImageButton>(R.id.botonMiradoiroGundian)
+        accesoPuenteDeGundian.setOnClickListener {
+            val acceder = Intent(this, miradorGundian ::class.java)
+            startActivity(acceder)
+        }
+
+        var accesoMuinos=findViewById<ImageButton>(R.id.botonInterpretacionMuiños)
+        accesoMuinos.setOnClickListener {
+//            CAMBIAR "muinos" polo nome da clase de "área de interpretacion dos muiños" que non está
+            val acceder = Intent(this,  muinos::class.java)
+            startActivity(acceder)
+        }
+
+        var accesoCotoXimonde=findViewById<ImageButton>(R.id.botonCotoXimonde)
+        accesoCotoXimonde.setOnClickListener {
+            val acceder = Intent(this,  coutoXimonde::class.java)
+            startActivity(acceder)
+        }
+
+        var accesoigrexaFonteCruceiroVedra=findViewById<ImageButton>(R.id.botonIgrexaFonteVedra)
+        accesoigrexaFonteCruceiroVedra.setOnClickListener {
+            val acceder = Intent(this,  igrexaFonteCruceiroVedra::class.java)
+            startActivity(acceder)
+        }
+
+        var accesocapillaFuenteSantiaguino=findViewById<ImageButton>(R.id.botonCapillaSantiaguino)
+        accesocapillaFuenteSantiaguino.setOnClickListener {
+            val acceder = Intent(this,  capillaFuenteSantiaguino::class.java)
+            startActivity(acceder)
+        }
 
         var infoTuristica=findViewById<TextView>(R.id.tvInformacionTuristica)
         infoTuristica.setOnClickListener {
@@ -76,5 +112,25 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.concellodevedra.es/es")))
         }
         
+    }
+
+    override fun onBackPressed() {
+        myAlert(this)
+    }
+
+    fun myAlert(mContext: Context?) {
+
+        val builder = AlertDialog.Builder(this, R.style.AlertTheme)
+        builder.setTitle("Salir?")
+        builder.setMessage("Quieres salir de la aplicación?")
+        builder.setPositiveButton("Si")
+        { dialogInterface, which ->
+            val intent = Intent(Intent.ACTION_MAIN)
+            intent.addCategory(Intent.CATEGORY_HOME)
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+            startActivity(intent) }
+
+        builder.setNegativeButton("No", null)
+        builder.show()
     }
 }

@@ -62,77 +62,109 @@ android:padding="20dp">
         android:gravity="center_horizontal">
 
 
-        <ImageButton
-            android:id="@+id/imgCicloturismo"
-            style="@style/botonGrande"
-            android:background="@color/white"
-            android:contentDescription="@string/cicloturismo"
-            android:padding="5dp"
-            android:scaleType="fitXY"
-            app:srcCompat="@mipmap/cicloturismo" />
+        <LinearLayout
+            android:id="@+id/LLVerticalBotons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="vertical">
 
-        <ImageButton
-            android:id="@+id/imgPescaFluvial"
-            style="@style/botonGrande"
-            android:layout_below="@id/imgCicloturismo"
-            android:layout_alignParentStart="true"
-            android:layout_centerHorizontal="true"
-            android:background="@color/white"
-            android:contentDescription="@string/pescaFluvial"
-            android:padding="5dp"
-            android:scaleType="fitXY"
-            app:srcCompat="@mipmap/pescafluvial" />
+            <LinearLayout
+                android:id="@+id/LLhorizontal1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imgCicloturismo"
+                    style="@style/botonGrande2"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/cicloturismo"
+                    android:padding="5dp"
+                    app:srcCompat="@mipmap/cicloturismo" />
+
+                <ImageButton
+                    android:id="@+id/imgEtnoturismo"
+                    style="@style/botonGrande2"
+                    android:layout_marginStart="11dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:contentDescription="@string/etnoturismo"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/etnoturismo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LLHorizontal2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imgPescaFluvial"
+                    style="@style/botonGrande2"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:contentDescription="@string/pescaFluvial"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/pescafluvial" />
+
+                <ImageButton
+                    android:id="@+id/imgPiraguismo"
+                    style="@style/botonGrande2"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:contentDescription="@string/piraguismo"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/piraguismo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LLHorizontal3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imgSenderismo"
+                    style="@style/botonGrande2"
+                    android:paddingEnd="180dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"
+                    android:contentDescription="@string/senderismo"
+                    android:foregroundGravity="left"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/sederismo" />
+            </LinearLayout>
 
 
-        <ImageButton
-            android:id="@+id/imgEtnoturismo"
-            style="@style/botonGrande"
-            android:layout_alignParentEnd="true"
-            android:layout_centerHorizontal="true"
-            android:background="@color/white"
-            android:contentDescription="@string/etnoturismo"
-            android:padding="5dp"
-            android:scaleType="fitXY"
-            app:srcCompat="@mipmap/etnoturismo" />
-
-
-        <ImageButton
-            android:id="@+id/imgPiraguismo"
-            style="@style/botonGrande"
-            android:layout_below="@id/imgEtnoturismo"
-            android:layout_alignParentEnd="true"
-            android:layout_centerHorizontal="true"
-            android:background="@color/white"
-            android:contentDescription="@string/piraguismo"
-            android:padding="5dp"
-            android:scaleType="fitXY"
-            app:srcCompat="@mipmap/piraguismo" />
-
-
-        <ImageButton
-            android:id="@+id/imgSenderismo"
-            style="@style/botonGrande"
-            android:layout_below="@id/imgPescaFluvial"
-            android:layout_alignParentStart="true"
-            android:layout_centerHorizontal="true"
-            android:background="@color/white"
-            android:contentDescription="@string/senderismo"
-            android:foregroundGravity="left"
-            android:padding="5dp"
-            android:scaleType="fitXY"
-            app:srcCompat="@mipmap/sederismo"/>
+        </LinearLayout>
 
 
         <TextView
             android:id="@+id/tvInformacionTuristica"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/imgSenderismo"
+            android:layout_below="@+id/LLVerticalBotons"
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
             android:gravity="start|bottom"
             android:text="@string/informacionTuristica"
             android:textColor="@color/greenVedra" />
+
 
         <TextView
             android:id="@+id/tvWebVedra"
@@ -140,7 +172,7 @@ android:padding="20dp">
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_below="@+id/imgSenderismo"
+            android:layout_below="@+id/LLVerticalBotons"
             android:gravity="end|bottom"
             android:text="@string/webVedra"
             android:textColor="@color/black" />
