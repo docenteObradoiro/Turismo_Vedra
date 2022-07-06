@@ -5,7 +5,7 @@
     android:id="@+id/relativePrincipal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".queVer.patrimonio_historico"
+    tools:context=".queVer.pontes"
     android:padding="20dp">
 
     <ImageButton
@@ -72,30 +72,30 @@
                     style="@style/botonNegocio"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
-                    android:contentDescription="conxuntodaigrexa"
+                    android:contentDescription="pontedotrendegundian"
                     android:backgroundTint="#00F1ECEC"
                     android:scaleType="fitXY"
-                    android:src="@drawable/botoniglesiavedra" />
+                    android:src="@drawable/botonpontedotrendegundian" />
 
                 <ImageButton
                     android:id="@+id/boton2"
                     style="@style/botonNegocio"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
-                    android:contentDescription="conxuntodacapela"
                     android:backgroundTint="#00F1ECEC"
+                    android:contentDescription="pontedoave"
                     android:scaleType="fitXY"
-                    android:src="@drawable/botoncapilla" />
+                    android:src="@drawable/botonpontedoave" />
 
                 <ImageButton
                     android:id="@+id/boton3"
                     style="@style/botonNegocio"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
-                    android:contentDescription="roteirodeemigracion"
+                    android:contentDescription="pontecolgantedeximonde"
                     android:backgroundTint="#00F1ECEC"
                     android:scaleType="fitXY"
-                    android:src="@drawable/botonroteiro" />
+                    android:src="@drawable/botonpontecolgantedeximonde" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
