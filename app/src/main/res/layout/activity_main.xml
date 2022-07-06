@@ -69,9 +69,10 @@
                 android:layout_width="300dp"
                 android:layout_height="200dp"
                 android:layout_alignParentStart="true"
-                android:layout_alignParentEnd="true"
                 android:layout_alignParentTop="true"
-                android:src="@mipmap/gundian"/>
+                android:layout_alignParentEnd="true"
+                android:src="@mipmap/gundian"
+                app:srcCompat="@mipmap/gundian" />
 
             <TextView
                 android:id="@+id/textoInicio"
@@ -212,9 +213,9 @@
                         android:layout_width="180dp"
                         android:layout_height="130dp"
                         android:layout_marginLeft="-15dp"
+                        android:backgroundTint="#00B8AEAE"
                         android:contentDescription="Miradoiro de Gundian"
                         android:scaleType="fitXY"
-                        android:backgroundTint="#00B8AEAE"
                         app:srcCompat="@mipmap/gundian" />
 
                     <ImageButton
