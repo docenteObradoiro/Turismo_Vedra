@@ -66,63 +66,21 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            tools:context=".MainActivity">
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
-                android:paddingLeft="10dp"
                 android:text="@string/vedra" />
 
-            <HorizontalScrollView
-                android:id="@+id/scrollvedra"
+            <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+                android:id="@+id/carousel"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent">
-
-                    <ImageButton
-                        android:id="@+id/botonderbi"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:backgroundTint="#FFFFFF"
-                        android:contentDescription="derbi"
-                        android:paddingLeft="-20dp"
-                        app:srcCompat="@mipmap/derbi" />
-
-                    <ImageButton
-                        android:id="@+id/botonferrador"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:backgroundTint="#FFFFFF"
-                        android:contentDescription="ferrador"
-                        app:srcCompat="@mipmap/ferrador" />
-
-                    <ImageButton
-                        android:id="@+id/botonesther"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:backgroundTint="#FFFFFF"
-                        android:contentDescription="esther"
-                        app:srcCompat="@mipmap/esther" />
-
-                    <ImageButton
-                        android:id="@+id/botonmosqueiro"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:backgroundTint="#FFFFFF"
-                        android:contentDescription="mosqueiro"
-                        app:srcCompat="@mipmap/mosqueiro" />
-                </LinearLayout>
-            </HorizontalScrollView>
+                android:layout_height="256dp"
+                android:layout_marginBottom="10dp"/>
 
             <TextView
                 android:id="@+id/textView3"
@@ -130,128 +88,27 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
-                android:paddingLeft="10dp"
                 android:text="@string/santacruz" />
 
-            <HorizontalScrollView
-                android:id="@+id/scrollsantacruz"
+            <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+                android:id="@+id/carousel2"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <ImageButton
-                        android:id="@+id/botongundian"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:backgroundTint="#FFFFFF"
-                        android:contentDescription="gundian"
-                        android:paddingLeft="-20dp"
-                        app:srcCompat="@mipmap/tabernadegundian" />
-
-                    <ImageButton
-                        android:id="@+id/botonopatio"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:backgroundTint="#FFFFFF"
-                        android:contentDescription="opatio"
-                        app:srcCompat="@mipmap/patio" />
-
-                    <ImageButton
-                        android:id="@+id/botonquenllas"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:backgroundTint="#FFFFFF"
-                        android:contentDescription="quenllas"
-                        app:srcCompat="@mipmap/quenllas" />
-
-                    <ImageButton
-                        android:id="@+id/botonterraza"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:backgroundTint="#FFFFFF"
-                        android:contentDescription="terraza"
-                        app:srcCompat="@mipmap/terraza" />
-
-                    <ImageButton
-                        android:id="@+id/botonheba"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:backgroundTint="#FFFFFF"
-                        app:srcCompat="@mipmap/heba" />
-
-                </LinearLayout>
-            </HorizontalScrollView>
+                android:layout_height="256dp"
+                android:layout_marginBottom="10dp"/>
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
                 android:text="@string/sanfins" />
 
-            <HorizontalScrollView
-                android:id="@+id/scrollsanfins"
+            <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+                android:id="@+id/carousel3"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="20dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <ImageButton
-                        android:id="@+id/botonavo"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:backgroundTint="#FFFFFF"
-                        android:contentDescription="avo"
-                        android:paddingLeft="-20dp"
-                        app:srcCompat="@mipmap/avo" />
-
-                    <ImageButton
-                        android:id="@+id/botonbarreiro"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:backgroundTint="#FFFFFF"
-                        android:contentDescription="barreiro"
-                        app:srcCompat="@mipmap/barreiro" />
-
-                    <ImageButton
-                        android:id="@+id/botonrey"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:backgroundTint="#FFFFFF"
-                        android:contentDescription="rey"
-                        app:srcCompat="@mipmap/rey" />
-
-                    <ImageButton
-                        android:id="@+id/botonsouto"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:backgroundTint="#FFFFFF"
-                        android:contentDescription="souto"
-                        app:srcCompat="@mipmap/souto" />
-
-                    <ImageButton
-                        android:id="@+id/botonvicky"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:backgroundTint="#FFFFFF"
-                        android:contentDescription="vicky"
-                        app:srcCompat="@mipmap/vicky" />
-                </LinearLayout>
-            </HorizontalScrollView>
+                android:layout_height="256dp"
+                android:layout_marginBottom="10dp"/>
 
             <RelativeLayout
                 android:layout_width="match_parent"

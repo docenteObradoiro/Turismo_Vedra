@@ -287,27 +287,28 @@
                 android:scaleType="fitXY"
                 android:src="@mipmap/mapavedra" />
 
-            <TextView
-                android:id="@+id/tvInformacionTuristica"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentStart="true"
-                android:gravity="start|bottom"
-                android:text="@string/informacionTuristica"
-                android:textColor="@color/greenVedra" />
 
-            <TextView
-                android:id="@+id/tvWebVedra"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentBottom="true"
-                android:gravity="end|bottom"
-                android:text="@string/webVedra"
-                android:textColor="@color/black" />
+                    <TextView
+                        android:id="@+id/tvInformacionTuristica"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:gravity="start|bottom"
+                        android:text="@string/informacionTuristica"
+                        android:textColor="@color/greenVedra" />
+
+                    <TextView
+                        android:id="@+id/tvWebVedra"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:gravity="end|bottom"
+                        android:text="@string/webVedra"
+                        android:textColor="@color/black" />
+                </RelativeLayout>
+
+            </ScrollView>
+
         </RelativeLayout>
-
-    </ScrollView>
-
-</RelativeLayout>
