@@ -26,9 +26,9 @@ internal object ExpandableListData2 {
             festasGastroXul.add("A Festa do Escalo, no mes de xullo en Santa Cruz de Ribadulla.")
 
 
-            expandableListDetail2["Abril"] = festasGastroAbril
-            expandableListDetail2["Maio"] = festasGastroMaio
-            expandableListDetail2["Xullo"] = festasGastroXul
+            expandableListDetail2["Abril / April"] = festasGastroAbril
+            expandableListDetail2["Maio / Mayo / May"] = festasGastroMaio
+            expandableListDetail2["Xullo / Julio / July"] = festasGastroXul
 
             return expandableListDetail2
         }

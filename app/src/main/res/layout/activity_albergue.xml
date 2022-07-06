@@ -45,7 +45,7 @@ android:padding="20dp">
     android:layout_marginTop="70dp"
     android:fontFamily="@font/abel"
     android:gravity="center_horizontal"
-    android:text="@string/albergue"
+    android:text="@string/albergueMaiusculas"
     android:textColor="@color/greenVedra"
     android:textSize="24sp" />
 
@@ -64,7 +64,7 @@ android:padding="20dp">
         android:backgroundTint="#00F1ECEC"
         android:contentDescription="@string/albergue"
         android:scaleType="fitXY"
-        android:src="@mipmap/albergue" />
+        android:src="@mipmap/alberguedevedra" />
 
 
     <TextView

@@ -1,5 +1,7 @@
 package com.cursokotlin.turismo_vedra.quefacer
 
+import android.provider.Settings.Global.getString
+import com.cursokotlin.turismo_vedra.R
 import kotlin.collections.ArrayList
 import kotlin.collections.LinkedHashMap
 
@@ -72,18 +74,22 @@ internal object ExpandableListData {
                 ArrayList()
             festasDec.add("Santa Baia o 10 de decembro en Vedra")
 
-            expandableListDetail["Xaneiro"] = festasXaneiro
-            expandableListDetail["Febreiro"] = festasFebreiro
-            expandableListDetail["Marzo"] = festasMarzo
-            expandableListDetail["Abril"] = festasAbril
-            expandableListDetail["Maio"] = festasMaio
-            expandableListDetail["Xuño"] = festasXuno
-            expandableListDetail["Xullo"] = festasXul
-            expandableListDetail["Agosto"] = festasAgo
-            expandableListDetail["Setembro"] = festasSet
-            expandableListDetail["Outubro"] = festasOutubro
-            expandableListDetail["Novembro"] = festasNov
-            expandableListDetail["Decembro"] = festasDec
+
+//            expandableListDetail[getString(R.string.xaneiro)] = festasXaneiro
+            expandableListDetail["Xaneiro / Enero / January"]= festasXaneiro
+            expandableListDetail["Febreiro / Febrero / February"] = festasFebreiro
+            expandableListDetail["Marzo / March"] = festasMarzo
+            expandableListDetail["Abril / April"] = festasAbril
+            expandableListDetail["Maio / Mayo / May"] = festasMaio
+            expandableListDetail["Xuño / Junio / June"] = festasXuno
+            expandableListDetail["Xullo / Julio / July"] = festasXul
+            expandableListDetail["Agosto / August"] = festasAgo
+            expandableListDetail["Setembro / Septiembre / September"] = festasSet
+            expandableListDetail["Outubro / Octubre / October"] = festasOutubro
+            expandableListDetail["Novembro / Noviembre / November"] = festasNov
+            expandableListDetail["Decembro / Diciembre / December"] = festasDec
             return expandableListDetail
         }
+
+
 }
