@@ -53,8 +53,9 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="140dp"
-        android:contentDescription="@string/appbar_scrolling_view_behavior">
+        android:layout_below="@id/tvActividadesSociais"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/scroll_view">
 
         <RelativeLayout
             android:layout_width="match_parent"

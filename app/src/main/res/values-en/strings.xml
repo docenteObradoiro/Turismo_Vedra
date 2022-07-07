@@ -15,9 +15,11 @@
     <string name="telefonosInteres">USEFUL TELEPHONE NUMBERS</string>
     <string name="textoInicio">I am the municipality of Vedra and I am located in the heart of the Ulla Valley, in the southern part of the province of A Coruña. I have an area of 53km2 and a population of 5100 inhabitants who live in my 12 parishes.
 \n\nA walk through my natural landscapes will immerse yourself in a place with personality. It is not possible to stand out just one place or monument. Everything deserves to be discovered.
-\n\nFor that and more…I am Vedra!</string>
+\n\nFor that and more… I am Vedra!</string>
 
+    <string name="scroll_view">Scroll view</string>
     <string name="nonoPodesPerder">NOT TO BE MISSED...</string>
+    <string name="actividadesFuturas">Actividades futuras</string>
 
     <string name="distancia">Distancia</string>
     <string name="descargaPDFrutas">Descarga PDF Rutas de Senderismo </string>
@@ -58,8 +60,8 @@
 
 
     <string name="distanciaRutaPereiro">Distancia: 5 Km</string>
-    <string name="inicioRutaPereiro">Inicio: Puente de Pereiro-Carretera</string>
-    <string name="finalizacionRutaPereiro">Finalización: Puente Busacos</string>
+    <string name="inicioRutaPereiro">Inicio: Puente de Pereiro - Estrada \n42º 46.901´N 008º 29.500´W</string>
+    <string name="finalizacionRutaPereiro">Finalización: Puente Busacos \n42º 48.861´N 008º 28.792´W</string>
     <string name="duracionRutaPereiro">2 h 15 min </string>
     <string name="nomeRutaPereiro">Ruta do Pereiro</string>
 
