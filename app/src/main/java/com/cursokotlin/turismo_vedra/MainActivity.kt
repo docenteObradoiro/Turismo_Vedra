@@ -2,6 +2,7 @@ package com.cursokotlin.turismo_vedra
 
 
 
+import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -13,7 +14,7 @@ import androidx.appcompat.app.AlertDialog
 import com.cursokotlin.turismo_vedra.ondedurmir.OndeDurmir
 import com.cursokotlin.turismo_vedra.ondexantar.OndeComerPrincipal
 import com.cursokotlin.turismo_vedra.productoresLocales.ProductoresLocales
-import com.cursokotlin.turismo_vedra.queVer.QueVer
+import com.cursokotlin.turismo_vedra.queVer.*
 import com.cursokotlin.turismo_vedra.quefacer.QueFacerPrincipal
 
 
@@ -66,37 +67,37 @@ class MainActivity : AppCompatActivity() {
         }
         var accesoPazoStaCruz=findViewById<ImageButton>(R.id.botonPazoSantacruz)
         accesoPazoStaCruz.setOnClickListener {
-            val acceder = Intent(this, pazoSantaCruzRibadulla ::class.java)
+            val acceder = Intent(this, PazoSantaCruzRibadulla ::class.java)
             startActivity(acceder)
         }
         var accesoPuenteDeGundian=findViewById<ImageButton>(R.id.botonMiradoiroGundian)
         accesoPuenteDeGundian.setOnClickListener {
-            val acceder = Intent(this, miradorGundian ::class.java)
+            val acceder = Intent(this, MiradorGundian ::class.java)
             startActivity(acceder)
         }
 
         var accesoMuinos=findViewById<ImageButton>(R.id.botonInterpretacionMuiños)
         accesoMuinos.setOnClickListener {
 //            CAMBIAR "muinos" polo nome da clase de "área de interpretacion dos muiños" que non está
-            val acceder = Intent(this,  muinos::class.java)
+            val acceder = Intent(this,  MolinoReboredo::class.java)
             startActivity(acceder)
         }
 
         var accesoCotoXimonde=findViewById<ImageButton>(R.id.botonCotoXimonde)
         accesoCotoXimonde.setOnClickListener {
-            val acceder = Intent(this,  coutoXimonde::class.java)
+            val acceder = Intent(this,  CoutoXimonde::class.java)
             startActivity(acceder)
         }
 
         var accesoigrexaFonteCruceiroVedra=findViewById<ImageButton>(R.id.botonIgrexaFonteVedra)
         accesoigrexaFonteCruceiroVedra.setOnClickListener {
-            val acceder = Intent(this,  igrexaFonteCruceiroVedra::class.java)
+            val acceder = Intent(this,  IgrexaFonteCruceiroVedra::class.java)
             startActivity(acceder)
         }
 
         var accesocapillaFuenteSantiaguino=findViewById<ImageButton>(R.id.botonCapillaSantiaguino)
         accesocapillaFuenteSantiaguino.setOnClickListener {
-            val acceder = Intent(this,  capillaFuenteSantiaguino::class.java)
+            val acceder = Intent(this,  CapillaFuenteSANTIAGUIÑO::class.java)
             startActivity(acceder)
         }
 
