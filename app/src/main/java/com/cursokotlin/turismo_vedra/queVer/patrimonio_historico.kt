@@ -32,7 +32,7 @@ class patrimonio_historico: AppCompatActivity() {
         }
         val boton2 = findViewById<ImageButton>(R.id.boton2)
         boton2.setOnClickListener {
-            val accederCapelaSANTIAGUIÑO = Intent(this, capillaFuenteSANTIAGUIÑO::class.java)
+            val accederCapelaSANTIAGUIÑO = Intent(this, capillaFuenteSantiaguino::class.java)
             startActivity(accederCapelaSANTIAGUIÑO)
         }
         val boton3 = findViewById<ImageButton>(R.id.boton3)

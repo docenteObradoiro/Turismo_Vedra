@@ -62,48 +62,76 @@
             android:gravity="center_horizontal">
 
 
-            <ImageButton
-                android:id="@+id/imgActividadesRelixiosas"
-                style="@style/botonGrande"
-                android:background="@color/white"
-                android:contentDescription="@string/actividadesRelixiosas"
-                android:padding="5dp"
-                android:scaleType="fitXY"
+            <LinearLayout
+                android:id="@+id/LLVertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="vertical">
 
-                app:srcCompat="@mipmap/relixiosas" />
+                <LinearLayout
+                    android:id="@+id/LLHorizontal1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
 
-            <ImageButton
-                android:id="@+id/imgFestasGastronomicas"
-                style="@style/botonGrande"
-                android:layout_below="@id/imgActividadesRelixiosas"
-                android:background="@color/white"
-                android:contentDescription="@string/festasGastronomicas"
-                android:padding="5dp"
-                android:scaleType="fitXY"
-                app:srcCompat="@mipmap/gastronomicas" />
+                    <ImageButton
+                        android:id="@+id/imgActividadesRelixiosas"
+                        style="@style/botonGrande2"
+                        android:background="@color/white"
+                        android:contentDescription="@string/actividadesRelixiosas"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
 
-            <ImageButton
-                android:id="@+id/imgXenerais"
-                style="@style/botonGrande"
-                android:layout_below="@id/rutaCamelia"
-                android:layout_marginStart="11dp"
-                android:layout_toEndOf="@+id/imgFestasGastronomicas"
-                android:background="@color/white"
-                android:contentDescription="@string/xeneraisUlla"
-                android:padding="5dp"
-                android:scaleType="fitXY"
-                app:srcCompat="@mipmap/xeneraisdaulla" />
+                        app:srcCompat="@mipmap/relixiosas" />
 
-            <ImageButton
-                android:id="@+id/rutaCamelia"
-                style="@style/botonGrande"
-                android:layout_marginStart="11dp"
-                android:layout_toEndOf="@+id/imgActividadesRelixiosas"
-                android:background="@color/white"
-                android:contentDescription="@string/rutaCamelia"
-                android:padding="5dp"
-                android:scaleType="fitXY"
-                app:srcCompat="@mipmap/rutacamelia" />
+
+                    <ImageButton
+                        android:id="@+id/rutaCamelia"
+                        style="@style/botonGrande2"
+                        android:layout_marginStart="11dp"
+                        android:background="@color/white"
+                        android:contentDescription="@string/rutaCamelia"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@mipmap/rutacamelia" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLHorizontal2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imgFestasGastronomicas"
+                        style="@style/botonGrande2"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/white"
+                        android:contentDescription="@string/festasGastronomicas"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@mipmap/gastronomicas" />
+                    <ImageButton
+                        android:id="@+id/imgXenerais"
+                        style="@style/botonGrande2"
+                        android:layout_marginStart="11dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/white"
+                        android:contentDescription="@string/xeneraisUlla"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@mipmap/xeneraisdaulla" />
+
+                </LinearLayout>
+
+            </LinearLayout>
 
             <TextView
                 android:id="@+id/tvCalendario"
@@ -112,8 +140,7 @@
                android:layout_marginStart="5.5dp"
                 android:layout_marginTop="30dp"
                 android:textSize="16sp"
-                android:layout_weight="1"
-                android:layout_below="@id/imgFestasGastronomicas"
+                android:layout_below="@id/LLVertical"
                 android:text="@string/calendario"
                 android:textColor="@color/greenVedra"/>
 
@@ -123,7 +150,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="50dp"
-                android:layout_below="@id/imgFestasGastronomicas">
+                android:layout_below="@id/LLVertical">
 
                 <LinearLayout
                     android:id="@+id/layoutMeses"
@@ -145,6 +172,7 @@
                     <ImageButton
                         android:id="@+id/festasFebreiro"
                         style="@style/botonGrande"
+                        android:layout_marginStart="10dp"
                         android:background="@color/white"
                         android:contentDescription="@string/febreiro"
                         android:padding="5.5dp"
@@ -154,6 +182,7 @@
                     <ImageButton
                         android:id="@+id/festasMarzo"
                         style="@style/botonGrande"
+                        android:layout_marginStart="10dp"
                         android:background="@color/white"
                         android:contentDescription="@string/marzo"
                         android:padding="5.5dp"
@@ -164,6 +193,7 @@
                     <ImageButton
                         android:id="@+id/festasAbril"
                         style="@style/botonGrande"
+                        android:layout_marginStart="10dp"
                         android:background="@color/white"
                         android:contentDescription="@string/abril"
                         android:padding="5.5dp"
@@ -173,6 +203,7 @@
                     <ImageButton
                         android:id="@+id/festasMaio"
                         style="@style/botonGrande"
+                        android:layout_marginStart="10dp"
                         android:background="@color/white"
                         android:contentDescription="@string/maio"
                         android:padding="5.5dp"
@@ -182,6 +213,7 @@
                     <ImageButton
                         android:id="@+id/festasXuno"
                         style="@style/botonGrande"
+                        android:layout_marginStart="10dp"
                         android:background="@color/white"
                         android:contentDescription="@string/xuno"
                         android:padding="5.5dp"
@@ -191,6 +223,7 @@
                     <ImageButton
                         android:id="@+id/festasXullo"
                         style="@style/botonGrande"
+                        android:layout_marginStart="10dp"
                         android:background="@color/white"
                         android:contentDescription="@string/xullo"
                         android:padding="5.5dp"
@@ -200,6 +233,7 @@
                     <ImageButton
                         android:id="@+id/festasAgosto"
                         style="@style/botonGrande"
+                        android:layout_marginStart="10dp"
                         android:background="@color/white"
                         android:contentDescription="@string/agosto"
                         android:padding="5.5dp"
@@ -209,6 +243,7 @@
                     <ImageButton
                         android:id="@+id/festasSetembro"
                         style="@style/botonGrande"
+                        android:layout_marginStart="10dp"
                         android:background="@color/white"
                         android:contentDescription="@string/setembro"
                         android:padding="5.5dp"
@@ -218,6 +253,7 @@
                     <ImageButton
                         android:id="@+id/festasOutubro"
                         style="@style/botonGrande"
+                        android:layout_marginStart="10dp"
                         android:background="@color/white"
                         android:contentDescription="@string/outubro"
                         android:padding="5.5dp"
@@ -228,6 +264,7 @@
                     <ImageButton
                         android:id="@+id/festasNovembro"
                         style="@style/botonGrande"
+                        android:layout_marginStart="10dp"
                         android:background="@color/white"
                         android:contentDescription="@string/novembro"
                         android:padding="5.5dp"
@@ -238,6 +275,7 @@
                     <ImageButton
                         android:id="@+id/festasDecembro"
                         style="@style/botonGrande"
+                        android:layout_marginStart="10dp"
                         android:background="@color/white"
                         android:contentDescription="@string/decembro"
                         android:padding="5.5dp"
