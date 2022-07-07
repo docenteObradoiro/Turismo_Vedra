@@ -31,6 +31,11 @@ class RoteiroEmigracion: AppCompatActivity() {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://goo.gl/maps/a7deKwZppeAMvnm19")))
         }
 
+        val pdf = findViewById<ImageButton>(R.id.pdf)
+        pdf.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.concellodevedra.es/ficheiros/folleto%20web%20roteiro%20da%20emigraci%C3%B3n%20%281%29.pdf")))
+        }
+
         val informacionTuristica = findViewById<TextView>(R.id.tvInformacionTuristica)
         informacionTuristica.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.concellodevedra.es/node/44")))

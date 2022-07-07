@@ -100,17 +100,33 @@
 
                     <ImageButton
                         android:id="@+id/maps"
-                        android:layout_width="35dp"
-                        android:layout_height="30dp"
+                        android:layout_width="40dp"
+                        android:layout_height="35dp"
                         android:layout_alignParentBottom="true"
                         android:layout_marginLeft="0dp"
                         android:layout_marginTop="10dp"
-                        android:layout_marginRight="20dp"
+                        android:layout_marginRight="15dp"
                         android:layout_marginBottom="1dp"
                         android:background="@drawable/animamaps"
                         android:scaleType="fitXY"
                         android:theme="@android:style/ThemeOverlay.Material.Dark"
                         app:srcCompat="@drawable/maps_negro"
+                        app:tint="#00989898" />
+
+                    <ImageButton
+                        android:id="@+id/pdf"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/animapdf"
+                        android:layout_marginBottom="1dp"
+                        android:layout_toEndOf="@+id/maps"
+                        android:scaleType="fitXY"
+                        android:theme="@android:style/ThemeOverlay.Material.Dark"
+                        app:srcCompat="@drawable/pdf_logo_gris"
                         app:tint="#00989898" />
 
                 </RelativeLayout>
