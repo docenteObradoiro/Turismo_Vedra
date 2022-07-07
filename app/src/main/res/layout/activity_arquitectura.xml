@@ -75,7 +75,7 @@
                     android:contentDescription="pazoribadulla"
                     android:backgroundTint="#00F1ECEC"
                     android:scaleType="fitXY"
-                    android:src="@drawable/botonpazodesantacruzderibadulla" />
+                    android:src="@mipmap/botonpazodesantacruzderibadulla" />
 
                 <ImageButton
                     android:id="@+id/boton2"
@@ -85,7 +85,7 @@
                     android:contentDescription="pontegundian"
                     android:backgroundTint="#00F1ECEC"
                     android:scaleType="fitXY"
-                    android:src="@drawable/botonpontedotrendegundian" />
+                    android:src="@mipmap/botonpontedotrendegundian" />
 
                 <ImageButton
                     android:id="@+id/boton3"
@@ -95,7 +95,7 @@
                     android:contentDescription="pontedoave"
                     android:backgroundTint="#00F1ECEC"
                     android:scaleType="fitXY"
-                    android:src="@drawable/botonpontedoave" />
+                    android:src="@mipmap/botonpontedoave" />
 
                 <ImageButton
                     android:id="@+id/boton4"
@@ -105,7 +105,7 @@
                     android:contentDescription="ponteximonde"
                     android:backgroundTint="#00F1ECEC"
                     android:scaleType="fitXY"
-                    android:src="@drawable/botonpontecolgantedeximonde" />
+                    android:src="@mipmap/botonpontecolgantedeximonde" />
 
                 <ImageButton
                     android:id="@+id/boton5"
@@ -115,7 +115,7 @@
                     android:contentDescription="muinoreboredo"
                     android:backgroundTint="#00F1ECEC"
                     android:scaleType="fitXY"
-                    android:src="@drawable/botonmuinodereboredo" />
+                    android:src="@mipmap/botonmuinodereboredo" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"

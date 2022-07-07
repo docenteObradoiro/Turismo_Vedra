@@ -75,7 +75,7 @@
                     android:contentDescription="conxuntodaigrexa"
                     android:backgroundTint="#00F1ECEC"
                     android:scaleType="fitXY"
-                    android:src="@drawable/botoniglesiavedra" />
+                    android:src="@mipmap/botoniglesiavedra" />
 
                 <ImageButton
                     android:id="@+id/boton2"
@@ -85,7 +85,7 @@
                     android:contentDescription="conxuntodacapela"
                     android:backgroundTint="#00F1ECEC"
                     android:scaleType="fitXY"
-                    android:src="@drawable/botoncapilla" />
+                    android:src="@mipmap/botoncapilla" />
 
                 <ImageButton
                     android:id="@+id/boton3"
@@ -95,7 +95,7 @@
                     android:contentDescription="roteirodeemigracion"
                     android:backgroundTint="#00F1ECEC"
                     android:scaleType="fitXY"
-                    android:src="@drawable/botonroteiro" />
+                    android:src="@mipmap/botonroteiro" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
