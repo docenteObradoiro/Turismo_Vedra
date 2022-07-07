@@ -75,7 +75,7 @@
                     android:contentDescription="arearecreativadeagronovo"
                     android:backgroundTint="#00F1ECEC"
                     android:scaleType="fitXY"
-                    android:src="@drawable/botonarearecreativadeagronovo" />
+                    android:src="@mipmap/botonarearecreativadeagronovo" />
 
                 <ImageButton
                     android:id="@+id/boton2"
@@ -85,7 +85,7 @@
                     android:contentDescription="cubelas"
                     android:backgroundTint="#00F1ECEC"
                     android:scaleType="fitXY"
-                    android:src="@drawable/botoncubelas" />
+                    android:src="@mipmap/botoncubelas" />
 
                 <ImageButton
                     android:id="@+id/boton3"
@@ -95,7 +95,7 @@
                     android:contentDescription="miradordegundian"
                     android:backgroundTint="#00F1ECEC"
                     android:scaleType="fitXY"
-                    android:src="@drawable/botonmiradordegundian" />
+                    android:src="@mipmap/botonmiradordegundian" />
 
                 <ImageButton
                     android:id="@+id/boton4"
@@ -105,7 +105,7 @@
                     android:contentDescription="campodegundian"
                     android:backgroundTint="#00F1ECEC"
                     android:scaleType="fitXY"
-                    android:src="@drawable/botoncampodegundian" />
+                    android:src="@mipmap/botoncampodegundian" />
 
                 <ImageButton
                     android:id="@+id/boton5"
@@ -115,7 +115,7 @@
                     android:contentDescription="coutodeximonde"
                     android:backgroundTint="#00F1ECEC"
                     android:scaleType="fitXY"
-                    android:src="@drawable/botoncoutodeximonde" />
+                    android:src="@mipmap/botoncoutodeximonde" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"

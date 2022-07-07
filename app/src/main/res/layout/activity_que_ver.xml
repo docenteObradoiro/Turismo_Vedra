@@ -75,7 +75,7 @@ android:padding="20dp">
                         android:contentDescription="Naturaleza"
                         android:backgroundTint="#00F1ECEC"
                         android:scaleType="fitXY"
-                        android:src="@drawable/botonnaturaleza" />
+                        android:src="@mipmap/botonnaturaleza" />
 
                     <ImageButton
                         android:id="@+id/boton2"
@@ -85,7 +85,7 @@ android:padding="20dp">
                         android:contentDescription="Naturaleza"
                         android:backgroundTint="#00F1ECEC"
                         android:scaleType="fitXY"
-                        android:src="@drawable/botonarquitectura" />
+                        android:src="@mipmap/botonarquitectura" />
 
                     <ImageButton
                         android:id="@+id/boton3"
@@ -95,7 +95,7 @@ android:padding="20dp">
                         android:contentDescription="Naturaleza"
                         android:backgroundTint="#00F1ECEC"
                         android:scaleType="fitXY"
-                        android:src="@drawable/botonpatrimoniohistorico" />
+                        android:src="@mipmap/botonpatrimoniohistorico" />
 
                     <RelativeLayout
                         android:layout_width="match_parent"
