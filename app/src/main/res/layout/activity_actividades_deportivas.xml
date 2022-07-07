@@ -9,18 +9,18 @@ tools:context=".quefacer.ActividadesDeportivas"
 android:padding="20dp">
 
 
-<ImageButton
-    android:id="@+id/logoVedra"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_alignParentStart="true"
-    android:layout_alignParentTop="true"
-    android:background="#FFFFFF"
-    android:contentDescription="@string/logoVedra"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:srcCompat="@mipmap/logo_concello_vedra"
-    tools:ignore="TouchTargetSizeCheck" />
+    <ImageButton
+        android:id="@+id/logoVedra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/logoVedra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/logo_concello_vedra"
+        tools:ignore="TouchTargetSizeCheck" />
 
 <ImageButton
     android:id="@+id/menuHamburguesa"
@@ -135,12 +135,13 @@ android:padding="20dp">
                 android:id="@+id/LLHorizontal3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:weightSum="2"
                 android:orientation="horizontal">
 
                 <ImageButton
                     android:id="@+id/imgSenderismo"
                     style="@style/botonGrande2"
-                    android:paddingEnd="180dp"
                     android:layout_marginTop="10dp"
                     android:background="@color/white"
                     android:contentDescription="@string/senderismo"
@@ -148,6 +149,19 @@ android:padding="20dp">
                     android:padding="5dp"
                     android:scaleType="fitXY"
                     app:srcCompat="@mipmap/sederismo" />
+
+<!--           A imaxe oculta que queda a continuación serve para introducir futuras actividades deportivas, cambiando a imaxe e eliminando o tint     -->
+                <ImageButton
+                    android:id="@+id/imgBlanca"
+                    style="@style/botonGrande2"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"
+                    android:contentDescription="@string/actividadesFuturas"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/sederismo"
+                    app:tint="@color/white" />
             </LinearLayout>
 
 

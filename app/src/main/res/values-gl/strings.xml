@@ -17,58 +17,63 @@
 \n\nPasear por Vedra e polas miñas paisaxes mergúllate nun espazo con personalidade propia. Facer referencia a un só lugar ou monumento non é posible, todo eu son un lugar que merece ser descuberto.
 \n\nPor todo iso, e por moito máis…son Vedra!</string>
 
+    <string name="scroll_view">Scroll view</string>
+    <string name="actividadesFuturas">Actividades futuras</string>
+
     <string name="distancia">Distancia</string>
     <string name="descargaPDFrutas">Descarga PDF Rutas de Senderismo </string>
 
-    <string name="senderoLineal">Tipo de sendero: Lineal</string>
-    <string name="senderoCircular">Tipo de sendero: Circular</string>
+    <string name="senderoLineal">Tipo de sendeiro: Lineal</string>
+    <string name="senderoCircular">Tipo de sendeiro: Circular</string>
     <string name="duracion">Duración aproximada</string>
     <string name="duracionIda">Duración aproximada (ida)</string>
-    <string name="dificultadeMedia">Dificultad: media</string>
+    <string name="dificultadeMedia">Dificultade: media</string>
     <string name="datosTecnicos">Datos técnicos</string>
 
     <string name="si">Si</string>
     <string name="no">Non</string>
 
-    <string name="textoRutas1">Caminar por el placer de conocer, recorrer caminos salpicados de historia, cultura, tradiciones... y moldeados por la fuerza de la naturaleza. Gozar del paisaje.
-        \n\nComo pueden comprobar Vedra abre sus puertas de par en par al caminante, para mostrar una tierra cariñosa, sencilla, donde los senderos muestran la belleza y la diversidad del ayuntamiento.
-        \n \n*Para equiparse hay que tener en cuenta la época del año en la que se hacen las rutas.</string>
+    <string name="textoRutas1">Camiñar polo pracer de coñecer, percorrer camiños salpicados de historia, cultura, tradicións... e moldeados pola forza da natureza. Gozar da paixase.
+        \n\nComo poden comprobar, Vedra abre as súas portas de par en par ó camiñante, para mostrerlle unha terra cariñosa, sinxela, onde os sendeiros mostran a beleza e a diversidade do concello.
+        \n \n*Para equiparse hai que ter en conta a época do ano na que se fan as rutas.</string>
 
-    <string name="textoRutas2">Si continuamos nuestro recorrido, llegaremos al entorno de la Ferreira, y finalizaremos esta ruta en Ponte Busacos, punto más destacable por su valor histórico; por el transcurrió la IV Vía Militar romana que unía Brácara (Braga) e Astúrica (Astorga); y en la actualidad discurre la Vía de la Plata del Camino de Santiago.</string>
-
-
-    <string name="textoRutas3">El inicio de este sendero se sitúa en la parroquia de Vedra, junto al puente de la carretera principal que atraviesa el río Pereiro. Se accede partiendo de la casa del Ayuntamiento en dirección a Illobre, a mitad de camino encontramos un panel de ruta (punto de partida).
-        \n \nEsta ruta nos conduce paralelos al río Pereiro, y nos permite descubrir toda una serie de molinos, salpicados aquí y allá, alguno de ellos aún hoy en funcionamiento. A poucos Kilómetros río arriba localízase a fervenza do Pereiro que con su ruído rompe el silencio del paisaje.</string>
+    <string name="textoRutas2">Se continuamos o noso recorrido, chegamos ó entorno da Ferreira e finalizaremos esta ruta en Ponte Busacos, punto máis destacable polo seu valor histórico; por el trascorreu a IV Vía Militar romana que unía Brácara (Braga) e Astúrica (Astorga); e na actualidade discurre a Vía da Prata do Camiño de Santiago.</string>
 
 
-    <string name="textoRutas4">Además de conocer la cultura molinera, también podemos observar las tareas agrícolas en prados, huertos y viñedos.
-        \n \nLa ruta nos lleva a través del bosque por estrechos caminos rodeados de vegetación y cascadas que con su melodía hacen más grato el caminar.</string>
-    <string name="textoRutas5">El punto de partida se sitúa en la parroquia de San Pedro de Vilanova. Nos desviamos de la carretera N-525 Santiago-Ourense en dirección a la iglesia parroquial y, dejando atrás esta, giramos primero a la izquierda y después a la derecha, siguiendo las indicaciones viarias.
-        \n \nEsta ruta nos muestra un conjunto etnográfico formado por varios molinos en buen estado de conservación que siguen el curso del río de Merín, acercandonos a una constante en el paisaje de Vedra que nos da idea de la importancia que la agricultura tuvo en la economía de nuestros antepasados, y del fuerte vínculo que liga por siempre esta tierra al agua.</string>
-    <string name="textoRutas6">La primera parada a destacar es el casco tradicional del pueble de Ponte Ulla. A poca distancia nos encontramos en nuestro camino con un molino de singulares características, el molino de Reboredo, provisto de cinco muelas. \n \nLa siguiente parada será en el área de recreo de Agronovo, donde podremos descansar un rato para reponer fuerzas.
-        \n \nContinuamos hasta llegar al área de recreo del Coto de Ximonde, un de los cotos de salmón más importantes de Galicia, convertido hoy en una estación ictiológica de cría y reproducción.
-        \n \nMás adelante nos espera el área de recreo de Cubelas, que pone punto y final a este hermoso recorrido por el Ulla.</string>
-    <string name="textoRutas7">Su inicio se localiza en el Mirador de Gundián, junto al puente del ferrocarril. Para llegar hasta el mirador se toma la salida de la carretera N-525 Santiago-Ourense en el lugar de Ponte Ulla.
-        \n \nEl Mirador de Gundián está situado a unos 100 metros sobre el nivel del río, que permite una visión incomparable del Ulla estrechándose en el paso da Cova, bajo el puente del ferrocarril, y continuando luego su recorrido hasta perderse a lo lejos.
-        \n \nEsta ruta discurre por el margen derecho del río Ulla aprovechando caminos de paso, sendas de pescadores y senderos ya marcados.</string>
+    <string name="textoRutas3">O inicio deste sendeiro sitúase na parroquia de Vedra, xunto á ponte da estrada principal que atravesa o río Pereiro. Accédese partindo da casa do Concello, en dirección Illobre, a metade de camiño atopamos un panel de ruta (punto de partida).
+        \n \nEsta ruta condúcenos paralelos ó río Pereiro, permítenos descubrir toda unha serie de muiños, salpicados aquí e alá, algun deles aínda hoxe en funcionamento. Poucos Kilómetros río arriba localízase a fervenza do Pereiro que, co seu ruido rompe o silencio da paisaxe.</string>
+
+
+    <string name="textoRutas4">Ademáis de coñecer a cultura muiñeira, tamén podemos observar as tareas agrícolas en prados, hortas e viñedos.
+        \n \nA ruta lévanos a través do bosque polos estreitos camiños, rodeados de vexetación e cascadas que, coa súa melodía, fan o camiñar máis grato.</string>
+    <string name="textoRutas5">O punto de partida sitúase na parroquia de San Pedro de Vilanova. Desviámonos da estrada N-525 Santiago-Ourense en dirección á igrexa parroquial, e deixando atrás esta, xiramos primeiro á esquerda e despois á dereita, seguindo as indicacións viarias.
+        \n \nEsta ruta móstranos un conxunto etnográfico formado por varios muíños en bo estado de conservación que seguen o curso do río de Merín, acercándonos a unha constante na paisaxe de Vedra que nos da unha idea da importancia que tivo a agricultura na economía dos nosos antepasados, e do forte vínculo que liga por sempre esta terra á auga.</string>
+    <string name="textoRutas6">A primeira parada a destacar é o casco tradicional do pobo de Ponte Ulla. A pouca distancia encontramos o noso camiño, cun muíño de singulares características, o Muíño de Reboredo, provisto de cinco moas.
+        \n \nA seguinte parada será na área de recreo de Agronovo, onde podremos descansar un anaco para repoñer forzas.
+        \n \nContinuamos ata chegar á área recreativa do Couto de Ximonde, un dos coutos de salmón máis importantes de Galicia, convertido hoxe nunha estación ictiolóxica de cría e reprodución
+        \n \nMáis adiante esperanos a área de recreo de Cubelas, que pon punto e fin a este fermoso percorrido polo Ulla.</string>
+    <string name="textoRutas7">O seu inicio localízase no Miradoiro de Gundián, xunto á ponte do ferrocarril. Para chegar ata o miradoiro tómase a saída da estrada N-525 Santiago-Ourense no lugar de Ponte Ulla.
+        \n \O Miradoiro de Gundián está situado a uns 100 metros sobre o nivel do río, que permite unha visión incomparable do Ulla, estreitándose no paso da Cova, baixo a ponte do ferrocarril, e continuando logo o seu recorrido ata perderse ó lonxe.
+        \n \nEsta ruta dicorre pola marxe dereita do río Ulla, aproveitando camiños de paso, sendas de pescadores e sendeiros xa marcados.</string>
 
 
 
     <string name="distanciaRutaPereiro">Distancia: 5 Km</string>
-    <string name="inicioRutaPereiro">Inicio: Puente de Pereiro-Carretera</string>
-    <string name="finalizacionRutaPereiro">Finalización: Puente Busacos</string>
+    <string name="inicioRutaPereiro">Inicio: Ponte do Pereiro - Estrada \n42º 46.901´N 008º 29.500´W</string>
+    <string name="finalizacionRutaPereiro">Finalización: Ponte Busacos \n42º 48.861´N 008º 28.792´W
+</string>
     <string name="duracionRutaPereiro">2 h 15 min </string>
     <string name="nomeRutaPereiro">Ruta do Pereiro</string>
 
 
     <string name="distanciaRutaMolinos">Distancia: 2 Km</string>
-    <string name="inicioRutaMolinos">Inicio: Área de Interpretación de los Molinos \n42º46.433´N 008º26.629´W</string>
+    <string name="inicioRutaMolinos">Inicio: Área de Interpretación dos Muíños \n42º46.433´N 008º26.629´W</string>
     <string name="duracionRutaMolinos">1 h 10 min</string>
-    <string name="nomeRutaMolinos">Ruta de los Molinos</string>
+    <string name="nomeRutaMolinos">Ruta dos Muíños</string>
 
 
     <string name="distanciaRutaSanXoan">Distancia: 11,2 Km</string>
-    <string name="inicioRutaSanXoan">Inicio: Mirador de Gundian \42º47.117´N 008º23.700´W</string>
+    <string name="inicioRutaSanXoan">Inicio: Miradoiro de Gundian \42º47.117´N 008º23.700´W</string>
     <string name="finalizacionRutaSanXoan">Finalización: Área de recreo de Cubelas \42º44.754´N 008º28.331´W</string>
     <string name="duracionRutaSanXoan">5 h 20 min</string>
     <string name="nomeRutaSanXoan">Ruta de San Xoán da Cova</string>
@@ -76,7 +81,7 @@
 
     <string name="nonoPodesPerder">NON O PODES PERDER...</string>
     <string name="infoComoChegar">Para chegar ata min, tes varias opcións:
-        \n\nDesde Santiago de Compostela: colles a N-525 dirección Ourense e entras directamente nos límites do concello.
+        \n\nDende Santiago de Compostela: colles a N-525 dirección Ourense e entras directamente nos límites do concello.
         \n\nA N-525 Santiago-Ourense conflúe en A Ponte Ulla coa AC-241 A Ponte Ulla – Pontevea.
         \n\nTamén podes achegarte pola autoestrada AP-53 Santiago-Ourense tomando a primeira saída (Ribadulla: A Ponte Ulla, P.K. 14).
         \n\nAs comunicación internas do concello discorren a través de cómodas estradas locais.
@@ -161,7 +166,7 @@
     <string name="festasGastronomicas">Festas gastronómicas</string>
     <string name="xeneraisUlla">Xenerais da Ulla</string>
     <string name="rutaCamelia">Ruta da Camelia</string>
-    <string name="festasRelixiosas">Fiestas religiosas</string>
+    <string name="festasRelixiosas">Festas relixiosas</string>
     <string name="calendario">Calendario</string>
 
     <string name="xaneiro">Xaneiro</string>
@@ -239,7 +244,7 @@
     <string name="cicloturismo">Cicloturismo</string>
     <string name="etnoturismo">Etnoturismo</string>
 
-    <string name="queVer">QUÉ VER</string>
+    <string name="queVer">QUE VER</string>
 
     <string name="cabeceraAgronovo">Área de Recreo de Agronovo</string>
     <string name="agronovo">A Área de Recreo de Agronovo atópase ao pé do río Ulla. Polas súas inmediacións transcorre a ruta de sendeirismo de San Xoán da Cova. Está dotada de zona de baño, mesas e bancos, servizos, espazo acondicionado para barbacoa… \n\nDurante os meses de xullo e agosto, os sábados e domingos en horario de 16:00 a 20:00 h. dispón dun servizo de aluguer de piraguas e barcas do Ulla. \n\nO segundo domingo de xullo, celébrase neste lugar o Concurso de Pesca do Escalo, un evento que conta cunha ampla programación festiva.</string>
@@ -253,8 +258,8 @@
     <string name="cabeceraCampoGundian">Área de Recreo do Campo de Gundián</string>
     <string name="campoGundian">A Área de Recreo do Campo de Gundián está constituída polo conxunto singular que conforman a capela, a fonte, o palco da música, as mesas e bancos e as vistas ao río Ulla, así como a antiga Ponte de Gundián e a moderna do AVE, que permiten gozar deste magnífico contorno natural. \n\nO espazo onde se sitúa esta área ten a particularidade de ser o único terreo ao sur do río Ulla que pertence á provincia da Coruña. Neste lugar celébrase o día 7 de setembro a famosa festa da procesión de Nosa Señora de Gundián, na que trasladan á Virxe desde o pobo acompañada dunha gran tirada de fogos de artificio. \n\nNas proximidades atópase así mismo o Miradoiro de Gundián, que ofrece unhas magníficas vistas de toda a zona.</string>
 
-    <string name="cabeceraCoutoXimonde">Área de Recreo do Coto de Ximonde</string>
-    <string name="coutoXimonde">O Coto de Ximonde é un dos cotos salmoneiros máis importantes de Galicia. No refuxio de pescadores existe un pequeno centro de interpretación do río Ulla e unha estación ictiolóxica de cría e reprodución. \n\nNesta Área de Recreo chaman a atención os diferentes postos de pescadores, o salto de auga-fervenza, e sobre todo a súa ponte colgante. É un lugar que convida ao paseo e a gozar da natureza.</string>
+    <string name="cabeceraCoutoXimonde">Área de Recreo do Couto de Ximonde</string>
+    <string name="coutoXimonde">O Couto de Ximonde é un dos cotos salmoneiros máis importantes de Galicia. No refuxio de pescadores existe un pequeno centro de interpretación do río Ulla e unha estación ictiolóxica de cría e reprodución. \n\nNesta Área de Recreo chaman a atención os diferentes postos de pescadores, o salto de auga-fervenza, e sobre todo a súa ponte colgante. É un lugar que convida ao paseo e a gozar da natureza.</string>
 
     <string name="cabeceraPazoSantaCruzRibadulla">Pazo de Santa Cruz de Ribadulla</string>
     <string name="pazoSantaCruzRibadulla">O Pazo de Santa Cruz de Rivadulla, tamén coñecido como Pazo de Ortigueira ou “Granja de Ortigueira”, atópase ao abeiro do Pico Sacro, na beira coruñesa do río Ulla (Vedra). \n\nA súa historia remóntase ao século XVI, cando o cóengo da Catedral de Santiago, Juan Ibáñez de Mondragón, adquire as propiedades que se converterían no Pazo de Santa Cruz, coñecido daquela como a Torre e o Casar de Ortigueira. \n\nO cóengo e máis tarde o seu sobriño o cardeal, -dignidade da catedral de Santiago- Juan de Mondragón, ampliaron a propiedade. Construíuse a capela, arranxáronse os edificios e calcouse o esqueleto do que hoxe é a posesión con plantacións de oliveiras e vides. As fontes, as pozas, a fervenza, a casa, a capela, o hórreo e o resto de edificacións son algúns dos seus atractivos.</string>
@@ -267,7 +272,7 @@
     <string name="cabeceraPuenteAVEGundian">Ponte do AVE de Gundián</string>
     <string name="puenteAVEGundian">O ministerio de Fomento, a través da entidade Adif, comezou a execución dun novo viaduto do Ulla, unha das construcións incluídas no subtramo Silleda (Dornelas)-Vedra-Boqueixón, do eixe Ourense-Santiago de Compostela do Corredor norte-noroeste de alta velocidade, que forma parte da L.A.V. Olmedo - Zamora - Galicia. \n\nA nova ponte, que arranca a tan só 130 m da ponte de Gundián, construíuse no ano 2008. Trátase dunha estrutura singular de máis de 1 km de lonxitude, que está considerada de interese arquitectónico en España. A singularidade desta obra e a complexidade e orixinalidade da súa construción, fixo que o Colexio de Enxeñeiros de Camiños, Canais e Portos de Galicia lle outorgara en 2001 o Premio San Telmo, co que este colectivo distingue a obra civil máis representativa en Galicia realizada durante o ano anterior ao da súa convocatoria.</string>
 
-    <string name="cabeceraPuenteColganteXimonde">Puente colgante de Ximonde</string>
+    <string name="cabeceraPuenteColganteXimonde">Ponte colgante de Ximonde</string>
     <string name="puenteColganteXimonde">No inverno do ano 2000, unha forte enchente provocou o derrubamento da antiga pasarela situada sobre o río Ulla -construída en 1970 e substituída nos anos 80-. Por iso, no ano 2012 planificouse a creación dunha nova ponte colgante no mesmo lugar, que tivo un importante impacto ambiental. Cunha lonxitude duns 87 metros e unha altura doutros 8 metros sobre o río, o paso elevado de Ximonde só permite o tránsito de peóns, é accesible para minusválidos e ten unha superficie antideslizante. \n\nAs obras para a urbanización permitiron recuperar os camiños lindeiros ao río que unían os distintos postos de pesca. Cruzando a ponte cara á Estrada tamén hai unha pequena área recreativa equipada con mesas e bancos para descansar despois dunha xornada rodeada de natureza, aínda que hai outras zonas espalladas pola ribeira. Ademais, a ponte colgante de Ximonde é o punto de partida, ou parte do camiño, de diferentes rutas de sendeirismo da zona. \n\nPor poñer un exemplo, a senda homologada PR-G36 de San Xoán da Cova discorre río abaixo atravesando esta zona elevada, pero son moitas outras rutas que percorren o macizo do río Ulla entre pasarelas, pesqueiras, áreas recreativas e outros espazos especiais. . interese. Para os amantes do sendeirismo, rutas como a que vai dende o famoso miradoiro de Gundián ata o coto de Ximonde en ruta lineal; a que parte da zona de pesca de Ximonde cara á ponte de Sarandón; ou a que discorre por esta zona sobre o Ulla ata o coto de Santeles en apenas 4,5 quilómetros, son algunhas das mellores opcións para gozar da contorna.</string>
 
     <string name="cabeceraMolinoReboredo">Muíño de Reboredo</string>
@@ -277,66 +282,45 @@
     <string name="igrexaFonteCruceiroVedra">A igrexa parroquial de Santa Eulalia de Vedra, atópase situada nun alto dominando todo o val e formando conxunto co cruceiro e a fonte ao pé do adro. Destaca o retablo da capela maior, de finais do século XVIII e obra do escultor santiagués de orixe italiano José Gambino, e é del, a imaxe de Santa Eulalia, titular da parroquia. Os outros dous retablos son algo anteriores e foi o seu autor Francisco de Moas, da escola de Miguel de Romai. Encóntranse en ambas as dúas capelas aos lados da nave e os seus temas principais son a Virxe das Dores e da Soedade, e o Cristo atado á columna, acompañado doutras imaxes, no outro. Aquí exerceu de párroco o historiador e arqueólogo Antonio López Ferreiro de 1866 a 1871.</string>
 
     <string name="cabeceraCapillaFuenteSANTIAGUIÑO">Conxunto da Capela e fonte do “SANTIAGUIÑO”</string>
-    <string name="capillaFuenteSANTIAGUIÑO">A capela de Santiago situada no lugar de Outeiro da parroquia de San Pedro de Vilanova foi construída no século XVIII. \n\nDestaca polo seu peso histórico e lendario. \n\nXunto a ela hai unha fonte barroca que foi trasladada alí no ano 1724 desde un lugar máis alto. Nela, e en relevo atópase a lenda do Dragón, relacionada coas sagas da Raíña Lupa. Ademais ten unha inscrición que fala sobre o traslado do corpo do apóstolo Santiago. No centro da fonte pode verse unha representación do apóstolo, flanqueado aos lados polos seus discípulos Teodoro e Anastasio. Segundo algúns autores estas dúas figuras procederían do antigo coro románico da Catedral de Santiago, obra do Mestre Mateo. \n\nA poucos metros da ermida, encontramos o último albergue do Camiño da Vía de Prata antes de chegar a Santiago de Compostela.</string>
+    <string name="capillaFuenteSANTIAGUIÑO">A capela de Santiagiño situada no lugar de Outeiro da parroquia de San Pedro de Vilanova foi construída no século XVIII. \n\nDestaca polo seu peso histórico e lendario. \n\nXunto a ela hai unha fonte barroca que foi trasladada alí no ano 1724 desde un lugar máis alto. Nela, e en relevo atópase a lenda do Dragón, relacionada coas sagas da Raíña Lupa. Ademais ten unha inscrición que fala sobre o traslado do corpo do apóstolo Santiago. No centro da fonte pode verse unha representación do apóstolo, flanqueado aos lados polos seus discípulos Teodoro e Anastasio. Segundo algúns autores estas dúas figuras procederían do antigo coro románico da Catedral de Santiago, obra do Mestre Mateo. \n\nA poucos metros da ermida, encontramos o último albergue do Camiño da Vía de Prata antes de chegar a Santiago de Compostela.</string>
 
     <string name="cabeceiraRoteiroEmigracion">Roteiro de emigración</string>
     <string name="roteiroEmigracion">Cada emigrante de Vedra, e foron milleiros, abriu un camiño novo para el mesmo, para a súa familia e para a súa terra. Parte do que agora somos é o resultado desa corrente migratoria a América. Unha emigración masiva que deixou a súa pegada paisaxística en obras de inconfundible feitura, construídas, a maioría, na primeira metade do século XX co aforrado alén mar. \n\nRoteiro da Emigración é unha ruta interpretativa que sinaliza e enlaza os lugares do concello onde se atopan algunhas das obras colectivas máis dignas da nosa historia: as escolas, cemiterios, camiños e pontes promovidas, con boas doses de amor á terra, polas sociedades de emigrantes de Vedra en Bos Aires.</string>
 
-    <!--    Onde comer -->
     <string name="ondeComer">ONDE COMER</string>
     <string name="restaurantes">RESTAURANTES</string>
-    <string name="cafeteria">BARES E CAFETERÍAS</string>
+    <string name="cafeteria">BARES E CAFETARÍAS</string>
     <string name="vedra"><u>Sarandón - Vedra - Trobe - San Mamede</u></string>
     <string name="santacruz"><u>Santa Cruz - Ponte Ulla</u></string>
     <string name="sanfins"><u>Illobre - San Fins - San Xián</u></string>
 
-    <!--    Onde durmir -->
+
     <string name="ondeDurmir">ONDE DURMIR</string>
 
-    <!--    Productores locais -->
+
     <string name="produtoresLocais">PRODUTORES LOCAIS</string>
     <string name="adegas">ADEGAS</string>
     <string name="destileria">DESTILERÍA DE AUGARDENTES \nE LICORES</string>
-    <string name="froitasVerduras">FRUITS AND VEGETABLES</string>
+    <string name="froitasVerduras">FROITAS E VERDURAS</string>
     <string name="viveiros">VIVEIROS DE PLANTAS</string>
-    <string name="panaderias">PANADERÍAS</string>
-    <string name="producciondeaceite">PRODUCCIÓN DE ACEITE</string>
+    <string name="panaderias">PANADARÍAS</string>
+    <string name="producciondeaceite">PRODUCIÓN DE ACEITE</string>
     <string name="artesania">ARTESANÍA</string>
     <string name="deseno">DESEÑO</string>
     <string name="tocados">TOCADOS</string>
     <string name="pirotecnias">PIROTECNIA</string>
     <string name="Benvidos">Benvidos!</string>
 
-    <string name="descricionPesca">El ayuntamiento de Vedra forma parte del territorio que constituye Área de Santiago, grupo de dieciseis ayuntamientos de la zona de Santiago de Compostela que trabajamos en la promoción turística conjunta y que abarca el sur de la provincia de A Coruña y el norte de la provincia de Pontevedra, separadas ambas por el río Ulla, que hace de frontera natural.
-        \n \nPrecisamente, uno de los principales elementos que definen este territorio es la presencia de dos de los principales recursos hídricos de Galicia,tanto por caudal como por su riqueza natural, paisajistica e incluso cultural: el Sistema Fluvial Ulla-Deza, del que forma parte nuetro ayuntamiento, y que delimita por el sur, y el río Tambre y sus afluentes, que la demarcan por el norte.
-        \n \nLa riqueza piscícola (truchas, salmones, lampreas, reos y escalos) se conjugan en este entorno con una variada fauna y flora, compuesta por plantas y árboles de ribera y especies acuáticas de gran vistosidad, pero también la existencia de un importante patrimonio desconocido de molinos, pesqueras, represas, senderos, etc, de indudable interés para viajeros interesados en el conocimiento del medio natural.
-        \n \nAsí, el objetivo general de Área de
-        Santiago es fomentar el aprovechamiento turístico de nuestros ríos, a través de la práctica de deportes fluviales: principalmente pesca
-        (pero también senderismo fluvial – como ejemplo el proyecto “Goza do Ulla” que iniciamos hace unos años-, el rafting, descenso en kayak,
-        piragüismo, etc.) y de su patrimonio natural y cultural asociado (molinos, represas, puentes, etc.)
-        \n \nPor eso, durante los últimos meses de 2014
-        desde Área de Santiago venimos trabajando en la configuración del producto turístico de pesca fluvial, tanto en la información que necesita el
-        visitante pescador como en la formación del sector turístico relacionado, en este caso establecimientos de turismo rural que actúan como
-        anfitriones.
-         \n \nEn este sentido, la página web de Área de Santiago cuenta ya con una sección específica de Pesca Fluvial
-        (www.areasantiago.es/pesca-fluvial ) en tres idiomas (gallego, español e inglés) en la que los visitantes pescadores pueden encontrar
-        información precisa sobre los ríos, las áreas de pesca, la tramitación de permisos y licencias y los alojamientos de turismo rural que por su
-        proximidad, sus características o su cariño al río, están especialmente recomendadas para los amantes de la pesca y el turismo fluvial,
-        alojamientos todos que entre finales de 2014 y principios de 2015, mostraron su interés por trabajar en este producto turístico vinculado
-        a la pesca fluvial, para firmar el correspondiente compromiso de adhesión.
-        \n \nAsí mismo, Área de Santiago acaba de publicar la primera guía
-        informativa sobre la pesca fluvial que se edita en Galicia en clave turística, en la que se recogen aspectos de interés para este tipo de
-        turistas pescadores, como trámites y permisos, modalidades de pesca, especies, zonas de pesca recomendadas e informaciones prácticas,
-         alojamientos adheridos al proyecto y otras informaciones complementarias.
-
-         \n \nEsta primera edición de la guía, que se actualizará anualmente coincidiendo con el inicio de la temporada de pesca, estará disponible
-        on-line en tres idiomas (gallego, español e inglés) en la sección de pesca de la web anteriormente
-        indicada www.areasantiago.es/pesca-fluvial
-         \n \nTambién en estos días, Área de Santiago está llevando a cabo el Famtrip/Presstrip de Pesca Fluvial
-        con el objetivo de dar a conocer a deportistas de élite, medios especializados y turoperadores las potencialidades de nuestro territorio como
-        destino de turismo de pesca fluvial.
-        \n \nÁrea de Santiago trata de fomentar la práctica de este deporte de río en su modalidad de captura y suelta
-        (pesca sin muerte), para evitar la sobre explotación de nuestros cursos fluviales y la necesaria sostenibiliad medioambiental</string>
+    <string name="descricionPesca">O concello de Vedra forma parte do territorio que constitúe Área Santiago, grupo de dezaseis concellos da zona de Santiago de Compostela que traballamos na promoción turística conxunta e que abrangue o sur da provincia da Coruña e o norte da provincia de Pontevedra, separadas ambas as dúas polo río Ulla, que fai de fronteira natural.
+        \n \nPrecisamente, un dos principais elementos que definen este territorio é a presenza de dous dos principais recursos hídricos de Galicia, tanto por caudal coma pola súa riqueza natural, paisaxística e mesmo cultural: o Sistema Fluvial Ulla-Deza, do que forma parte o noso concello, e que a delimita polo sur, e o río Tambre e os seus afluentes, que a demarcan polo norte.
+        \n \nA riqueza piscícola (troitas, salmóns, lampreas, reos e escalos) conxúgase nestes contornos cunha variada fauna e flora, composta por plantas e árbores de ribeira e especies acuáticas de gran vistosidade, pero tamén a existencia dun importante patrimonio descoñecido de muíños, pesqueiras, represas, sendeiros, etc, de indubidable interese para viaxeiros interesados no coñecemento do medio natural.
+        \n \nAsí, o obxectivo xeral de Área Santiago é fomentar o aproveitamento turístico dos nosos ríos, a través da práctica de deportes fluviais: principalmente a pesca (pero tamén o sendeirismo fluvial - como exemplo o proxecto “Goza do Ulla” que iniciamos fai uns anos-, o rafting, descenso en kaiak, piragüismo, etc.) e do seu patrimonio natural e cultural asociado (muíños, represas, pontes, etc.).
+        \n \nPor iso, durante os últimos meses de 2014 desde Área Santiago vimos traballando na configuración do produto turístico de pesca fluvial, tanto na información que precisa o visitante pescador como na formación de sector turístico relacionado, neste caso os establecementos de turismo rural que actúan como anfitrións.
+         \n \nNeste sentido, a páxina web de Área Santiago conta xa cunha sección específica de Pesca Fluvial (www.areasantiago.es/pesca-fluvial ) en tres idiomas (galego, español e inglés) na que os visitantes pescadores poden atopar información precisa sobre os ríos, as áreas de pesca, a tramitación de permisos e licencias e os aloxamentos de turismo rural que pola súa proximidade, as súas características ou o seu cariño ao río, están especialmente recomendados para os amantes da pesca e o turismo fluvial, aloxamentos todos que entre finais de 2014 e principios de 2015, mostraron o seu interese por traballar neste produto turístico vinculado á pesca fluvial, para o que asinaron o correspondente compromiso de adhesión.
+        \n \nAsí mesmo, Área Santiago acaba de publicar, a primeira guía informativa sobre a pesca fluvial que se edita en Galicia en clave turística, na que se recollen aspectos de interese para este tipo de turista pescador, como trámites e permisos, modalidades de pesca, especies, zonas de pesca recomendadas e informacións prácticas, aloxamentos adheridos ao proxecto e outras informacións complementarias
+         \n \nEsta primeira edición da guía, que se actualizará anualmente coincidindo co inicio da temporada de pesca, estará dispoñible on-line en tres idiomas (galego, español e inglés) na sección de pesca da web antedita:www.areasantiago.es/pesca-fluvial
+         \n \nTamén nestes días, Área Santiago está a levar a cabo o Famtrip/Presstrip de Pesca Fluvial co obxectivo de dar a coñecer a deportistas de elite, medios especializados e turoperadores as potencialidades do noso territorio como destino de turismo de pesca fluvial.
+        \n \nÁrea Santiago trata de fomentar a práctica deste deporte de río na súa variedade de captura e solta (pesca sen morte), para para evitar a sobre explotación dos nosos cursos fluviais e a necesaria sustentabilidade medioambiental</string>
     <string name="descargaPDFGuiaPesca">Descarga aquí a guía de Pesca Fluvial</string>
 
 

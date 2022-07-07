@@ -30,6 +30,10 @@
     <string name="no">No</string>
 
 
+    <string name="scroll_view">Scroll view</string>
+    <string name="actividadesFuturas">Actividades futuras</string>
+
+
 
     <string name="textoRutas1">Caminar por el placer de conocer, recorrer caminos salpicados de historia, cultura, tradiciones... y moldeados por la fuerza de la naturaleza. Gozar del paisaje.
         \n\nComo pueden comprobar Vedra abre sus puertas de par en par al caminante, para mostrar una tierra cariñosa, sencilla, donde los senderos muestran la belleza y la diversidad del ayuntamiento.
@@ -55,8 +59,8 @@
 
 
     <string name="distanciaRutaPereiro">Distancia: 5 Km</string>
-    <string name="inicioRutaPereiro">Inicio: Puente de Pereiro-Carretera</string>
-    <string name="finalizacionRutaPereiro">Finalización: Puente Busacos</string>
+    <string name="inicioRutaPereiro">Inicio: Puente de Pereiro-Carretera \n42º 46.901´N 008º 29.500´W</string>
+    <string name="finalizacionRutaPereiro">Finalización: Puente Busacos \n42º 48.861´N 008º 28.792´W</string>
     <string name="duracionRutaPereiro">2 h 15 min </string>
     <string name="nomeRutaPereiro">Ruta do Pereiro</string>
 
