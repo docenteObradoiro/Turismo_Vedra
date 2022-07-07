@@ -7,6 +7,8 @@ import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.TextView
 import com.cursokotlin.turismo_vedra.InformacionTuristica
+import com.cursokotlin.turismo_vedra.MainActivity
+import com.cursokotlin.turismo_vedra.Menu
 import com.cursokotlin.turismo_vedra.R
 import org.imaginativeworld.whynotimagecarousel.CarouselItem
 import org.imaginativeworld.whynotimagecarousel.ImageCarousel
@@ -20,6 +22,17 @@ class DondeComer_bares : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_donde_comer_bares)
+
+        var menu = findViewById<ImageButton>(R.id.menu2)
+        menu.setOnClickListener {
+            val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
+        }
+        var logoVedra=findViewById<ImageButton>(R.id.botonVedraMapa2)
+        logoVedra.setOnClickListener {
+            val acceder= Intent(this, MainActivity::class.java)
+            startActivity(acceder)
+        }
 
         val carruselVedra:ImageCarousel= findViewById(R.id.carousel)
         listaVedra.add(CarouselItem(R.mipmap.ferrador))
@@ -62,5 +75,6 @@ class DondeComer_bares : AppCompatActivity() {
         webConcello.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.concellodevedra.es/es")))
         }
+
     }
 }

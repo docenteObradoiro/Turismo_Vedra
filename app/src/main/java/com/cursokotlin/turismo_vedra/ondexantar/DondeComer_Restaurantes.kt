@@ -7,12 +7,25 @@ import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.TextView
 import com.cursokotlin.turismo_vedra.InformacionTuristica
+import com.cursokotlin.turismo_vedra.MainActivity
+import com.cursokotlin.turismo_vedra.Menu
 import com.cursokotlin.turismo_vedra.R
 
 class DondeComer_Restaurantes : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_donde_comer_restaurantes)
+
+        var menu = findViewById<ImageButton>(R.id.menu4)
+        menu.setOnClickListener {
+            val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
+        }
+        var logoVedra=findViewById<ImageButton>(R.id.botonVedraMapa4)
+        logoVedra.setOnClickListener {
+            val acceder= Intent(this, MainActivity::class.java)
+            startActivity(acceder)
+        }
 
         val botonvistaalegre = findViewById<ImageButton>(R.id.botonvistalegre)
         botonvistaalegre.setOnClickListener {
@@ -34,6 +47,10 @@ class DondeComer_Restaurantes : AppCompatActivity() {
         botonjuanito.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/search?q=o+churrasco+de+juanito+vedra&rlz=1C1VDKB_esES993ES993&hotel_occupancy=2&sxsrf=ALiCzsZgyb5Ro6IuZOKGPjpb7oyXjhJtqg%3A1656917782086&ei=Fo_CYsjmBIa6afP2kOgB&ved=0ahUKEwjIycre0974AhUGXRoKHXM7BB0Q4dUDCA4&uact=5&oq=o+churrasco+de+juanito+vedra&gs_lcp=Cgdnd3Mtd2l6EAMyAggmOgYIABAeEAc6CAgAEB4QBxAKOgUIABCiBEoECEEYAEoECEYYAFAAWMYZYNIbaAFwAXgAgAHCAYgBuhaSAQQxLjIymAEAoAEBwAEB&sclient=gws-wiz")))
         }
+        val botondorna = findViewById<ImageButton>(R.id.botondorna)
+        botondorna.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(" https://www.google.com/search?q=a+dorna&rlz=1C1VDKB_esES993ES993&oq=a+dorna&aqs=chrome..69i57j46i175i199i512l8.1160j0j7&sourceid=chrome&ie=UTF-8")))
+        }
 
         var infoTuristica=findViewById<TextView>(R.id.tvInformacionTuristica)
         infoTuristica.setOnClickListener {
@@ -44,5 +61,6 @@ class DondeComer_Restaurantes : AppCompatActivity() {
         webConcello.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.concellodevedra.es/es")))
         }
+
     }
 }
