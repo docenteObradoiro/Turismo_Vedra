@@ -10,10 +10,10 @@ import androidx.appcompat.app.AppCompatActivity
 import com.cursokotlin.turismo_vedra.MainActivity
 import com.cursokotlin.turismo_vedra.R
 
-class queVer:AppCompatActivity() {
+class PazoSantaCruzRibadulla: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_que_ver)
+        setContentView(R.layout.activity_pazo_santa_cruz_ribadulla)
 
         var logoVedra=findViewById<ImageButton>(R.id.logoVedra)
         logoVedra.setOnClickListener {
@@ -22,24 +22,13 @@ class queVer:AppCompatActivity() {
         }
         var menu=findViewById<ImageButton>(R.id.menuHamburguesa)
         menu.setOnClickListener {
-            val acceder= Intent(this, Menu::class.java)
+            val acceder= Intent(this, com.cursokotlin.turismo_vedra.Menu::class.java)
             startActivity(acceder)
         }
 
-        val boton1 = findViewById<ImageButton>(R.id.boton1)
-        boton1.setOnClickListener {
-            val accederNaturaleza = Intent(this, naturaleza::class.java)
-            startActivity(accederNaturaleza)
-        }
-        val boton2 = findViewById<ImageButton>(R.id.boton2)
-        boton2.setOnClickListener {
-            val accederArquitectura = Intent(this, arquitectura::class.java)
-            startActivity(accederArquitectura)
-        }
-        val boton3 = findViewById<ImageButton>(R.id.boton3)
-        boton3.setOnClickListener {
-            val accederPatrimonioHistorico = Intent(this, patrimonio_historico::class.java)
-            startActivity(accederPatrimonioHistorico)
+        val maps = findViewById<ImageButton>(R.id.maps)
+        maps.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://g.page/PazodeSantaCruzdeRivadulla?share")))
         }
 
         val informacionTuristica = findViewById<TextView>(R.id.tvInformacionTuristica)
@@ -52,5 +41,4 @@ class queVer:AppCompatActivity() {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.concellodevedra.es/")))
         }
     }
-
 }

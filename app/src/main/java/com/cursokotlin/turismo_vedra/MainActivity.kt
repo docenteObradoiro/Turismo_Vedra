@@ -7,14 +7,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
-import android.content.Context
 import android.net.Uri
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import com.cursokotlin.turismo_vedra.ondedurmir.OndeDurmir
 import com.cursokotlin.turismo_vedra.ondexantar.OndeComerPrincipal
 import com.cursokotlin.turismo_vedra.productoresLocales.ProductoresLocales
-import com.cursokotlin.turismo_vedra.queVer.*
+import com.cursokotlin.turismo_vedra.queVer.QueVer
 import com.cursokotlin.turismo_vedra.quefacer.QueFacerPrincipal
 
 
@@ -38,7 +37,7 @@ class MainActivity : AppCompatActivity() {
 
         var accesoqueVer= findViewById<Button>(R.id.queVerBoton)
         accesoqueVer.setOnClickListener{
-            val acceder = Intent(this, queVer::class.java)
+            val acceder = Intent(this, QueVer::class.java)
             startActivity(acceder)
         }
 
