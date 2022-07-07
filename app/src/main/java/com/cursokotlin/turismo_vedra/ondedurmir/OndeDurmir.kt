@@ -4,8 +4,11 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageButton
 import android.widget.TextView
 import com.cursokotlin.turismo_vedra.InformacionTuristica
+import com.cursokotlin.turismo_vedra.MainActivity
+import com.cursokotlin.turismo_vedra.Menu
 import com.cursokotlin.turismo_vedra.R
 import org.imaginativeworld.whynotimagecarousel.CarouselItem
 import org.imaginativeworld.whynotimagecarousel.ImageCarousel
@@ -13,10 +16,20 @@ import org.imaginativeworld.whynotimagecarousel.ImageCarousel
 class OndeDurmir : AppCompatActivity() {
     val listaAloxamentos = mutableListOf<CarouselItem>()
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_onde_durmir)
+
+        var menu = findViewById<ImageButton>(R.id.menu4)
+        menu.setOnClickListener {
+            val acceder = Intent(this, Menu::class.java)
+            startActivity(acceder)
+        }
+        var logoVedra=findViewById<ImageButton>(R.id.botonVedraMapa4)
+        logoVedra.setOnClickListener {
+            val acceder= Intent(this, MainActivity::class.java)
+            startActivity(acceder)
+        }
 
         val carruselVedra: ImageCarousel = findViewById(R.id.carouselAloxamentos)
         listaAloxamentos.add(CarouselItem(R.mipmap.tabernagundian))

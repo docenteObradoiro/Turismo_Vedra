@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ondedormir.OndeDurmir">
+    android:layout_height="match_parent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -12,7 +11,7 @@
         tools:context=".ondexantar.DondeComer_Restaurantes">
 
         <ImageButton
-            android:id="@+id/botonVedraMapa3"
+            android:id="@+id/botonVedraMapa4"
             android:layout_width="120dp"
             android:layout_height="50dp"
             android:layout_marginStart="20dp"
@@ -25,7 +24,7 @@
             app:srcCompat="@mipmap/logo_concello_vedra" />
 
         <ImageButton
-            android:id="@+id/menu3"
+            android:id="@+id/menu4"
             android:layout_width="48dp"
             android:layout_height="55dp"
             android:layout_marginTop="20dp"
@@ -43,7 +42,7 @@
             android:layout_width="277dp"
             android:layout_height="42dp"
             android:layout_gravity="center"
-            android:layout_marginBottom="30dp"
+            android:layout_marginBottom="20dp"
             android:fontFamily="@font/abel"
             android:gravity="center"
             android:text="@string/ondeDurmir"
@@ -133,6 +132,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#FFFFFFFF"
+                    android:contentDescription="botonocruceiro"
                     app:srcCompat="@mipmap/cruceiro" />
 
                 <TextView
