@@ -63,29 +63,32 @@ android:padding="20dp">
         android:gravity="center_horizontal">
 
 
-        <ImageButton
-            android:id="@+id/btCaminoMinotoRibeiro"
-            style="@style/botonNegocio"
-            android:background="@color/white"
-            android:contentDescription="@string/caminoMinotoRibeiro"
-            android:scaleType="fitCenter"
-            app:srcCompat="@mipmap/caminominotoribeiro" />
 
         <ImageButton
             android:id="@+id/btcaminoViaPrata"
             style="@style/botonNegocio"
-            android:layout_below="@id/btCaminoMinotoRibeiro"
-            android:layout_marginTop="10dp"
             android:background="@color/white"
             android:contentDescription="@string/caminoViaPrata"
             android:scaleType="fitCenter"
             app:srcCompat="@mipmap/caminoviaprata" />
 
+
+        <ImageButton
+            android:id="@+id/btCaminoMinotoRibeiro"
+            style="@style/botonNegocio"
+            android:layout_below="@id/btcaminoViaPrata"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:contentDescription="@string/caminoMinotoRibeiro"
+            android:scaleType="fitCenter"
+            app:srcCompat="@mipmap/caminominotoribeiro" />
+
         <TextView
             android:id="@+id/tvInformacionTuristica"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/btcaminoViaPrata"
+            android:layout_below="@+id/btCaminoMinotoRibeiro"
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
             android:gravity="start|bottom"
@@ -98,7 +101,7 @@ android:padding="20dp">
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_below="@+id/btcaminoViaPrata"
+            android:layout_below="@+id/btCaminoMinotoRibeiro"
             android:gravity="end|bottom"
             android:text="@string/webVedra"
             android:textColor="@color/black" />

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".InformacionTuristica"
-    android:padding="20dp">
+    android:padding="10dp">
 
     <ImageButton
         android:id="@+id/logoVedra"
@@ -95,20 +95,21 @@
                 android:fontFamily="@font/abel"
                 android:text="@string/direccionPeons"
                 android:textSize="16dp" />
+
             <TextView
                 android:id="@+id/telefonoPeons"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_alignParentStart="true"
                 android:layout_below="@+id/direccionPeons"
+                android:layout_alignParentStart="true"
                 android:layout_marginStart="35dp"
                 android:layout_marginEnd="35dp"
-                android:text="@string/telefonoPeons"
                 android:drawableLeft="@drawable/ic_baseline_phone_24"
+                android:fontFamily="@font/abel"
                 android:gravity="center_vertical"
-                android:textSize="16dp"
+                android:text="@string/telefonoPeons"
                 android:textColor="@color/black"
-                android:fontFamily="@font/abel"/>
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/mailPeons"
@@ -116,8 +117,8 @@
                 android:layout_height="match_parent"
                 android:layout_below="@+id/telefonoPeons"
                 android:layout_alignParentStart="true"
+
                 android:layout_marginStart="35dp"
-                android:layout_marginEnd="35dp"
                 android:drawableLeft="@drawable/mail"
                 android:fontFamily="@font/abel"
                 android:gravity="center"
@@ -166,16 +167,16 @@
                 android:id="@+id/telefonoPeregrinos"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_alignParentStart="true"
                 android:layout_below="@+id/direccionPeregrinos"
+                android:layout_alignParentStart="true"
                 android:layout_marginStart="35dp"
                 android:layout_marginEnd="35dp"
-                android:text="@string/telefonoPeregrinos"
                 android:drawableLeft="@drawable/ic_baseline_phone_24"
+                android:fontFamily="@font/abel"
                 android:gravity="center_vertical"
-                android:textSize="16dp"
+                android:text="@string/telefonoPeregrinos"
                 android:textColor="@color/black"
-                android:fontFamily="@font/abel"/>
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/webPeregrinos"
