@@ -64,12 +64,12 @@ android:padding="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:orientation="vertical">
 
                     <ImageButton
                         android:id="@+id/boton1"
-                        style="@style/botonNegocio"
+                        style="@style/botonQueVer"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:contentDescription="Naturaleza"
@@ -79,7 +79,7 @@ android:padding="20dp">
 
                     <ImageButton
                         android:id="@+id/boton2"
-                        style="@style/botonNegocio"
+                        style="@style/botonQueVer"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:contentDescription="Naturaleza"
@@ -89,7 +89,7 @@ android:padding="20dp">
 
                     <ImageButton
                         android:id="@+id/boton3"
-                        style="@style/botonNegocio"
+                        style="@style/botonQueVer"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:contentDescription="Naturaleza"

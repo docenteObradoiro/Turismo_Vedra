@@ -84,9 +84,9 @@
                     android:id="@+id/texto"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginEnd="40dp"
                     android:layout_alignParentTop="true"
-                    android:layout_alignParentEnd="true"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/abel"
                     android:text="@string/puenteAVEGundian"
@@ -103,15 +103,16 @@
                         android:layout_width="35dp"
                         android:layout_height="30dp"
                         android:layout_alignParentBottom="true"
-                        android:layout_marginLeft="0dp"
+                        android:layout_marginStart="40dp"
                         android:layout_marginTop="10dp"
-                        android:layout_marginRight="20dp"
                         android:layout_marginBottom="1dp"
                         android:background="@drawable/animamaps"
+                        android:contentDescription="@string/maps"
                         android:scaleType="fitXY"
                         android:theme="@android:style/ThemeOverlay.Material.Dark"
                         app:srcCompat="@drawable/maps_negro"
-                        app:tint="#00989898" />
+                        app:tint="#00989898"
+                        tools:ignore="TouchTargetSizeCheck" />
 
                 </RelativeLayout>
 

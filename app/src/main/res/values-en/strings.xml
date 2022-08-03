@@ -287,7 +287,7 @@ All of the hamlets and villages in Vedra are linked by B-roads.
     <string name="capillaFuenteSANTIAGUIÑO">The chapel of Santiago, located in the village of Outeiro in the parish of San Pedro de Vilanova, was built in the 18th century. \n\nBeside it is a small baroque fountain that was moved to its current location from a spot higher up in 1724. It features, sculpted in relief, the legend of the Dragon, related to the sagas of Queen Lupa. It also bears an inscription describing the transfer of the Apostle James’ body. At the centre of the fountain there is a representation of the Apostle with his disciples Teodoro and Atanasio. According to some authors, these two figures came from Santiago Cathedral’s former Romanesque choir, made by Maestro Mateo. \n\nA few metres from the chapel, we find the last hostel on the “Vía de la Plata” Route before reaching Santiago de Compostela</string>
 
     <string name="cabeceiraRoteiroEmigracion">Emigration route</string>
-    <string name="roteiroEmigracion">Each emigrant from Vedra, and foron milleiros, opened a new path for himself, for his family and for his land. Part of what we are now is the disastrous result of immigration to America. A massive emigration that left its landscape link in works of unmistakable size, built, for the most part, at the first goal of the 20th century, bordered by the sea. \n\nO Roteiro da Emigración is an interpretive itinerary that signals and links the places of the council where some of the most worthy collective works of our history can be found: the schools, cemeteries, paths and bridges promoted, with large doses of love to the land, to which they cover the educational centers. by the societies of emigrants from Vedra in Bos Aires.</string>
+    <string name="roteiroEmigracion">Each emigrant from Vedra, and foron milleiros, opened a new path for himself, for his family and for his land. Part of what we are now is the disastrous result of immigration to America. A massive emigration that left its landscape link in works of unmistakable size, built, for the most part, at the first goal of the 20th century, bordered by the sea. \n\nO Roteiro da Emigración is an interpretive itinerary that signals and links the places of the council where some of the most worthy collective works of our history can be found: the schools, cemeteries, paths and bridges promoted, with large doses of love to the land by the societies of emigrants from Vedra in Buenos Aires.</string>
 
     <!--    Onde comer -->
     <string name="ondeComer">WHERE TO EAT</string>
@@ -349,6 +349,7 @@ All of the hamlets and villages in Vedra are linked by B-roads.
         \n \nÁrea de Santiago trata de fomentar la práctica de este deporte de río en su modalidad de captura y suelta
         (pesca sin muerte), para evitar la sobre explotación de nuestros cursos fluviales y la necesaria sostenibiliad medioambiental</string>
     <string name="descargaPDFGuiaPesca">Download here the River Fishing Guide</string>
+    <string name="maps">maps</string>
 
 
 </resources>
